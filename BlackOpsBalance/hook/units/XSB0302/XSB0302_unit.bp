@@ -1,0 +1,106 @@
+UnitBlueprint {
+	Merge = true,
+	BlueprintId="xsb0302",
+
+    Categories = {
+        'PRODUCTFA',
+        'SELECTABLE',
+        'BUILTBYTIER3ENGINEER',
+        'BUILTBYCOMMANDER',
+        'STRUCTURE',
+        'AIR',
+        'TECH3',
+        'CONSTRUCTION',
+        'FACTORY',
+        'RALLYPOINT',
+        'DRAGBUILD',
+        'SIZE16',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'SHOWQUEUE',
+        'SORTCONSTRUCTION',
+    },	
+	
+    Defense = {
+        AirThreatLevel = 0,
+        ArmorType = 'Structure',
+        EconomyThreatLevel = 49,
+        Health = 10500,
+        MaxHealth = 10500,
+        RegenRate = 1,
+        SubThreatLevel = 0,
+        SurfaceThreatLevel = 0,
+    },
+	
+    Economy = {
+        BuildCostEnergy = 9450,
+        BuildCostMass = 1050,
+        BuildRate = 400,
+        BuildTime = 21000,
+        BuildableCategory = {
+            'FACTORYSERAPHIMAH',
+        },
+        StorageEnergy = 375,
+        StorageMass = 375,
+    },
+    Enhancements = {
+        Slots = {
+            Back = {
+                name = '<LOC _Back>',
+                x = 38,
+                y = -10,
+            },
+            LCH = {
+                name = '<LOC _LCH>',
+                x = 105,
+                y = 30,
+            },
+            RCH = {
+                name = '<LOC _RCH>',
+                x = -10,
+                y = 30,
+            },
+        },
+
+		ShieldGeneratorField = {
+            BuildCostEnergy = 540,
+            BuildCostMass = 270,
+            BuildTime = 540000,
+            Icon = 'fsh1',
+            ImpactEffects = 'SeraphimShieldHit01',
+            ImpactMesh = '/effects/entities/ShieldSection01/ShieldSection01_mesh',
+            MaintenanceConsumptionPerSecondEnergy = 18.75,
+            Mesh = '/effects/entities/SeraphimShield01/SeraphimShield01_mesh',
+            MeshZ = '/effects/entities/Shield01/Shield01z_mesh',
+            Name = 'Shield Generator',
+            ShieldEnergyDrainRechargeTime = 5,
+            ShieldEnhancementNumber = 2,
+            ShieldMaxHealth = 5250,
+            ShieldRechargeTime = 23,
+            ShieldRegenRate = 168,
+            ShieldRegenStartTime = 1,
+            ShieldSize = 22,
+            ShieldVerticalOffset = 1,
+            Slot = 'Back',
+            UpgradeEffectBones = {
+                'XSB0302',
+            },
+            UpgradeUnitAmbientBones = {
+                'XSB0302',
+            },
+        },
+        ShieldGeneratorFieldRemove = {
+            BuildCostEnergy = 1,
+            BuildCostMass = 1,
+            BuildTime = 0.1,
+            Icon = 'fsh1',
+            Name = 'Remove Shields',
+            Prerequisite = 'ShieldGeneratorField',
+            RemoveEnhancements = {
+                'ShieldGeneratorField',
+                'ShieldGeneratorFieldRemove',
+            },
+            Slot = 'Back',
+        },
+	},
+}
