@@ -1,0 +1,16 @@
+name = "Shields v3.6"
+uid = "E08710C8-B785-11E4-9CA4-36FF1C5D46B0" 
+description = "Add: Experimental shields (and upgrade from Heavy/ED5 shields) Enable: Build ED5 on T3 and AEON can upgrade light shield on heavy. And BETA Light T1 Shields."
+author = "FreyaGroup"
+hookdir = "/hook"
+url = ""
+version = 3.6
+icon = "/mods/Shields/icon.bmp"
+copyright = ""
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = {}
+before = {}
+after = {}
