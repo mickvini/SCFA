@@ -1,0 +1,55 @@
+UnitBlueprint {
+	Merge = true, 
+	BlueprintId="uel0001",
+    
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYCOMMANDER UEF',
+            'BUILTBYTIER2COMMANDER UEF',
+            'BUILTBYTIER3COMMANDER UEF',
+            'BUILTBYTIER4COMMANDER UEF',
+        },
+    },
+    Enhancements = {
+        T4Engineering = {
+            BuildCostEnergy = 50000,
+            BuildCostMass = 1000,
+            BuildTime = 14400,
+            BuildableCategoryAdds = 'BUILTBYTIER4COMMANDER UEF',
+            Icon = 'hues',
+            Name = '<LOC enhancements_0103>Tech 4 Engineering Suite',
+            NewBuildRate = 480,
+            NewHealth = 8000,
+            NewRegenRate = 20,
+            Prerequisite = 'T3Engineering',
+            Slot = 'LCH',
+            UpgradeEffectBones = {
+                'Left_Upgrade',
+                'Left_Upgrade_Muzzle',
+                'Left_Arm_Muzzle',
+                'Left_Arm_Barrel',
+            },
+            UpgradeUnitAmbientBones = {
+                'UEL0001',
+            },
+        },
+        T4EngineeringRemove = {
+            BuildCostEnergy = 1,
+            BuildCostMass = 1,
+            BuildTime = 0.1,
+            Icon = 'hues',
+            Name = '<LOC enhancements_0104>Remove Tech 4 Engineering Suite',
+            Prerequisite = 'T4Engineering',
+			HideBones = {
+                'Left_Upgrade',
+            },
+            RemoveEnhancements = {
+                'AdvancedEngineering',
+                'T3Engineering',
+                'T4Engineering',
+                'T4EngineeringRemove',
+            },
+            Slot = 'LCH',
+        },
+    },
+}

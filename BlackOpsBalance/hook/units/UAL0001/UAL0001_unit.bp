@@ -1,0 +1,56 @@
+UnitBlueprint {
+	Merge = true, 
+	BlueprintId="ual0001",
+    
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYCOMMANDER AEON',
+            'BUILTBYTIER2COMMANDER AEON',
+            'BUILTBYTIER3COMMANDER AEON',
+            'BUILTBYTIER4COMMANDER AEON',
+        },
+    },
+    Enhancements = {
+        T4Engineering = {
+            BuildCostEnergy = 50000,
+            BuildCostMass = 1000,
+            BuildTime = 14400,
+            BuildableCategoryAdds = 'BUILTBYTIER4COMMANDER AEON',
+            Icon = 'haes',
+            Name = '<LOC enhancements_0018>Tech 4 Engineering Suite',
+            NewBuildRate = 480,
+            NewHealth = 10000,
+            NewRegenRate = 20,
+            Prerequisite = 'T3Engineering',
+            Slot = 'LCH',
+            ShowBones = {
+                'Left_Upgrade',
+            },
+            UpgradeUnitAmbientBones = {
+                'UAL0001',
+            },
+            UpgradeEffectBones = {
+                'Left_Turret',
+                'Left_Upgrade',
+            },
+        },
+        T4EngineeringRemove = {
+            BuildCostEnergy = 1,
+            BuildCostMass = 1,
+            BuildTime = 0.1,
+            Icon = 'haes',
+            Name = '<LOC enhancements_0019>Remove Engineering Suites',
+            Prerequisite = 'T4Engineering',
+            HideBones = {
+                'Left_Upgrade',
+            },
+            RemoveEnhancements = {
+                'AdvancedEngineering',
+                'T3Engineering',
+                'T4Engineering',
+                'T4EngineeringRemove',
+            },
+            Slot = 'LCH',
+        },
+    },
+}

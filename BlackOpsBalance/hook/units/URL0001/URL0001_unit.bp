@@ -1,0 +1,52 @@
+UnitBlueprint {
+	Merge = true, 
+	BlueprintId="url0001",
+    
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYCOMMANDER CYBRAN',
+            'BUILTBYTIER2COMMANDER CYBRAN',
+            'BUILTBYTIER3COMMANDER CYBRAN',
+            'BUILTBYTIER4COMMANDER CYBRAN',
+            'URL0001UPGRADE',
+        },
+    },
+    Enhancements = {
+        T4Engineering = {
+            BuildCostEnergy = 50000,
+            BuildCostMass = 1000,
+            BuildTime = 14400,
+            BuildableCategoryAdds = 'BUILTBYTIER4COMMANDER CYBRAN',
+            Icon = 'hres',
+            Name = '<LOC enhancements_HE21>Tech 4 Engineering Suite',
+            NewBuildRate = 480,
+            NewHealth = 12000,
+            NewRegenRate = 20,
+            Prerequisite = 'T3Engineering',
+            Slot = 'LCH',
+            UpgradeEffectBones = {
+                'Left_Upgrade',
+                'Left_Turret',
+                'Turret_Muzzle_01',
+            },
+            UpgradeUnitAmbientBones = {
+                'URL0001',
+            },
+        },
+        T4EngineeringRemove = {
+            BuildCostEnergy = 1,
+            BuildCostMass = 1,
+            BuildTime = 0.1,
+            Icon = 'hres',
+            Name = '<LOC enhancements_HE21>Remove Tech 4 Engineering Suite',
+            Prerequisite = 'T4Engineering',
+            RemoveEnhancements = {
+                'AdvancedEngineering',
+                'T3Engineering',
+                'T4Engineering',
+                'T4EngineeringRemove',
+            },
+            Slot = 'LCH',
+        },
+    },
+}

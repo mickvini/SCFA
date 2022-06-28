@@ -1,0 +1,341 @@
+UnitBlueprint {
+	Merge = true,
+	BlueprintId="urb0302",
+
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER3ENGINEER',
+        'BUILTBYCOMMANDER',
+        'STRUCTURE',
+        'AIR',
+        'TECH3',
+        'CONSTRUCTION',
+        'FACTORY',
+        'RALLYPOINT',
+        'DRAGBUILD',
+        'SIZE16',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'SHOWQUEUE',
+        'SORTCONSTRUCTION',
+    },	
+	
+    Defense = {
+        AirThreatLevel = 0,
+        ArmorType = 'Structure',
+        EconomyThreatLevel = 49,
+        Health = 9500,
+        MaxHealth = 9500,
+        RegenRate = 1,
+        SubThreatLevel = 0,
+        SurfaceThreatLevel = 0,
+    },		
+	
+    Economy = {
+        BuildCostEnergy = 8550,
+        BuildCostMass = 950,
+        BuildRate = 400,
+        BuildTime = 19000,
+        BuildableCategory = {
+            'FACTORYCYBRANAH',
+        },
+        StorageEnergy = 375,
+        StorageMass = 375,
+    },
+    Enhancements = {
+        Slots = {
+            Back = {
+                name = '<LOC _Back>',
+                x = 38,
+                y = -10,
+            },
+            LCH = {
+                name = '<LOC _LCH>',
+                x = 105,
+                y = 30,
+            },
+            RCH = {
+                name = '<LOC _RCH>',
+                x = -10,
+                y = 30,
+            },
+        },
+		ShieldGeneratorField = {
+            BuildCostEnergy = 450,
+            BuildCostMass = 225,
+            BuildTime = 450000,
+            Icon = 'fsh1',
+            ImpactEffects = 'CybranShieldHit01',
+            ImpactMesh = '/effects/entities/ShieldSection01/ShieldSection01b_mesh',
+            MaintenanceConsumptionPerSecondEnergy = 10.5,
+            Mesh = '/effects/entities/CybranShield01/CybranShield01_mesh',
+            MeshZ = '/effects/entities/Shield01/Shield01z_mesh',
+            Name = 'Shield Generator',
+            ShieldEnergyDrainRechargeTime = 5,
+            ShieldEnhancementNumber = 2,
+            ShieldMaxHealth = 3500,
+            ShieldRechargeTime = 20,
+            ShieldRegenRate = 140,
+            ShieldRegenStartTime = 1,
+            ShieldSize = 18,
+            ShieldVerticalOffset = 0,
+            Slot = 'Back',
+            UpgradeEffectBones = {
+                'URB0302',
+            },
+            UpgradeUnitAmbientBones = {
+                'URB0302',
+            },
+        },
+        ShieldGeneratorFieldRemove = {
+            BuildCostEnergy = 1,
+            BuildCostMass = 1,
+            BuildTime = 0.1,
+            Icon = 'fsh1',
+			HideBones = {
+                'TMD_Stand',
+            },
+            Name = 'Remove Shields',
+            Prerequisite = 'ShieldGeneratorField',
+            RemoveEnhancements = {
+                'ShieldGeneratorField',
+                'ShieldGeneratorFieldRemove',
+            },
+            Slot = 'Back',
+        },
+	},
+    Footprint = {
+        SizeX = 5,
+        SizeZ = 5,
+    },
+    General = {
+        BuildBones = {
+            BuildAttachBone = 'Build_Point',
+            BuildEffectBones = {
+                'Arm01_Muzzle',
+                'Arm02_Muzzle',
+                'Arm03_Muzzle',
+                'Arm04_Muzzle',
+                'Arm05_Muzzle',
+                'Arm06_Muzzle',
+            },
+        },
+        Category = 'Factory',
+        Classification = 'RULEUC_Factory',
+        CommandCaps = {
+            RULEUCC_Attack = false,
+            RULEUCC_CallTransport = false,
+            RULEUCC_Capture = false,
+            RULEUCC_Guard = true,
+            RULEUCC_Move = true,
+            RULEUCC_Nuke = false,
+            RULEUCC_Patrol = true,
+            RULEUCC_Pause = true,
+            RULEUCC_Reclaim = false,
+            RULEUCC_Repair = false,
+            RULEUCC_RetaliateToggle = true,
+            RULEUCC_Stop = true,
+            RULEUCC_Transport = false,
+        },
+        ConstructionBar = true,
+        FactionName = 'Cybran',
+        Icon = 'air',
+        SelectionPriority = 5,
+        TechLevel = 'RULEUTL_Secret',
+        UnitWeight = 1,
+        UpgradesFrom = 'urb0202',
+    },
+    Intel = {
+        VisionRadius = 20,
+    },
+    Interface = {
+        HelpText = '<LOC urb0302_help>Air Factory',
+    },
+    LifeBarHeight = 0.075,
+    LifeBarOffset = 2,
+    LifeBarSize = 4.5,
+    Physics = {
+        BankingSlope = 0,
+        BuildOnLayerCaps = {
+            LAYER_Air = false,
+            LAYER_Land = true,
+            LAYER_Orbit = false,
+            LAYER_Seabed = false,
+            LAYER_Sub = false,
+            LAYER_Water = false,
+        },
+        DragCoefficient = 0.2,
+        FlattenSkirt = true,
+        MaxSteerForce = 0,
+        MinSpeedPercent = 0,
+        MotionType = 'RULEUMT_None',
+        RaisedPlatforms = {
+
+            # Platform 1
+            # TopLeft Offset From Center
+            -1.4,
+
+            # x
+            -2,
+
+            # z
+            0.03,
+
+            # height
+            # TopRight Offset From Center
+            1.4,
+
+            # x
+            -2,
+
+            # z
+            0.03,
+
+            # height
+            # BottomLeft Offset From Center
+            -1.4,
+
+            # x
+            1.6,
+
+            # z
+            0.03,
+
+            # height
+            # BottomRight Offset From Center
+            1.4,
+
+            # x
+            1.6,
+
+            # z
+            0.03,
+
+            # height
+            # Platform 2
+            # TopLeft Offset From Center
+            -2.3,
+
+            # x
+            -2,
+
+            # z
+            0,
+
+            # height
+            # TopRight Offset From Center
+            -1.4,
+
+            # x
+            -2,
+
+            # z
+            0.03,
+
+            # height
+            # BottomLeft Offset From Center
+            -2.3,
+
+            # x
+            1.6,
+
+            # z
+            0,
+
+            # height
+            # BottomRight Offset From Center
+            -1.4,
+
+            # x
+            1.6,
+
+            # z
+            0.03,
+
+            # height
+            # Platform 3
+            # TopLeft Offset From Center
+            1.4,
+
+            # x
+            -2,
+
+            # z
+            0.03,
+
+            # height
+            # TopRight Offset From Center
+            2.4,
+
+            # x
+            -2,
+
+            # z
+            0,
+
+            # height
+            # BottomLeft Offset From Center
+            1.4,
+
+            # x
+            1.6,
+
+            # z
+            0.03,
+
+            # height
+            # BottomRight Offset From Center
+            2.3,
+
+            # x
+            1.6,
+
+            # z
+            0,
+        },
+        RollOffPoints = {
+            {
+                UnitSpin = 90,
+                X = 2.75,
+                Y = 0,
+                Z = 0.35,
+            },
+            {
+                UnitSpin = -90,
+                X = -2.75,
+                Y = 0,
+                Z = 0.35,
+            },
+        },
+        SkirtOffsetX = -1.5,
+        SkirtOffsetZ = -1.5,
+        SkirtSizeX = 8,
+        SkirtSizeZ = 8,
+        TurnRate = 0,
+    },
+    SelectionSizeX = 3,
+    SelectionSizeZ = 3,
+    SelectionThickness = 0.33,
+
+    # height
+    SizeX = 3.5,
+    SizeY = 0.75,
+    SizeZ = 3.5,
+    StrategicIconName = 'icon_factory3_air',
+    StrategicIconSortPriority = 210,
+    Wreckage = {
+        Blueprint = '/props/DefaultWreckage/DefaultWreckage_prop.bp',
+        EnergyMult = 0,
+        HealthMult = 0.9,
+        MassMult = 0.9,
+        ReclaimTimeMultiplier = 1,
+        WreckageLayers = {
+            Air = false,
+            Land = true,
+            Seabed = false,
+            Sub = false,
+            Water = false,
+        },
+    },
+}

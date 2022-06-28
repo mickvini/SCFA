@@ -1,0 +1,56 @@
+UnitBlueprint {
+	Merge = true, 
+	BlueprintId="xsl0001",
+	
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYCOMMANDER SERAPHIM',
+            'BUILTBYTIER2COMMANDER SERAPHIM',
+            'BUILTBYTIER3COMMANDER SERAPHIM',
+            'BUILTBYTIER4COMMANDER SERAPHIM',
+        },
+    },
+    Enhancements = {
+        T4Engineering = {
+            BuildCostEnergy = 50000,
+            BuildCostMass = 1000,
+            BuildTime = 14400,
+            BuildableCategoryAdds = 'BUILTBYTIER4COMMANDER SERAPHIM',
+            Icon = 'hses',
+            Name = '<LOC enhancements_0018>Tech 4 Engineering Suite',
+            NewBuildRate = 480,
+            NewHealth = 9000,
+            NewRegenRate = 20,
+            Prerequisite = 'T3Engineering',
+            ShowBones = {
+                'Left_Upgrade',
+            },
+            Slot = 'LCH',
+            UpgradeEffectBones = {
+                'Left_Upgrade',
+                'Left_Upgrade_Muzzle',
+            },
+            UpgradeUnitAmbientBones = {
+                'Body',
+            },
+        },
+        T4EngineeringRemove = {
+            BuildCostEnergy = 1,
+            BuildCostMass = 1,
+            BuildTime = 0.1,
+            HideBones = {
+                'Left_Upgrade',
+            },
+            Icon = 'hses',
+            Name = '<LOC enhancements_0019>Remove Engineering Suites',
+            Prerequisite = 'T4Engineering',
+            RemoveEnhancements = {
+                'AdvancedEngineering',
+                'T3Engineering',
+                'T4Engineering',
+                'T4EngineeringRemove',
+            },
+            Slot = 'LCH',
+        },
+    },
+}
