@@ -1,0 +1,403 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uab2108",
+
+    AI = {
+
+        InitialAutoMode = false,
+    },
+
+    Defense = {
+
+        EconomyThreatLevel = 64,
+        SurfaceThreatLevel = 32,
+    },
+
+    Display = {
+
+        Abilities = {
+            '<LOC ability_manualbuild>Manual Build',
+            'Strategic Target Selection',
+            'Automatic Launch'
+        },
+    },
+
+    Economy = {
+        BuildCostEnergy = 12500,
+        BuildCostMass = 250.0,
+        BuildRate = 160,
+        BuildTime = 10000,
+        RebuildBonusIds = {
+            'uab2108',
+        },
+    },
+
+    General = {
+
+        CommandCaps = {
+            RULEUCC_Attack = true,
+            RULEUCC_RetaliateToggle = true,
+            RULEUCC_SiloBuildTactical = true,
+            RULEUCC_Stop = true,
+            RULEUCC_Tactical = false,
+        },
+    },
+
+    Weapon = {
+
+        {
+            DamageRadius = 3,
+            Damage = 1800,
+            ManualFire = false,
+            ProjectileLifetime = 60,
+            MaxProjectileStorage = 3,
+            AlwaysRecheckTarget = true,
+            TargetCheckInterval = 1.0,
+            AboveWaterTargetsOnly = true,
+            AutoInitiateAttackCommand = true,
+            NoPause = true,
+
+            TargetPriorities = {
+                'EXPERIMENTAL',
+                'TECH3 STRATEGIC',
+                'GATE',
+                'TECH3 NAVAL',
+                'TECH3 ENERGYPRODUCTION',
+                'TECH3 SHIELD',
+                'TECH3 FACTORY',
+                'TECH3 CONSTRUCTION',
+                'TECH3 MASSEXTRACTION',
+                'TECH3 STRUCTURE',
+                'TECH3 MOBILE',
+                'SUBCOMMANDER',
+                'TECH2 STRATEGIC',
+                'TECH2 NAVAL',
+                'TECH2 ENERGYPRODUCTION',
+                'TECH2 SHIELD',
+                'TECH2 FACTORY',
+                'TECH2 CONSTRUCTION',
+                'TECH2 MASSEXTRACTION',
+                'TECH2 STRUCTURE',
+                'TECH2 MOBILE',
+                'COMMAND',
+                'TECH1 NAVAL',
+                'TECH1 FACTORY',
+                'TECH1 CONSTRUCTION',
+                'TECH1 MASSEXTRACTION',
+                'TECH1 STRUCTURE',
+                'TECH1 MOBILE',
+                'ALLUNITS',
+            },
+
+            TargetRestrictOnlyAllow = 'VISIBLETORECON',
+            TargetRestrictDisallow = 'UNTARGETABLE, TECH1 AIR MOBILE, TECH2 AIR MOBILE, TECH3 AIR MOBILE',
+
+        },
+    },
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="ueb2108",
+
+    AI = {
+
+        InitialAutoMode = false,
+    },
+
+    Defense = {
+
+        EconomyThreatLevel = 64,
+        SurfaceThreatLevel = 32,
+    },
+
+    Display = {
+
+        Abilities = {
+            '<LOC ability_manualbuild>Manual Build',
+            'Strategic Target Selection',
+            'Automatic Launch'
+        },
+    },
+
+    Economy = {
+        BuildCostEnergy = 12500,
+        BuildCostMass = 250.0,
+        BuildRate = 160,
+        BuildTime = 10000,
+        RebuildBonusIds = {
+            'ueb2108',
+        },
+    },
+
+    General = {
+
+        CommandCaps = {
+            RULEUCC_Attack = true,
+            RULEUCC_RetaliateToggle = true,
+            RULEUCC_SiloBuildTactical = true,
+            RULEUCC_Stop = true,
+            RULEUCC_Tactical = false,
+        },
+    },
+
+    Weapon = {
+
+        {
+            DamageRadius = 5,
+            Damage = 1080,
+            ManualFire = false,
+            ProjectileLifetime = 60,
+            MaxProjectileStorage = 4,
+            AlwaysRecheckTarget = true,
+            TargetCheckInterval = 1.0,
+            AboveWaterTargetsOnly = true,
+            AutoInitiateAttackCommand = true,
+            NoPause = true,
+
+            TargetPriorities = {
+                'EXPERIMENTAL',
+                'TECH3 STRATEGIC',
+                'GATE',
+                'TECH3 NAVAL',
+                'TECH3 ENERGYPRODUCTION',
+                'TECH3 SHIELD',
+                'TECH3 FACTORY',
+                'TECH3 CONSTRUCTION',
+                'TECH3 MASSEXTRACTION',
+                'TECH3 STRUCTURE',
+                'TECH3 MOBILE',
+                'SUBCOMMANDER',
+                'TECH2 STRATEGIC',
+                'TECH2 NAVAL',
+                'TECH2 ENERGYPRODUCTION',
+                'TECH2 SHIELD',
+                'TECH2 FACTORY',
+                'TECH2 CONSTRUCTION',
+                'TECH2 MASSEXTRACTION',
+                'TECH2 STRUCTURE',
+                'TECH2 MOBILE',
+                'COMMAND',
+                'TECH1 NAVAL',
+                'TECH1 FACTORY',
+                'TECH1 CONSTRUCTION',
+                'TECH1 MASSEXTRACTION',
+                'TECH1 STRUCTURE',
+                'TECH1 MOBILE',
+                'ALLUNITS',
+            },
+
+            TargetRestrictOnlyAllow = 'VISIBLETORECON',
+            TargetRestrictDisallow = 'UNTARGETABLE, TECH1 AIR MOBILE, TECH2 AIR MOBILE, TECH3 AIR MOBILE',
+
+        },
+    },
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="urb2108",
+
+    AI = {
+
+        InitialAutoMode = false,
+    },
+
+    Defense = {
+
+        EconomyThreatLevel = 64,
+        SurfaceThreatLevel = 32,
+    },
+
+    Display = {
+
+        Abilities = {
+            '<LOC ability_manualbuild>Manual Build',
+            'Strategic Target Selection',
+            'Automatic Launch'
+        },
+    },
+
+    Economy = {
+        BuildCostEnergy = 12500,
+        BuildCostMass = 250.0,
+        BuildRate = 160,
+        BuildTime = 10000,
+        RebuildBonusIds = {
+            'urb2108',
+        },
+    },
+
+    General = {
+
+        CommandCaps = {
+            RULEUCC_Attack = true,
+            RULEUCC_RetaliateToggle = true,
+            RULEUCC_SiloBuildTactical = true,
+            RULEUCC_Stop = true,
+            RULEUCC_Tactical = false,
+        },
+    },
+
+    Weapon = {
+
+        {
+            Buffs = {
+                {
+                    Add = {
+                        OnImpact = true,
+                    },
+                    AppliedToTarget = true,
+                    BuffType = 'STUN',
+                    Duration = 2,
+                    Radius = 7,
+                    TargetAllow = 'TECH1,TECH2,TECH3',
+                },
+            },
+            DamageRadius = 7,
+            Damage = 670,
+            ManualFire = false,
+            ProjectileLifetime = 60,
+            MaxProjectileStorage = 7,
+            AlwaysRecheckTarget = true,
+            TargetCheckInterval = 1.0,
+            AboveWaterTargetsOnly = true,
+            AutoInitiateAttackCommand = true,
+            NoPause = true,
+
+            TargetPriorities = {
+                'EXPERIMENTAL',
+                'TECH3 STRATEGIC',
+                'GATE',
+                'TECH3 NAVAL',
+                'TECH3 ENERGYPRODUCTION',
+                'TECH3 SHIELD',
+                'TECH3 FACTORY',
+                'TECH3 CONSTRUCTION',
+                'TECH3 MASSEXTRACTION',
+                'TECH3 STRUCTURE',
+                'TECH3 MOBILE',
+                'SUBCOMMANDER',
+                'TECH2 STRATEGIC',
+                'TECH2 NAVAL',
+                'TECH2 ENERGYPRODUCTION',
+                'TECH2 SHIELD',
+                'TECH2 FACTORY',
+                'TECH2 CONSTRUCTION',
+                'TECH2 MASSEXTRACTION',
+                'TECH2 STRUCTURE',
+                'TECH2 MOBILE',
+                'COMMAND',
+                'TECH1 NAVAL',
+                'TECH1 FACTORY',
+                'TECH1 CONSTRUCTION',
+                'TECH1 MASSEXTRACTION',
+                'TECH1 STRUCTURE',
+                'TECH1 MOBILE',
+                'ALLUNITS',
+            },
+
+            TargetRestrictOnlyAllow = 'VISIBLETORECON',
+            TargetRestrictDisallow = 'UNTARGETABLE, TECH1 AIR MOBILE, TECH2 AIR MOBILE, TECH3 AIR MOBILE',
+
+        },
+    },
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xsb2108",
+
+    AI = {
+
+        InitialAutoMode = false,
+    },
+
+    Defense = {
+
+        EconomyThreatLevel = 64,
+        SurfaceThreatLevel = 32,
+    },
+
+    Display = {
+
+        Abilities = {
+            '<LOC ability_manualbuild>Manual Build',
+            'Strategic Target Selection',
+            'Automatic Launch'
+        },
+    },
+
+    Economy = {
+        BuildCostEnergy = 12500,
+        BuildCostMass = 250.0,
+        BuildRate = 160,
+        BuildTime = 10000,
+        RebuildBonusIds = {
+            'xsb2108',
+        },
+    },
+
+    General = {
+
+        CommandCaps = {
+            RULEUCC_Attack = true,
+            RULEUCC_RetaliateToggle = true,
+            RULEUCC_SiloBuildTactical = true,
+            RULEUCC_Stop = true,
+            RULEUCC_Tactical = false,
+        },
+    },
+
+    Weapon = {
+
+        {
+            DamageRadius = 9,
+            Damage = 540,
+            ManualFire = false,
+            ProjectileLifetime = 60,
+            MaxProjectileStorage = 8,
+            AlwaysRecheckTarget = true,
+            TargetCheckInterval = 1.0,
+            AboveWaterTargetsOnly = true,
+            AutoInitiateAttackCommand = true,
+            NoPause = true,
+
+            TargetPriorities = {
+                'EXPERIMENTAL',
+                'TECH3 STRATEGIC',
+                'GATE',
+                'TECH3 NAVAL',
+                'TECH3 ENERGYPRODUCTION',
+                'TECH3 SHIELD',
+                'TECH3 FACTORY',
+                'TECH3 CONSTRUCTION',
+                'TECH3 MASSEXTRACTION',
+                'TECH3 STRUCTURE',
+                'TECH3 MOBILE',
+                'SUBCOMMANDER',
+                'TECH2 STRATEGIC',
+                'TECH2 NAVAL',
+                'TECH2 ENERGYPRODUCTION',
+                'TECH2 SHIELD',
+                'TECH2 FACTORY',
+                'TECH2 CONSTRUCTION',
+                'TECH2 MASSEXTRACTION',
+                'TECH2 STRUCTURE',
+                'TECH2 MOBILE',
+                'COMMAND',
+                'TECH1 NAVAL',
+                'TECH1 FACTORY',
+                'TECH1 CONSTRUCTION',
+                'TECH1 MASSEXTRACTION',
+                'TECH1 STRUCTURE',
+                'TECH1 MOBILE',
+                'ALLUNITS',
+            },
+
+            TargetRestrictOnlyAllow = 'VISIBLETORECON',
+            TargetRestrictDisallow = 'UNTARGETABLE, TECH1 AIR MOBILE, TECH2 AIR MOBILE, TECH3 AIR MOBILE',
+
+        },
+    },
+}
