@@ -1,0 +1,38 @@
+**********Fixes and Changes for 3.1************
+Aeon:
+-Experimental Sniper Bot
+--Fixed not firing bug(will still happen occationally but not as much as before)
+--Changed how the weapon does damage
+
+
+UEF:
+-Fixed Golaith anim bug
+-Added better sounds to Goliath's footsteps and motion, inlcuding underwater 
+-Fixed Floating Fortress not falling when dead bug
+--changed how FF main weapon deals damage, now deals damage over time
+
+
+Cybran:
+Redone Unit:
+-Gargantuan Assault Transport:
+--Can carry up to 25 units(any tech minus experimentals)
+--Stealth field Generator
+--Stun weapons and AA Microwave lasers
+
+-Fixed Basilisk bug, would not allow anything to be built on the same spot that the basilisk was built on
+-Added custom footprints
+
+Seraphim:
+-Increased Lambda bot HP to 5500
+-lowered energy drain of lambda bot to 100
+New unit:
+Tech 3 Point Defense
+-Long range
+-Energy Drain when firing
+-Special Effects :D
+
+
+Misc:
+-Fixed several description bugs and ability bugs
+-T3 Heavy frigates removed(cept seraphim) as they are going to be getting model updates and be included in Exaver's unit addon(they were originally his units)
+-Fixed Seraphim Lambda error(was not working if you weren't running BlackOps acus for some reason)

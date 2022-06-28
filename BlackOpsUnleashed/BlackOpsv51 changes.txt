@@ -1,0 +1,36 @@
+*******************Changelog for V5.1******************
+-Removed Transport Emergency Drop feature
+
+-Goliath MK II
+--Changed beam to a constant fire weapon like the ML
+--Increased HP of AA drones
+--Fixed issue with AA drones not being rebuilt
+--Added secondary weapon to AA drones to target land units(AA still primary
+--updated goliath textures
+
+-Removed all Novax Changes
+--this includes the spawning of the second satellite
+
+-Seraphim T4 Rift Gate
+--Added Sniper bot to rift gate(does not need to toggle weapons)
+--All rift gate units now have a Quantum Power attribute
+--Rift gate units take 5 secs to build and 50 energy to maintain
+---Quantum Residue on units has increased speed and weapon range by approx 10%
+
+
+-Fixed an issue where the Bouncer Cybran T3 mobile AA targeting laser was hitting satellites
+-Fixed an issue where the Cybran Hailfire did not have impact effects for its weapon
+-Fixed an Issue where Basilisk Nuke was not displaying correct effects
+-fixed an issue with Juggernaut Side lasers leading targets and shooting through itself
+-Fixed an issue where Aeon factories not getting a buildspeed increase from the Buildspeed upgrade
+
+-Increased the HP of the Inquisitor
+--Made the unit deploy once again(not being forced to deploy opened up a horrible exploit)
+
+-Aeon Purifier MIRV
+--Lowered the hp of the missle to 3 from 6, now it should have no trouble getting shot down by a couple of tmds
+
+-Fixed an issue where the AI would not get the Czar Cleansing mode weapon
+
+****Known Issues****
+--If Tempest is constructing a ship and a Drone is killed, sometimes the drone will not get rebuilt

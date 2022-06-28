@@ -1,0 +1,2 @@
+**********Fixes and Changes for 3.2************
+Mad the freaking thing more vault compatable because hawk is lazy when it comes to things like that :P

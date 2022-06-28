@@ -1,0 +1,148 @@
+**********************************************Changelog for V4*************************************************
+
+[b]General Changes:[/b]
+
+[i]Commander Upgrades:[/i]
+-T4 Engineering upgrade
+--Reduced Buildtime from 7m50s, to 4m30s
+--Reduced Mass cost from 11250 to 7560
+--Reduced Energy cost from 990000 to 121500
+
+all other upgrades removed
+
+[i]Experimenals buildable by t3 engineers are as follows:[/i]
+Aeon: Galactic Colosus, Czar
+Cybran: Monkeylord, Gargantuan
+Seraphim: Uttaus-Athellu(T4PD), Ythotha
+UEF: Fatboy, Atlantis
+
+[i]Anti-Teleport Towers/Generators[/i]
+-Added a t2 version of the towers for each faction(upgradeable to t3)
+-Decreased the Cost of mass/energy, and the amount of energy upkeep needed on the t3 towers
+-T2 towers have a range of 20(lil less than half of the t3 version) range is shown by counter-intel circle
+
+[i]All Balance changes have been moved to the balance mod(experimentals build categories etc)
+Added Several Custom descriptions to units with unique abilities
+Added Bulletmagnets improved Transports code to the balance mod[/i]
+
+[i]Tech 3 Air Stagings[/i]
+-cost increased for all four structures, build times decreased, changed several misc BP values
+
+[color=red][b]Cybran[/b][/color]
+-Cybran t1 Hydra
+--Removed Suicide
+--Buffed the damage of msot other weapons
+--Flamer- Constant flamer at 50 dps
+--Gatling Gun- Increased Damage
+--Pulse Laser- Increased Damage
+-Cybran t3 Nova PD
+--Increased range to 70(from 60)
+--Increased damage output of firing cycles to about 1100(from about 500)
+--Decreased Charge time to fire
+--Decreased mass cost to about 2000
+--New model, new name
+-Cybran T2 Scorpion Ambush Bot
+--new cloak scripts
+-Cybran T3 Hailfire Rocket Bot
+--HP to 2600 from 800
+--dps increased to ~76.5 from 54
+--Range increased to 70 from 60
+-Cybran T3 Reaper Escort Ship
+--Lasers slightly buffed
+--Changed yaw ranges to allow focus fire on targets in front with lasers
+--Fixed Ground Rocket gun pivot to allow it to actually hit ground targets
+--increased torpedo range
+-Cybran T3 Leviathan Assault Submarine
+--New model
+--Fixed the "not doing anything bug"
+-Cybran Gargantuan T4 Transport
+--changed EMP nuke radius, now stuns for inner radius of 12 for 15s, and outer radius of 30 for 6
+--Significantly reduced the cost and build time of the emp nuke, now only taks 45s to build.
+--Improved Flight, doesn't bounce around as much anymore
+-Cybran Seadragon MK II Class Dreadnought
+--New model
+--more anti-naval role
+--some new weapons and abilities
+
+[color=green][b]Aeon[/b][/color]
+-Aeon Aria T3 PD
+--increased mass cost and build time to bring it more in line with other PDs
+-Aeon Advanced Air Staging Facility
+--no longer does damage to friendly units/shields
+-Aeon Purifier T3 Tactical MIRV launcher
+--Cost reduced
+--Missile builds faster
+--missile hp reduced to 6 down from 8
+--Missile cost reduced
+--Max capacity is 8, up from 4 missiles
+-Aeon T3 Wraith heavy hover tank
+--Imp textures
+--model size decreased slightly
+-Aeon Tempest Experimental battleship
+--Added 6 heavy drones
+--Increased main cannon range to 180 from 150
+[i]Tempest Heavy Drones:
+--selectable and targetable, and can gain veterancy
+--have a build cost and are automatically rebuilt
+--when docked with the Tempest. drones are not targetable and will be automatically repaired
+Improved drone assist and targeting control:
+--can be kept docked with the Tempest to limit AA exposure
+--will be aggressively deployed against enemy units at range, preferring gunship targets
+--will no longer stray out of control range, and can be manually recalled [/i]
+-Aeon T1 Requiem Snipe Bot
+--Decreased mass cost to 90 from 100
+--Increased range to 32 from 28
+--Increased Muzzle velocity from 50 --> 75
+--Decreased Muzzle charge delay from 0.5 --> 0.3
+-Aeon T3 TMD
+--Increase Muzzle Veloctiy of weapon
+
+
+[color=blue][b]UEF[/b][/color]
+-UEF T2 Inferno Flame Tank
+--HP to 950 from 750
+--fixed several small BP issues
+-UEF T4 Goliath Assault Bot
+--New cost: 24900 Mass and 485520 Energy, build time is the same
+[i]New Goliath Drone Scripts(By Mithy)(totally awesome btw):
+Drones no longer invulnerable:
+--now selectable and targetable, and can gain veterancy
+--have a build cost and are automatically rebuilt
+--when docked with the goliath, drones are not targetable and will be automatically repaired
+Improved drone assist and targeting control:
+--can be kept docked with the Goliath to limit AA exposure
+--will be aggressively deployed against enemy units at range, preferring gunship targets
+--will no longer stray out of control range, and can be manually recalled [/i]
+-UEF Citadel Flying Fortress
+--reduced the overal cost of its special weapon
+--Removed the 10k energy drain went firing the weapon
+--Greatly increase the build speed of the weapon(overal cost is reduced but builds in 30s for a quick eco strain)
+-UEF T4 Bismarck Class Dreadnought
+--New model, New name Conquest
+--Similar weapons
+--Role more suited for long range shore bombardment
+-UEF T4 Citadel Floating Fortress
+--Imp textures
+--new animations
+
+[color=yellow][b]Seraphim[/b][/color]
+-Seraphim T3 Vulthatha-Ioz Gunship
+--Fixed the AA, now provided decent AA against other gunships/ASFs
+-Seraphim T3 Advanced Air Staging Facility
+--Updated the drones(they no longer fly off and will go back to their parent unit if too far)
+--Improved Repair drones
+-Seraphim T3 Ithaluthe-Esel Heavy Cruiser
+--Decreased the speed to 4.1 from 6
+--Increased damage output of Lightning AA slightly
+--Increased Radar, Sonar, Omni, VisionRadius, and WaterVision Radius
+-Seraphim T3 Uttauthuum Point Defense
+--Decreased energy drain
+--Increased number of targets Lightning orb is able to attack from 3--->4
+--Added a small aoe when lightning orb impacts ground(or any other surface)
+-Seraphim T4 Hovatha-Hauthu Dreadnought
+--Increased beam range to 80 from 75
+--Increased total AA dps from 57 to ~240
+
+[b]****Known Issues****
+--UEF Staging drones not respawning
+--If Tempest is constructing a ship and a Drone is killed, sometimes the drone will not get built
