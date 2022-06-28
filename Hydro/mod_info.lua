@@ -1,0 +1,15 @@
+name = "Upgradeable HC-Plant"
+uid = "dd6642d4-346c-8711-8106-df3de93fff65"
+version = 2
+copyright = "Gottenolm85"
+description = "HC-Plants upgradeable like Mexx up to T4. Fully FA-compatible. Barely testet so far. May be some balancing issues and other problems left."
+icon = "Mods/Hydro/icons/Titel.dds"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = {}
+requiresNames = {}
+conflicts = {}
+before = {}
+after = {}
