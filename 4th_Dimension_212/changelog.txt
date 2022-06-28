@@ -1,0 +1,163 @@
+Changelog for "4th Dimension" - Forged Alliance
+
+2.12:	- Aeon Czar rotates again	
+	- fixed Tempest not overshooting its targets	
+	- Cybran Drone Carrier now auto attacks with its main cannons, which also got an increased firing arc (86° instead of 76°)
+	- changed the unitdescriptions.lua, so that the mod is more compatible with other mods	
+	- Mavor works like intended again (more accurate after every shots)
+	- reduced energy costs of T2 naval mines to 20000 (30000)
+	- reduced air-to-ground damage of Thrasher to 100(125)
+	- added leadTarget=true to all T2 AA units (only Aeon mobile AA had this)
+	- increased damage of stationary T2 AA by 10%
+	- fixed move bug for cybran T2 mobile AA
+	- increased muzzle velocity for cybran T2 mobile AAs to 60 (40)
+	- increased damage radius of mavor cannon to 5 (4)
+
+2.11:	- fixed Balrog not beeing able to walk or fire	
+	- Kykhu Oss now takes x8 damage while in flight mode
+
+2.1:	- added death explosions to some T3 units
+	- added normal maps to nearly all custom units
+	- added Balrog as UEF experimental
+	- added Vampire as Cybran T2 stealthed and cloaked fighter
+	- added Holo emitter for UEF mine layer, it also can now build intelligent devices
+	- added Phasing ability to the Seraphim T3 scout
+	- added T3 Seraphim "Kykhu Oss" as a Transformers 
+	- adjusted all collision spheres of all air crafts (in general, they are smaller now) 
+	- fixed monkey lords air damage (missed to change one weapon)
+	- fixed typo with one of the UEF SCU upgrades
+	- increased accuracy gain for mavor (doubled), also increased max accuracy
+	- increased mass costs of satellite system by 30%, also reduced damage to 125 (from 150)	
+	- increased collisionbox of drones, reduced their speed (about 15%) and health to 12 (from 50)	
+	- increased drain per sec for T2 artillery to 500 (from 100) [energy per shot is still the same]	
+	- increased costs and buildtime of walls 34 (24) 50 (40)
+	- increased mass costs of Little John by 300
+	- increased mass and energy costs of Chimera (~ 10%)
+	- increased mass costs of Harkon by 200
+	- increased damage of Hellhound to 55 (from 50)
+	- increased maxspeed of T2 heavy tanks by 0.1
+	- increased mass costs of Vulcanizer to 131.000 (from 101.000)
+	- increased range of LABs by ~20%
+	- increased HP of Rhinos by 50
+	- increased costs of Predator to 530/6300 (from 480/3300)
+	- increased costs/buildtimes of T2 artilleries
+	- increased costs/buildtime of Pillar by 10%
+	- increased shield by 100 of Obsidian
+	- increased damage of cutter by 20%
+	- increased build time of cybran T3 perimeter monitoring system from 800 to 4000
+	- increased HP of mongoose to 1000 (900) and decreased damage to 33 (40) 
+	- increased HP of all T1-T3 air units by 25-50% (air battles should last a bit longer now)
+	- increased build rate of UEF minelayer by 50%
+	- increased size of destroyers and cruisers of all factions 
+	- increased damage of corsairs air-to-ground missiles to 200 (120)
+	- reduced costs and buildtime of megalith slightly
+	- reduced radius of Little Johns main weapon to 35 (38)
+	- reduced radius of Harkons gattling gun to 24 (26)
+	- reduced range of tactical missiles to 200 (from 256)
+	- reduced costs of nuke launchers by 50% (only the building costs, not the nuke costs!)
+	- reduced air-to-air damage of T2 air transports by about 50%
+	- reduced energy consumption of shielded T2 and T3 units (no buuble shields)
+	- reduced turret yaw speed of T2 destroyers main gun by 50% (not seraphim because it has a beam weapon)
+	- reduced accuracy of T2 destroyers main gun while moving by 50%
+	- reduced death damage of Rampage
+	- removed jamming ability of rampage
+	- removed fuel from Czar (no ig effect)
+	- changed aeon tarmac
+	- fixed some colors of the Meson texture
+	- fixed a small bug with the soul ripper
+	- fixed or adjusted the regeneration buff for veteran air units (they were much too high)
+	- improved vulcanizer script and grafics
+	- thrasher more balanced (missiles for air-to-ground and machine gun for air-to-air)
+	- changed texture of Chimera (completely new)
+	- changed model of Cybran Drone Carrier and rebalanced it. Drones are redone aswell
+	- changed Brick walk animation (it finally walks!)
+	- changed some regeneration rates (Crab bot now has a regeneration of 10 instead of 0.5, ...)
+	- Galactic Colossus's tractor beams work now faster on small units than on big units (flight time is mass dependant now) 
+	- some other minor tweaks
+	
+	+ improved explosion mod performance by about 50%! (version 2.1)
+	+ added optional unit cap system: all units have different unit caps calculated by their mass and energy costs (between 0.15 [most T1] and 50[some experimentals])
+
+2.01:	- fixed AI bug with the abolisher
+	- fixed the desciption of abolisher ("anti air" has been removed in the description)
+	- fixed energy costs typo of Ravager (from 160000 to 16000)
+	- fixed a bug that lets Aeon Point Defences be targeted by Galactic Colossus anti grav weapon
+	- fixed thrasher, so that it now can target ships
+	- fixed Little John. Its not transportable anymore
+	- fixed icon fade distance in of thrasher
+	- fixed Megaliths rate of fire. Now both cannons have the same rate  of fire
+	- changed Titans description
+	- some ripper changes (like added short range radar)
+	- increased HP of Seraphim experimental bomber to 9500 and reduced costs, also reduced damage radius
+	- increased damage of T2 flakk by ~10%
+	- increased "stumping" damage of galactic colossus to 25000 (from 3500)
+	- increased range of Tarantulas primary missiles to 30 (from 25)
+	- added description of Artemis
+
+2.0:	- fixed Mesons shader (it was a uef shader while the unit was aeon)
+	- fixed T3 bomber bug for all factions. They now hit with their first attack
+	- added Little John as UEF T3 ultra heavy tank	
+	- added	Tarantula as Aeon T3 mobile AA defence unit (has also tac missile defence)
+	- added Brimstone as UEF T3 heavy plasma tower
+	- added Abolisher as Aeon T2 madvanced gunship
+	- added Caiman as UEF T1 hover craft
+	- added UEF T2 multi-role fighter
+	- added 3 different mines for the UEF field engineer (all with custom models)
+	- changed Aeon T2 sniper model and textures
+	- increased costs of UEF satellite System. Also added energy costs per shot (now a beam costs 6000 energy) 
+	- improved explosions a lot (in seperated mod "4th_Dimension_Explosions_20" which is included - you have to activate them)
+	- reduced costs and damage of Ravager
+	- some unitdescription bugs fixed
+	- adjusted several unit icons
+	- readded Seraphim as a playable faction. Also rebalanced the whole faction (still in developement)
+	- improeved Sorian AI support
+	- other small changes here and there
+
+1.95:	- fixed typo errors in the explosion mod and the main mod (some explosions and artemis animation were wrong) 
+
+1.94:	- fixed crashbug with the UEF ripper
+
+1.93:	- gunships can now attack air factories again
+	- Seraphim air units have adjusted HP now (faction is still not selectable, but this is important for the campaign)
+	- some hitbox changes 
+	- increased uniform scale of some mobile T1 AA units a bit
+	- removed advanced jammer because of bugs (will be put back when we are able to fix them)
+	- the Explosion effects are now seperated into a sub mod. You have to activate it to see the improved explosions
+
+1.92:	- Aeon pop up turrets are working correct again 
+	- Cybran Drone Carrier doesnt auto attack anymore 
+ 	- added range ring to absolver
+	- reduced muzzle velocity of Vulcanizer to 80 (from 100)
+	- increased range of cutter to 20 (from 18) 
+	- increased mass and energy costs of Crusher
+	- reduced rateoffire of Brick to 0.21 (from 0.25)
+	- reduced damage of Percival to 1200 (from 1400), also increased mass costs to 1180 from 1080
+	- increased speed of Chimera to 2.05 (from 1.85)	
+	- fixed UEF ACU engineer suite (finally :D)
+	- increased Damage of Mongoose to 40 (from 20), also decreased muzzleSalvoSize to 8 (from 10) (primary weapon)
+	- increased Damage of Hoplite to 80 (from 60)
+	- added advanced jamming for radar jamm units like the UEF frigate or Mongoose.
+	- readded visible plasma ball for the cybran tactical missile defence
+	- increased rateoffire of UEF and Cybran tactical missile defences a lot
+	- decreased accuracy of T1 and T2 anti air defences
+
+1.91:	- fixed GC animation speed
+	- fixed UEF ACUs engineering suites build time
+	- fixed a lot of icons for the new units
+	- reduced Aeon T3 torpedo bombers HPs to 440
+	- reduced build speeds of Rampage and Overlord to match the speeds of other experimentals
+	- increased costs of UEF T3 point defence by about 20%
+	- doubled damage of UEF satelite
+	- removed LOGs from Vulcanizer
+	- removed the old veterancy system - so now FA system is activated for all units
+	- added missing range rings for some units
+	- increased accuracy of most Rampages weapons, increased stun duration to 1.5(1) sec and reduced stun radius to 5 (7)
+	- added scorch mark for cybran mobile missile launcher
+	- Fatboy can now only build T1, T2, T3 engineers, Mobile Missile Launchers, SABs and Percivals
+	- Annihilator and Beholder have now the selection priority of PDs
+	- increased speeds of LABs, SABs, Harkon, Meson and Chimera by ~10%
+	- increased acceleration of most land units by 10-50%
+	- reduced rate of fire of SAM launchers by 10% (so 10% less dps) but added 2000 HP
+	- damage reduction ability of Aeon popup defences was broken and is now removed (animations are still in). Will come back asap
+	- reduced T1 stationary AA damage by 25% (Aeons even more) and decreased accuracy of T1 AA
+	- decreased duration of burning trees and plants

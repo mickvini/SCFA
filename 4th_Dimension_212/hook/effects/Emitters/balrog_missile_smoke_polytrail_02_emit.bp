@@ -1,0 +1,20 @@
+TrailEmitterBlueprint {
+	BlueprintId = 'serpentine_missile_trail',
+	Lifetime = -9.00, # last good working value = -9.00
+	--Lifetime = -1.00,
+    TrailLength = 6,
+	--TrailLength = 3, #Original
+    Size = 0.36,
+	--Size = 0.12,
+    SortOrder = 0.0,
+	-- SortOrder = 0, #Original
+    BlendMode = 0, #--Orginal = 0
+    TextureRepeatRate = 0.15, # 0.11 is close;
+	--TextureRepeatRate = 0.45, #Original
+    LODCutoff = 150, #-- Original = 160
+	RepeatTexture = [[/mods/4th_Dimension_212/textures/particles/trail_redorangeblack_03.dds]],
+	-- RepeatTexture = [[/mods/4th_Dimension_212/textures/particles/trail_redblack_03.dds]],
+	-- RepeatTexture = [[/textures/particles/trail_white_03.dds]], #Original
+	RampTexture = [[/textures/particles/ramp_trail_02.dds]],
+}
+
