@@ -1,0 +1,18 @@
+
+Effects
+
+
+
+    Weapons = {
+        MainGun = Class(TDFIonizedPlasmaCannon) {
+        FxAirUnitHitScale = 2,
+    	FxLandHitScale = 2,
+    	FxNoneHitScale = 2,
+    	FxPropHitScale = 2,
+    	FxProjectileHitScale = 2,
+    	FxShieldHitScale = 2,
+    	FxUnitHitScale = 2,
+    	FxWaterHitScale = 2,
+    	FxOnKilledScale = 2,
+    	FxMuzzleFlashScale = 2,     
+    },
