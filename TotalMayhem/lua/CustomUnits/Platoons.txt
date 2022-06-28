@@ -1,0 +1,81 @@
+T1 factory built LAND units from, SorianLandAttackBuilders.lua
+Code:
+T1LandDFBot
+T1LandDFTank
+T1LandArtillery
+T1LandAA
+T1LandScoutFormSorian
+
+
+T2 factory built LAND units from, SorianLandAttackBuilders.lua
+Code:
+T2LandDFTank
+T2LandArtillery
+T2AttackTankSorian
+T2LandAmphibious
+T2MobileShields
+T2MobileBombs
+T2LandAA
+T2EngineerGuard
+
+
+T3 factory built LAND units from, SorianLandAttackBuilders.lua
+Code:
+T3LandBot
+T3LandArtillery
+T3LandAA
+T3SniperBots
+T3ArmoredAssaultSorian
+T3ArmoredAssault
+T3MobileMissile
+T3MobileShields
+T3ExpGuard
+T3EngineerGuard
+
+
+T1 factory built AIR units from, SorianAirAttackBuilders.lua
+Code:
+T1AirTransport
+T1AirBomber
+T1Gunship
+T1AirFighter
+
+
+T2 factory built AIR units from, SorianAirAttackBuilders.lua
+Code:
+T2AirTransport
+T2AirGunship
+T2BomberSorian
+T2FighterBomber
+T2AirTorpedoBomber
+
+
+T3 factory built AIR units from, SorianAirAttackBuilders.lua
+Code:
+T3AirTransport
+T3AirGunship
+T3AirBomber
+T3AirFighter
+T3TorpedoBomber
+T3AirBomberSpecialSorian
+
+
+Artillery Structures from, AIArtilleryBuilders.lua
+Code:
+T3ArtilleryStructureSorian
+T4ArtilleryStructureSorian
+T3NukeSorian
+T4NukeSorian
+
+
+SEA Experimentals from, SeaPlatoonTemplates.lua
+Code:
+T4ExperimentalSeaSorian
+
+
+LAND Experimentals from, LandPlatoonTemplatesSorian.lua
+Code:
+T4LandExperimental1
+T4ExperimentalLandSorian
+T4ExperimentalScathisSorian
+T4ExperimentalLandLate
