@@ -1,0 +1,34 @@
+*******************Changelog for V5.2******************
+
+-Added Icon to the t3 sniper bot from Rift Gate
+-Completely removed novax changes(for reals this time)
+-Goliath TMD fixed and is now actually useful
+-Fixed an Issue where you could not rebuild a t2 or t3 factory
+--all t2 and t3 factories are now able to be rebuild on their respective wrecks(IE you can directly rebuild a t3 factory on a t3 factory wreck now)
+
+
+-Aeon T4 Inquisitor
+--new model
+--new weapon
+--more boomy
+
+-UEF T4 Citadel MKII
+--new model
+--Superior Anti-Air weapons
+--Limited Anti-ground weapons
+--costs adjusted slightly
+
+-Cybran T3 ED5 Shield Generator
+--Cybrans can now build an ED5 directly at tech 3
+--Cost the same as upgrading from tech2
+
+BO-Balance Mod
+-Omni Changes
+--increased Omni range to 125(from 100)
+--increased Radar Range to 500(from 400)
+
+
+Stuff im sure i've forgotten to mention.
+
+****Known Issues****
+--If Tempest is constructing a ship and a Drone is killed, sometimes the drone will not get rebuilt

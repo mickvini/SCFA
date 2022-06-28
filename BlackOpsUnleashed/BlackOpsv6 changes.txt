@@ -1,0 +1,35 @@
+*************************Fixes and changes V6***********************
+Global Change-
+-added my own experimental super stun code, units that get stunned will shutdown completely
+-Stuns will now shutdown prodcution of any units/resources, shields, or special abilities that a unit may posses (cloak/radar jamming etc)
+-In addition, when a unit is stunned a special stun effect is applied to the unit via duration of the stun
+**IMPORTANT** THIS IS A TEST OF THIS CODE, I CANNOT SAY THAT IT IS COMPLETELY BALANCED AND IT DOES CHANGE THE GAME IN A BIG WAY, KEEP IN MIND THIS CODE IS BETA AND IS SUBJECT TO CHANGE*****
+
+BlackOps:Unleashed-
+
+UEF T4 Goliath Assault Bot-
+--Drones are no longer selectable
+--Added a type of Experimental Radar Spoofing(this is also beta code and will change based on feedback)
+
+-UEF Flying Fortress Citadel
+--Fixed the issue with the air pads, sadly the citadel must be stationary for air units to land on it now, air --pads no longer show up on the radar either.
+--Removed the left over Tac Missile fire and build buttons
+
+-Aeon T4 Inquisitor Seige Platform
+--Increased the range on the bombard weapon to 128(same as t2 arty range)
+--Beam defense weapon should no longer have problems shooting at things
+
+-Aeon T3 Air Staging platform
+--Fixed an issue that prevented the platform from being hit by torpedos
+
+-Aeon T4 Genesis Hover Platform
+--Fixed an issue that allowed torpedos to shoot at the unit.
+
+-Seraphim T4 Yenzotha Hover platform
+--Drones are no longer selectable
+
+-Fixed an issue that prevented the Aeon and Serpahim hydro facilities from queuing past t2
+
+BlackOps: Balance addon
+Intel Changes:
+-Buffed radar jamming(you'll see), your radar is now very jammed(and not with raspberry)

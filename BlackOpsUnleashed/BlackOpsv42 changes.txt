@@ -1,0 +1,11 @@
+*******************Changelog for V4.3******************
+
+-UEF Staging drones not respawning(fixed)
+-Juggernaut sometimes get stuck on the ground for some reason(fixed again...i hope)
+-Omni Drain reduced to 800 energy
+-Doubled the amount of kills needed for Zealot to get Vet(aeon t2 tank)
+-Fixed a bug that was causing all units to hit friendly targets regardless of BP settings
+
+
+****Known Issues****
+--If Tempest is constructing a ship and a Drone is killed, sometimes the drone will not get rebuilt

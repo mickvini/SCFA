@@ -1,0 +1,155 @@
+*******************Changelog for V5******************
+-Removed the Transport Bailout feature
+-fixed a bug which seraphim could not build their tech 2 anti-teleport towers.
+-Build menus have been better organized
+-Fixed a bug that prevented the Seraphim Dreadnought from firing the Anti-Nuke
+-All Naval Mines removed until further notice
+-Added regen to Aeon T3 air pad
+-Fixed an Issue with the Seraphim T4 PD stunning ACUs and Experimentals when it wasn't supposed to
+--Seraphim T4 PD no longer spawns an Energy Being on death
+-Overcharge is no longer stopped by Lambda fields
+
+New Feature(s):
+-Tech 2 and Tech 3 factories are now buildable by engineers and Commanders
+--cost of factories = cost of building a tech 1 and upgrading
+--faster build time than upgrading from a tech 1 factory(overall same cost)
+--UEF & Cybran tech 3 factory upgrades
+---+30 build speed upgrade
+---Personal Bubble shield(only large enough to protect the factory)
+--Seraphim & Aeon Tech 3 factories
+---+60 buildspeed upgrade
+---Personal Bubble Shield(only large enough to protect the factory)
+
+********************************************
+--New Anti-Satelite Defenses on the SMDs
+
+-Aeon T4 Artemis Satelite
+--No longer needs to build nuke
+--Weapon impacts on shields now
+--New weapon/effects
+--New model
+
+New units: All factions
+-T3 Combined Mass & Energy storage
+--provides mass boost when built next to mass extractors
+--provides energy boost when built next to power generators
+--provides 1000 mass and 4000 energy storage
+
+-Aeon T4 Genesis Assault Tank
+--Hover
+--Built by T3 engineers
+--Volatile
+--Maelstrom Generator
+
+-Aeon T4 Inquisitor Seige Weapon
+--no longer required to deploy
+
+-Seraphim T4 Yenzotha Beam Tank
+--Hover
+--Built by t3 Engineers
+--Beam increases in damage the longer it is active
+--Spawns energy being on death
+--FUNNEL drone system
+
+-Seraphim Lambda Bot
+--Reduced radius of Lambda fields by 2 from 5-->3
+--new model
+
+-UEF: Tech 2 Hellstorm Howitzer Emplacement
+--Rapid fire
+--Low damage
+--High Energy Consumption
+
+-UEF t3 Rapier
+--new model
+--new weapon: Napalm Artillery shells
+--new weapon: secondary gauss cannon
+
+-UEF T4 Goliath MKII Bot
+--new model
+--giant assed beam cannon
+--Anti-Air Drones
+--Armored from head to toe
+--will kill stuff very fast
+
+-Cybran Tech 2 Squal Hailfire Rocket Launcher
+--Very High Rate of fire
+--Low Damage
+--High Energy Consumption
+
+-Cybran T4 Basilisk MKII Assault bot
+--New Model
+--New weapons
+--moar baddassery
+--moar epicness
+--still goes off on its own to kill stuff
+
+-Aeon Tech 2 Archangel Battery
+--Burst fire(4 rounds)
+--Small spread(low firing randomness)
+
+-Aeon t3 Aria Point Defense
+--new Model
+--New Weapon
+
+
+-Seraphim Tactical Mine Dispenser( ye who speak Seraphim gladly suggest a proper name)
+--Builds ammo
+--long range
+--Manual Fire
+--Deploys several mines at target location
+---Mines deal 200 dmg over a large radius
+---Mines last a total of 5 mins before disappearing(this is done to prevent the game from laggin due to super minefields)
+
+-Seraphim T4 Rift Gate
+--Size reduced by ~40%(now it can actually be placed and be built)
+--slight cost modifications
+--Removed Lvl 5 vet Xbot
+--Removed Lvl 5 vet t1 units
+--Added lvl 5 vet mobile t3 arty
+
+Balance Mod:
+ACUS:
+-All regular acus have been properly hooked(finally)
+
+-Lowered cost and buildtime of all tech 2 artillery by ~ 25%
+
+-Seraphim Tech 2 Artillery- new secondary function
+--added sonar = range of weapon(128)
+--Weapon splits into torpedos when impacts water
+
+-Aeon Strategic Missile Launcher
+--New impact effects
+
+-Cybran Strategic Missile Launcher
+-- New Impact effects
+
+-Seraphim Strategic Missile Launcher
+-Changed the timing for the damage to better match explosion,
+
+-Aeon Czar
+--Added a Secondary function, dubbed "Cleansing mode"
+---Cleansing mode activates a secondary weapon
+---Reduces speed of czar
+---Czar cannot build aircraft while in cleansing mode
+
+
+Increased Health on Shield generators when upgrading
+Cybran:
+-T2 ED1- hp = 500(standard)
+-T2 ED2- hp = 875
+-T2 ED3- hp = 1250
+-T2 ED4- hp = 1625
+-T2 ED5- hp = 2000
+UEF:
+-T2 Shield- hp = 1000
+-t3 shield- hp = 2000
+Aeon:
+-t2 shield- hp = 600
+-t3 shield- hp = 1200
+Seraphim:
+-t2 shield- hp = 1600
+-t3 shield- hp = 2400
+
+****Known Issues****
+--If Tempest is constructing a ship and a Drone is killed, sometimes the drone will not get rebuilt
