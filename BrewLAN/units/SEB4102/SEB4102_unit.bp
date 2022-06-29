@@ -122,7 +122,7 @@ UnitBlueprint {
 	    ResearchMultTime = 10,
         ResearchMultEnergy = 20,
         ResearchMultMass = 0.25,			
-        MaintenanceConsumptionPerSecondEnergy = 16.58,
+        MaintenanceConsumptionPerSecondEnergy = 29,
         BuildableCategory = {
             'ueb4202',
         },

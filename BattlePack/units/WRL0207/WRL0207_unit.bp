@@ -62,13 +62,15 @@ UnitBlueprint {
         'CYBRAN',
         'MOBILE',
         'LAND',
-        'TECH2',
+        'TECH1',
         'SHIELD',
         'DEFENSE',
+		'INDIRECTFIRE',		
         'VISIBLETORECON',
         'RECLAIMABLE',
         'OVERLAYDEFENSE',
-		'RESEARCHLOCKED',				
+		'RESEARCHLOCKED',	
+		'RESEARCHLOCKEDTECH1',			
     },
     Defense = {
         AirThreatLevel = 0,
@@ -94,7 +96,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 9,
     },
-    Description = 'Mobile Shield Generator',
+    Description = 'Stealth Mobile Shield Generator',
     Display = {
         Abilities = {
             '<LOC ability_shielddome>Shield Dome',
@@ -177,7 +179,7 @@ UnitBlueprint {
         ResearchMultTime = 4,
         ResearchMultEnergy = 50,
         ResearchMultMass = 0.25,		
-        MaintenanceConsumptionPerSecondEnergy = 2.24,
+        MaintenanceConsumptionPerSecondEnergy = 4,
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
         TeleportTimeMod = 0.01,
@@ -211,10 +213,11 @@ UnitBlueprint {
         ToggleCaps = {
             RULEUTC_ShieldToggle = true,
         },
-        UnitName = 'MSG Spiderbot',
+        UnitName = 'MSSG Spiderbot',
         UnitWeight = 1,
     },
     Intel = {
+        RadarStealth = true,		
         VisionRadius = 15,
     },
     Interface = {
@@ -242,7 +245,7 @@ UnitBlueprint {
         MinSpeedPercent = 0,
         MotionType = 'RULEUMT_Land',
         StandUpright = false,
-        TurnRadius = 25,
+        TurnRadius = 5,
         TurnRate = 37.5,
     },
     SelectionCenterOffsetX = 0,
@@ -253,7 +256,7 @@ UnitBlueprint {
     SizeX = 1,
     SizeY = 1.15,
     SizeZ = 1.5,
-    StrategicIconName = 'icon_bot2_shield',
+    StrategicIconName = 'icon_land2_shield',
     StrategicIconSortPriority = 125,
     Transport = {
         TransportClass = 2,

@@ -106,7 +106,7 @@ UnitBlueprint {
         ResearchMultTime = 10,
         ResearchMultEnergy = 50,
         ResearchMultMass = 0.25,			
-        MaintenanceConsumptionPerSecondEnergy = 33.16,
+        MaintenanceConsumptionPerSecondEnergy = 59,
         RebuildBonusIds = {'seb4303'},
     },
     Footprint = {

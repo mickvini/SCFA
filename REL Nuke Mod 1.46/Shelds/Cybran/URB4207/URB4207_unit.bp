@@ -118,7 +118,7 @@ UnitBlueprint {
         ResearchMultTime = 10,
         ResearchMultEnergy = 40,
         ResearchMultMass = 0.25,			
-        MaintenanceConsumptionPerSecondEnergy = 28.15,
+        MaintenanceConsumptionPerSecondEnergy = 100,
     },
     Footprint = {
         SizeX = 1,

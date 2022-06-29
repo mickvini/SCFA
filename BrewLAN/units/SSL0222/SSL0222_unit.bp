@@ -201,7 +201,7 @@ UnitBlueprint {
         ResearchMultTime = 4,
         ResearchMultEnergy = 50,
         ResearchMultMass = 0.25,		
-        MaintenanceConsumptionPerSecondEnergy = 1.94,
+        MaintenanceConsumptionPerSecondEnergy = 7,
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
         TeleportTimeMod = 0.01,

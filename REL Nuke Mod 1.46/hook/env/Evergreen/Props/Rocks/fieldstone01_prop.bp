@@ -1,0 +1,38 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Defense = {
+        Health = 125000,
+        MaxHealth = 125000,
+    },
+    Display = {
+        Mesh = {
+            IconFadeInZoom = 4,
+            LODs = {
+                {
+                    LODCutoff = 250,
+                    ShaderName = 'NormalMappedAlpha',
+                },
+            },
+        },
+        UniformScale = 0.05,
+    },
+    Economy = {
+        ReclaimEnergyMax = 0,
+        ReclaimMassMax = 125000,
+        ReclaimTime = 750000,
+    },
+    Footprint = {
+        OccupancyCaps = 3,
+    },
+    Interface = {
+        HelpText = 'Large Rock',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 3,
+    SizeY = 0.5,
+    SizeZ = 4,
+}

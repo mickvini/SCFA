@@ -230,7 +230,7 @@ UnitBlueprint {
         SacrificeEnergyMult = 0.6,
         SacrificeMassMult = 0.6,
         MaxBuildDistance = 9,				
-        MaintenanceConsumptionPerSecondEnergy = 2.85,
+        MaintenanceConsumptionPerSecondEnergy = 10,
         StorageEnergy = 100,
         StorageMass = 100,
         TeleportEnergyMod = 0.15,

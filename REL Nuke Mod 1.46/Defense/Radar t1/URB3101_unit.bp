@@ -177,7 +177,7 @@ UnitBlueprint {
 	    OmniRadius = 50,		
         RadarRadius = 125,
         ShowIntelOnSelect = true,
-        VisionRadius = 75,
+        VisionRadius = 50,
     },
     Interface = {
         HelpText = '<LOC urb3101_help>Radar System',

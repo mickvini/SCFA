@@ -100,8 +100,12 @@ UnitBlueprint {
     Description = 'Light Long-Range Missile Medium Mech',
     Display = {
         Abilities = {
-            '<LOC ability_radar>Radar',
-            'Amphibious',
+            'Armor - 6%',		
+            'LRM - 500 DPS / R - 115 / S - 4',	
+            'AT/AA - 100 DPS / R - 20 / S - 0',								
+            'Speed - 3.8',		
+            'Vision - 45',	
+            'Regen - 1',				
             'Anti-Air',
             'Fast Moving',
         },
@@ -169,9 +173,9 @@ UnitBlueprint {
         UniformScale = 0.077,
     },
     Economy = {
-        BuildCostEnergy = 112200,
-        BuildCostMass = 3300,
-        BuildTime = 264000,
+        BuildCostEnergy = 105400,
+        BuildCostMass = 3100,
+        BuildTime = 248000,
         ResearchMultTime = 1,
         ResearchMultEnergy = 3.4,
         ResearchMultMass = 0.25,			

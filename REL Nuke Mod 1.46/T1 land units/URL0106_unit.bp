@@ -55,8 +55,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Normal',
         EconomyThreatLevel = 0,
-        Health = 45,
-        MaxHealth = 45,
+        Health = 55,
+        MaxHealth = 55,
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0.33,
@@ -112,9 +112,9 @@ UnitBlueprint {
         UniformScale = 0.015,
     },
     Economy = {
-        BuildCostEnergy = 3.96,
-        BuildCostMass = 4.4,
-        BuildTime = 1760,
+        BuildCostEnergy = 4.14,
+        BuildCostMass = 4.6,
+        BuildTime = 1840,
         ResearchMultTime = 4,
         ResearchMultEnergy = 180,
         ResearchMultMass = 9,				
@@ -146,6 +146,7 @@ UnitBlueprint {
         UnitWeight = 10,
     },
     Intel = {
+        RadarStealth = true,	
         VisionRadius = 20,
     },
     Interface = {

@@ -234,7 +234,7 @@ UnitBlueprint {
             'BUILTBYTIER1ENGINEER INDIRECTFIRE AEON',
             'BUILTBYTIER1FIELD AEON',
         },
-        MaintenanceConsumptionPerSecondEnergy = 0.2,
+        MaintenanceConsumptionPerSecondEnergy = 0.6,
         NeedToFaceTargetToBuild = false,
         SacrificeEnergyMult = 0.6,
         SacrificeMassMult = 0.6,

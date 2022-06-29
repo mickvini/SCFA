@@ -163,7 +163,7 @@ UnitBlueprint {
         RebuildBonusIds = {
             'ueb1106',
         },
-        StorageMass = 200,
+        StorageMass = 400,
     },
     General = {
         Category = 'Economy',

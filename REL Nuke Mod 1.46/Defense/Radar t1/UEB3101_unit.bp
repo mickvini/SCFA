@@ -184,7 +184,7 @@ UnitBlueprint {
         RadarRadius = 125,
         ReactivateTime = 10,
         ShowIntelOnSelect = true,
-        VisionRadius = 75,
+        VisionRadius = 50,
     },
     Interface = {
         HelpText = '<LOC ueb3101_help>Radar System',

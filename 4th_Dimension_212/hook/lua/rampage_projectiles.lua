@@ -29,6 +29,10 @@ MOD_BpPath = '/mods/4th_Dimension_212/hook/effects/emitters/'
 #  Rampage Naplam Missile
 #------------------------------------------------------------------------
 NapalmMissileProjectile = Class(SingleCompositeEmitterProjectile) {
+    FxUnitHitScale = 2,
+    FxLandHitScale = 2,
+    FxPropHitScale = 2,
+    FxAirHitScale = 2,
 # Emitter Values
     FxInitial = {},
     TrailDelay = 0,

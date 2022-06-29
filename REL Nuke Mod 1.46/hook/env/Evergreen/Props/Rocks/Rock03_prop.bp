@@ -1,0 +1,37 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Defense = {
+        Health = 1000,
+        MaxHealth = 1000,
+    },
+    Display = {
+        Mesh = {
+            IconFadeInZoom = 4,
+            LODs = {
+                {
+
+                    # share other rock's albedo and specteam
+                    LODCutoff = 100,
+                    ShaderName = 'NormalMappedAlpha',
+                },
+            },
+        },
+        UniformScale = 0.05,
+    },
+    Economy = {
+        ReclaimEnergyMax = '',
+        ReclaimMassMax = 1000,
+        ReclaimTime = 12000,
+    },
+    Interface = {
+        HelpText = 'Very Small Rock',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.75,
+    SizeY = 0.25,
+    SizeZ = 0.25,
+}

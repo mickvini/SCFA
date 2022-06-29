@@ -193,7 +193,7 @@ UnitBlueprint {
         ResearchMultTime = 1,
         ResearchMultEnergy = 50,
         ResearchMultMass = 0.25,			
-        MaintenanceConsumptionPerSecondEnergy = 1010,
+        MaintenanceConsumptionPerSecondEnergy = 1816,
         RebuildBonusIds = {
             'sab4401',
         },

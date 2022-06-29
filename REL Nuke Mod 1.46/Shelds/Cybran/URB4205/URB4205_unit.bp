@@ -123,7 +123,7 @@ UnitBlueprint {
         BuildableCategory = {
             'urb42061',
         },
-        MaintenanceConsumptionPerSecondEnergy = 31.66,
+        MaintenanceConsumptionPerSecondEnergy = 56,
     },
     Footprint = {
         SizeX = 1,

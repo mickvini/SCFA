@@ -44,7 +44,7 @@ Napalm_Missile = Class(NapalmMissileProjectile) {
 
     SetTurnRateByDist = function(self)
         local dist = self:GetDistanceToTarget()
-        local ran1 = Random(100, 400)
+        local ran1 = Random(90, 400)
         if dist < 35 and dist > 30 then
             self:SetTurnRate(25)
 
@@ -59,8 +59,8 @@ Napalm_Missile = Class(NapalmMissileProjectile) {
 
         elseif dist < 15 and dist > 10 then
             self:SetTurnRate(125)
-            self:ChangeMaxZigZag(125)
-            self:ChangeZigZagFrequency(125)
+            self:ChangeMaxZigZag(25)
+            self:ChangeZigZagFrequency(25)
         elseif dist < 10 and dist > 7 then
             self:SetTurnRate(ran1)
             self:ChangeMaxZigZag(ran1)

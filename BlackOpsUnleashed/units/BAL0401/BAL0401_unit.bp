@@ -88,7 +88,12 @@ UnitBlueprint {
     },
     Description = '<LOC bal0401_desc>Experimental Siege Weapon',
     Display = {
-        Abilities = {
+        Abilities = {		
+            'Solar Storm - 560 DPS / R - 250 / S - 3',	
+            'Beam - 525 DPS / R - 25 / S - 0.5',								
+            'Speed - 1.8',		
+            'Vision - 25',	
+            'Regen - 1',			
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_massive>Massive',
             '<LOC ability_deathaoe>Volatile',

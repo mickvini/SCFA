@@ -23,9 +23,6 @@ ProjectileBlueprint {
         'MISSILE',
     },
     Display = {
-        ImpactEffects = {
-            Type = 'Medium02',
-        },
         Mesh = {
             LODs = {
                 {
