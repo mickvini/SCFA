@@ -82,6 +82,14 @@ UnitBlueprint {
     Description = 'Medium SRM Mech',
     Display = {
         Abilities = {
+            'Armor - 10.5%',
+            'Laser Weapon - 432 DPS / R - 50 / S - 2',
+            'Second Weapon - 192 DPS / R - 30 / S - 0.5',	
+            'AA - 165 DPS / R - 50 / S - 0',				
+            'SRM - 200 DPS / R - 70 / S - 3',	
+            'Speed - 2.9',		
+            'Vision - 40',	
+            'Regen - 5.5',			
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_massive>Massive',
             'Anti-Air',
@@ -149,9 +157,9 @@ UnitBlueprint {
         UniformScale = 0.15,
     },
     Economy = {
-        BuildCostEnergy = 100800, 
-        BuildCostMass = 2400,
-        BuildTime = 384000,
+        BuildCostEnergy = 94500, 
+        BuildCostMass = 2250,
+        BuildTime = 360000,
         ResearchMultTime = 0.25,
         ResearchMultEnergy = 4.2,
         ResearchMultMass = 0.25,		
@@ -452,7 +460,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.8,
+            RateOfFire = 1.6,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'SPECIALHIGHPRI',
@@ -534,7 +542,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.8,
+            RateOfFire = 1.6,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'SPECIALHIGHPRI',
@@ -673,7 +681,7 @@ UnitBlueprint {
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
             Damage = 500,
-            DamageRadius = 2,
+            DamageRadius = 3,
             DamageType = 'Normal',
             DisplayName = 'Gauss Cannon',
             FireTargetLayerCapsTable = {

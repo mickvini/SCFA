@@ -91,7 +91,12 @@ UnitBlueprint {
     Description = 'Medium Siedge-Missle Bot',
     Display = {
         Abilities = {
-            '<LOC ability_amphibious>Amphibious',
+            'Armor - 10%',
+            'Main Weapon - 360 DPS / R - 45 / S - 1',
+            'Missle - 350 DPS / R - 100 / S - 3',	
+            'Speed - 3.0',		
+            'Vision - 45',	
+            'Regen - 3.75',			
             '<LOC ability_massive>Massive',
         },
         AnimationDeath = {
@@ -180,9 +185,9 @@ UnitBlueprint {
         UniformScale = 0.077,
     },
     Economy = {
-        BuildCostEnergy = 130200,
-        BuildCostMass = 3100,
-        BuildTime = 620000,
+        BuildCostEnergy = 138600,
+        BuildCostMass = 3300,
+        BuildTime = 660000,
         ResearchMultTime = 1,
         ResearchMultEnergy = 4.2,
         ResearchMultMass = 0.25,			
@@ -318,7 +323,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.4,
+            RateOfFire = 0.6,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'SPECIALHIGHPRI',
