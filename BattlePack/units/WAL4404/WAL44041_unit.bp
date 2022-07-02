@@ -76,8 +76,15 @@ UnitBlueprint {
     Description = 'Heavy Battle Bot',
     Display = {
         Abilities = {
-            '<LOC ability_amphibious>Amphibious',
-            '<LOC ability_massive>Massive',
+            'Armor - 15%',
+            'Oblivion Cannon - 360 DPS / R - 55 / S - 2',
+            'Second Weapon - 90 DPS / R - 40 / S - 1',	
+            'Small Cannon - 120 DPS / R - 30 / S - 0',				
+            'AA Missle - 60 DPS / R - 70 / S - 0',					
+            'Speed - 2.0',		
+            'Vision - 45',	
+            'Regen - 15',				
+            '<LOC ability_massive>Massive',		
         },
         AnimationDeath = {
             {
@@ -271,7 +278,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.15,
+            RateOfFire = 0.3,
             TargetCheckInterval = 0.6,
             TargetPriorities = {
                 'SPECIALHIGHPRI',

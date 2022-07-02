@@ -23,7 +23,7 @@ PropBlueprint {
     Economy = {
         ReclaimEnergyMax = '',
         ReclaimMassMax = 75,
-        ReclaimTime = 900,
+        ReclaimTime = 450,
     },
     Interface = {
         HelpText = 'Tiny Rockpile',

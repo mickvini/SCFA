@@ -432,6 +432,7 @@ UnitBlueprint {
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_InDirectFire',
             RateOfFire = 0.35,
+            RenderFireClock = true,			
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'EXPERIMENTAL',
