@@ -219,7 +219,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_None',
             CollideFriendly = false,
-            Damage = 300,
+            Damage = 150,
             DamageType = 'Normal',
             DisplayName = 'Sonic Pulsar',
             FireTargetLayerCapsTable = {

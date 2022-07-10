@@ -63,6 +63,9 @@ UnitBlueprint {
     Description = '<LOC ual0104_desc>Mobile Anti-Air Gun',
     Display = {
         Abilities = {
+            'AAGun - 24 DPS / R - 45 / S - 0',		
+            'Speed - 3.0',		
+            'Vision - 25',			
             '<LOC ability_aa>Anti-Air',
         },
         Mesh = {
@@ -119,9 +122,9 @@ UnitBlueprint {
         UniformScale = 0.1,
     },
     Economy = {
-        BuildCostEnergy = 20,
-        BuildCostMass = 20,
-        BuildTime = 8000,
+        BuildCostEnergy = 20.8,
+        BuildCostMass = 20.8,
+        BuildTime = 8320,
         ResearchMultTime = 4,
         ResearchMultEnergy = 250,
         ResearchMultMass = 12.5,
@@ -221,7 +224,7 @@ UnitBlueprint {
             CannotAttackGround = true,
             CollideFriendly = false,
             Damage = 10,
-            DamageRadius = 0.5,					
+            DamageRadius = 0.0,					
             DamageType = 'Normal',
             DisplayName = 'Sonic Pulse Battery',
             FireTargetLayerCapsTable = {
@@ -232,9 +235,9 @@ UnitBlueprint {
             FiringRandomness = 0.2,
             FiringTolerance = 0.5,
             Label = 'AAGun',
-            MaxRadius = 40,
+            MaxRadius = 45,
             MuzzleSalvoDelay = 0.2,
-            MuzzleSalvoSize = 3,
+            MuzzleSalvoSize = 6,
             MuzzleVelocity = 45,
             ProjectileId = '/projectiles/AAASonicPulse01/AAASonicPulse01_proj.bp',
             ProjectileLifetimeUsesMultiplier = 1.25,
@@ -255,7 +258,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_AntiAir',
-            RateOfFire = 0.85,
+            RateOfFire = 0.4,
             TargetCheckInterval = 0.3,
             TargetPriorities = {
                 'SPECIALHIGHPRI',

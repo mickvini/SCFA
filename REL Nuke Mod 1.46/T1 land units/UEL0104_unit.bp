@@ -63,6 +63,9 @@ UnitBlueprint {
     Description = '<LOC uel0104_desc>Mobile Anti-Air Gun',
     Display = {
         Abilities = {
+            'AAGun - 27.5 DPS / R - 50 / S - 0',		
+            'Speed - 2.8',		
+            'Vision - 25',			
             '<LOC ability_aa>Anti-Air',
         },
         Mesh = {
@@ -116,9 +119,9 @@ UnitBlueprint {
         UniformScale = 0.065,
     },
     Economy = {
-        BuildCostEnergy = 37,
-        BuildCostMass = 37,
-        BuildTime = 14800,
+        BuildCostEnergy = 25,
+        BuildCostMass = 25,
+        BuildTime = 10000,
         ResearchMultTime = 4,
         ResearchMultEnergy = 250,
         ResearchMultMass = 12.5,	
@@ -215,8 +218,8 @@ UnitBlueprint {
             BallisticArc = 'RULEUBA_None',
             CannotAttackGround = true,
             CollideFriendly = false,
-            Damage = 24,
-            DamageRadius = 0.5,					
+            Damage = 55,
+            DamageRadius = 0,					
             DamageType = 'Normal',
             DisplayName = 'Linked Railgun',
             FireTargetLayerCapsTable = {
@@ -227,7 +230,7 @@ UnitBlueprint {
             FiringRandomness = 0,
             FiringTolerance = 1,
             Label = 'AAGun',
-            MaxRadius = 45,
+            MaxRadius = 50,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 45,
@@ -250,7 +253,7 @@ UnitBlueprint {
             RackSalvoSize = 2,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_AntiAir',
-            RateOfFire = 1,
+            RateOfFire = 0.25,
             TargetCheckInterval = 0.3,
             TargetPriorities = {
                 'SPECIALHIGHPRI',

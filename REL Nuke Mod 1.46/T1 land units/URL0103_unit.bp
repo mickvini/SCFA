@@ -66,6 +66,10 @@ UnitBlueprint {
     Description = '<LOC url0103_desc>Mobile Light Artillery',
     Display = {
         Abilities = {
+            'Damage - 195',
+            'Main Weapon - 19.5 DPS / R - 85 / S - 2',		
+            'Speed - 2.9',		
+            'Vision - 10',				
             '<LOC ability_stun>EMP Weapon',
         },
         AnimationDeath = {

@@ -129,7 +129,7 @@ UnitBlueprint {
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
         TeleportTimeMod = 0.01,
-        ResearchMultTime = 4,
+        ResearchMultTime = 2,
         ResearchMultEnergy = 1500,
         ResearchMultMass = 1,		
     },

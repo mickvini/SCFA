@@ -66,6 +66,10 @@ UnitBlueprint {
     Description = '<LOC xsl0103_desc>Mobile Light Artillery',
     Display = {
         Abilities = {
+            'Damage - 450',
+            'Main Weapon - 22.5 DPS / R - 80 / S - 1.5',		
+            'Speed - 2.7',		
+            'Vision - 10',			
             '<LOC ability_hover>Hover',
         },
         IdleEffects = {
