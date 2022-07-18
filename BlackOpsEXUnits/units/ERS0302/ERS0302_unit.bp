@@ -47,7 +47,6 @@ UnitBlueprint {
 		'PRODUCTBREWLANRND',
         'SELECTABLE',
         'FACTORYCYBRANNM',
-        'CYBRAN',
         'MOBILE',
         'NAVAL',
         'TECH3',

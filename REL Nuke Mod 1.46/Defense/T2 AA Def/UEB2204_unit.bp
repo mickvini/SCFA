@@ -120,7 +120,7 @@ UnitBlueprint {
         BuildCostEnergy = 350,
         BuildCostMass = 175,
         BuildTime = 3500,
-        ResearchMultTime = 1,
+        ResearchMultTime = 10,
         ResearchMultEnergy = 1000,
         ResearchMultMass = 1,		
         RebuildBonusIds = {
@@ -173,7 +173,7 @@ UnitBlueprint {
             LAYER_Orbit = false,
             LAYER_Seabed = false,
             LAYER_Sub = false,
-            LAYER_Water = true,
+            LAYER_Water = false,
         },
         DragCoefficient = 0.2,
         FlattenSkirt = true,

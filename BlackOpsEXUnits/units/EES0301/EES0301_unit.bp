@@ -74,7 +74,6 @@ UnitBlueprint {
         'SELECTABLE',
         'BUILTBYTIER2FACTORY',
         'BUILTBYTIER3FACTORY',
-        'UEF',
         'MOBILE',
         'NAVAL',
         'TECH3',

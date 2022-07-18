@@ -54,7 +54,6 @@ UnitBlueprint {
         'SELECTABLE',
         'FACTORYUEFNM',
         'FACTORYUEFNH',		
-        'UEF',
         'MOBILE',
         'NAVAL',
         'TECH2',

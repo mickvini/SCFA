@@ -255,7 +255,7 @@ UnitBlueprint {
                     AppliedToTarget = true,
                     BuffType = 'STUN',
                     Duration = 15,
-                    Radius = 40,
+                    Radius = 25,
                     TargetAllow = 'ALLUNITS',
                 },
             },

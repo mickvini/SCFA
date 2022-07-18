@@ -70,7 +70,6 @@ UnitBlueprint {
         'PRODUCTSC1',
         'SELECTABLE',
         'BUILTBYTIER3FACTORY',
-        'CYBRAN',
         'MOBILE',
         'NAVAL',
         'TECH3',

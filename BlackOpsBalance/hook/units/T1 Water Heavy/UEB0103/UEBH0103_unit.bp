@@ -110,12 +110,12 @@ UnitBlueprint {
             IconFadeInZoom = 130,
             LODs = {
                 {
-                    LODCutoff = 200,
+                    LODCutoff = 400,
                     ShaderName = 'Unit',
                 },
                 {
                     AlbedoName = 'uebh0103_lod1_albedo.dds',
-                    LODCutoff = 600,
+                    LODCutoff = 1200,
                     ShaderName = 'Unit',
                     SpecularName = 'uebh0103_lod1_specteam.dds',
                 },
@@ -126,10 +126,10 @@ UnitBlueprint {
         UniformScale = 0.083,
     },
     Economy = {
-        BuildCostEnergy = 1200,
-        BuildCostMass = 800,
-        BuildRate = 400,
-        BuildTime = 32000,
+        BuildCostEnergy = 3000,
+        BuildCostMass = 2000,
+        BuildRate = 900,
+        BuildTime = 80000,
         BuildableCategory = {
             'FACTORYUEFNL',
         },
@@ -140,8 +140,8 @@ UnitBlueprint {
             'ueb0203',
             'ueb0303',
         },
-        StorageEnergy = 200,
-        StorageMass = 200,
+        StorageEnergy = 1500,
+        StorageMass = 1000,
     },
     Footprint = {
         MinWaterDepth = 1.5,

@@ -52,7 +52,6 @@ UnitBlueprint {
         'BUILTBYTIER3COMMANDER',
         'BUILTBYTIER3ENGINEER',
         'NEEDMOBILEBUILD',		
-        'CYBRAN',
         'MOBILE',
         'NAVAL',
         'TECH3',

@@ -48,7 +48,6 @@ UnitBlueprint {
         'PRODUCTFA',
         'SELECTABLE',
         'SERAPHIMEXPLAND',
-        'SERAPHIM',
         'MOBILE',
         'NEEDMOBILEBUILD',		
         'NAVAL',

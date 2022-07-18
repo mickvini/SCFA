@@ -67,7 +67,6 @@ UnitBlueprint {
         'SELECTABLE',
         'BUILTBYTIER3COMMANDER',
         'BUILTBYTIER3ENGINEER',
-        'UEF',
         'MOBILE',
         'NAVAL',
         'NEEDMOBILEBUILD',

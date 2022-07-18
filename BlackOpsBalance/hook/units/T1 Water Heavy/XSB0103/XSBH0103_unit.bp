@@ -111,13 +111,13 @@ UnitBlueprint {
             IconFadeInZoom = 130,
             LODs = {
                 {
-                    LODCutoff = 200,
+                    LODCutoff = 400,
                     LookupName = '/textures/environment/Falloff_seraphim_lookup.dds',
                     ShaderName = 'Seraphim',
                 },
                 {
                     AlbedoName = 'xsbh0103_lod1_albedo.dds',
-                    LODCutoff = 600,
+                    LODCutoff = 1200,
                     LookupName = '/textures/environment/Falloff_seraphim_lookup.dds',
                     ShaderName = 'Seraphim',
                     SpecularName = 'xsbh0103_lod1_specteam.dds',
@@ -129,10 +129,10 @@ UnitBlueprint {
         UniformScale = 0.05,
     },
     Economy = {
-        BuildCostEnergy = 1125,
-        BuildCostMass = 750,
-        BuildRate = 400,
-        BuildTime = 30000,
+        BuildCostEnergy = 2812.5,
+        BuildCostMass = 1875,
+        BuildRate = 900,
+        BuildTime = 75000,
         BuildableCategory = {
             'FACTORYSERAPHIMNL',
         },
@@ -143,8 +143,8 @@ UnitBlueprint {
             'xsb0203',
             'xsb0303',
         },
-        StorageEnergy = 200,
-        StorageMass = 200,
+        StorageEnergy = 1500,
+        StorageMass = 1000,
     },
     Footprint = {
         MinWaterDepth = 1.5,
@@ -209,13 +209,13 @@ UnitBlueprint {
         RollOffPoints = {
             {
                 UnitSpin = 180,
-                X = -4,
+                X = 4,
                 Y = 0,
                 Z = -10,
             },
             {
                 UnitSpin = 0,
-                X = -4,
+                X = 4,
                 Y = 0,
                 Z = 10,
             },

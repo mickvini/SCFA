@@ -111,12 +111,12 @@ UnitBlueprint {
             IconFadeInZoom = 130,
             LODs = {
                 {
-                    LODCutoff = 200,
+                    LODCutoff = 400,
                     ShaderName = 'Insect',
                 },
                 {
                     AlbedoName = 'urbh0103_lod1_albedo.dds',
-                    LODCutoff = 600,
+                    LODCutoff = 1200,
                     ShaderName = 'Insect',
                     SpecularName = 'urbh0103_lod1_specteam.dds',
                 },
@@ -126,10 +126,10 @@ UnitBlueprint {
         UniformScale = 0.1,
     },
     Economy = {
-        BuildCostEnergy = 975,
-        BuildCostMass = 650,
-        BuildRate = 400,
-        BuildTime = 26000,
+        BuildCostEnergy = 2437.5,
+        BuildCostMass = 1625,
+        BuildRate = 900,
+        BuildTime = 65000,
         BuildableCategory = {
             'FACTORYCYBRANNL',
         },
@@ -140,8 +140,8 @@ UnitBlueprint {
             'urb0203',
             'urb0303',
         },
-        StorageEnergy = 200,
-        StorageMass = 200,
+        StorageEnergy = 1500,
+        StorageMass = 1000,
     },
     Footprint = {
         MinWaterDepth = 1.5,

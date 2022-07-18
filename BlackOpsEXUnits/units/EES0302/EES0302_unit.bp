@@ -50,7 +50,6 @@ UnitBlueprint {
     	'PRODUCTFA',
         'SELECTABLE',
         'FACTORYUEFNM',
-        'UEF',
         'MOBILE',
         'NAVAL',
         'TECH3',

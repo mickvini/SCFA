@@ -15,17 +15,21 @@ UAS0203 = Class(ASubUnit) {
     DeathThreadDestructionWaitTime = 0,
     Weapons = {
         Torpedo01 = Class(AANChronoTorpedoWeapon) {},
-    },
+    },	
     OnLayerChange = function( self, new, old )
         ASubUnit.OnLayerChange(self, new, old)
         if new == 'Water' then
             self:SetSpeedMult(1)
-            self:SetIntelRadius('Vision', 60)		
+            self:SetIntelRadius('Vision', 40)		
         elseif new == 'Sub' then
             self:SetSpeedMult(0.5)
-            self:SetIntelRadius('Vision', 15)			 
+            self:SetIntelRadius('Vision', 10)			 
         end
     end,
+    OnCreate = function(self)
+        ASubUnit.OnCreate(self)
+        self:SetMaintenanceConsumptionActive()
+    end,	
 }
 
 TypeClass = UAS0203

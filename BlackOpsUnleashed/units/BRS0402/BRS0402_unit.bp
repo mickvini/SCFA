@@ -59,7 +59,6 @@ UnitBlueprint {
         'SELECTABLE',
         'BUILTBYTIER3ENGINEER',
         'BUILTBYTIER3COMMANDER',
-        'CYBRAN',
         'MOBILE',
         'NAVAL',
         'EXPERIMENTAL',

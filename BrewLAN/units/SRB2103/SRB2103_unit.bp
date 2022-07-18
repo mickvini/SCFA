@@ -196,7 +196,7 @@ UnitBlueprint {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',
             },
-            FiringRandomness = 2.5,
+            FiringRandomness = 3.75,
             FiringTolerance = 1,
             Label = 'MainGun',
             MaxRadius = 120,
@@ -223,6 +223,7 @@ UnitBlueprint {
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_IndirectFire',
             RateOfFire = 0.025,
+            MuzzleVelocityReduceDistance = 100,					
             RenderFireClock = true,
             TargetCheckInterval = 4,
             TargetPriorities = {

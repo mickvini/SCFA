@@ -49,7 +49,6 @@ UnitBlueprint {
         'PRODUCTFA',
         'SELECTABLE',
         'FACTORYSERAPHIMNH',
-        'SERAPHIM',
         'MOBILE',
         'NAVAL',
         'TECH3',

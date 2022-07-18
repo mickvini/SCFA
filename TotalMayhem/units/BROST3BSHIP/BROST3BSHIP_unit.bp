@@ -52,7 +52,6 @@ UnitBlueprint {
         'SELECTABLE',
         'BUILTBYTIER3COMMANDER',
         'BUILTBYTIER3ENGINEER',
-        'AEON',
         'MOBILE',
         'TECH3',
         'NEEDMOBILEBUILD',		

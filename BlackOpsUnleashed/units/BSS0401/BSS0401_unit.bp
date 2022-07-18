@@ -51,7 +51,6 @@ UnitBlueprint {
         'PRODUCTFA',
         'SELECTABLE',
         'SERAPHIMEXPLAND',
-        'SERAPHIM',
         'MOBILE',
         'NAVAL',
         'EXPERIMENTAL',

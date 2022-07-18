@@ -51,7 +51,6 @@ UnitBlueprint {
         'PRODUCTSC1',
         'SELECTABLE',
         'FACTORYUEFNL',		
-        'UEF',
         'MOBILE',
         'NAVAL',
         'TECH1',

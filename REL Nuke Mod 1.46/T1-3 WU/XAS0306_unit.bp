@@ -51,7 +51,6 @@ UnitBlueprint {
         'PRODUCTFA',
         'SELECTABLE',
         'FACTORYAEONNH',
-        'AEON',
         'MOBILE',
         'NAVAL',
         'EXPERIMENTAL',

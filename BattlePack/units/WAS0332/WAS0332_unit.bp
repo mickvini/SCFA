@@ -46,7 +46,6 @@ UnitBlueprint {
         'PRODUCTEXPANSION',
         'SELECTABLE',
         'FACTORYAEONNH',
-        'AEON',
         'MOBILE',
         'NAVAL',
         'TECH3',

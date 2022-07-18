@@ -42,6 +42,21 @@ URS0203 = Class(CSubUnit) {
 			end
 		end
 	end,
+	
+    OnLayerChange = function( self, new, old )
+        CSubUnit.OnLayerChange(self, new, old)
+        if new == 'Water' then
+            self:SetSpeedMult(1)
+            self:SetIntelRadius('Vision', 40)		
+        elseif new == 'Sub' then
+            self:SetSpeedMult(0.5)
+            self:SetIntelRadius('Vision', 10)			 
+        end
+    end,
+    OnCreate = function(self)
+        CSubUnit.OnCreate(self)
+        self:SetMaintenanceConsumptionActive()
+    end,		
 }
 
 TypeClass = URS0203

@@ -213,6 +213,7 @@ UnitBlueprint {
     },
     Intel = {
         VisionRadius = 30,
+        WaterVisionRadius = 5,		
     },
     Interface = {
         HelpText = '<LOC uaa0101_help>Air Scout',

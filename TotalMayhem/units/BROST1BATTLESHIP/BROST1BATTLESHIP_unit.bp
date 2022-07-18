@@ -48,7 +48,6 @@ UnitBlueprint {
 		'PRODUCTBREWLANRND',
         'PRODUCTSC1',
         'SELECTABLE',
-        'FACTORYAEONNM',
         'AEON',
         'MOBILE',
         'NAVAL',

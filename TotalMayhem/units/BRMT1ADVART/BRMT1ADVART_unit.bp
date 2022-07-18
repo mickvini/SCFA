@@ -216,7 +216,7 @@ UnitBlueprint {
             DisplayName = 'Gauss Cannon',
             EnergyDrainPerSecond = 8.5,
             EnergyRequired = 85,
-            FiringRandomness = 0.35,
+            FiringRandomness = 2.5,
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water',
                 Water = 'Land|Water',

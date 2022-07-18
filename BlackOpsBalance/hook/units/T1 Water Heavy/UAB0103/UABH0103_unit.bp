@@ -103,12 +103,12 @@ UnitBlueprint {
             IconFadeInZoom = 130,
             LODs = {
                 {
-                    LODCutoff = 200,
+                    LODCutoff = 400,
                     ShaderName = 'Aeon',
                 },
                 {
                     AlbedoName = 'uabh0103_lod1_albedo.dds',
-                    LODCutoff = 600,
+                    LODCutoff = 1200,
                     ShaderName = 'Aeon',
                     SpecularName = 'uabh0103_lod1_specteam.dds',
                 },
@@ -119,10 +119,10 @@ UnitBlueprint {
         UniformScale = 0.09,
     },
     Economy = {
-        BuildCostEnergy = 1050,
-        BuildCostMass = 700,
-        BuildRate = 400,
-        BuildTime = 28000,
+        BuildCostEnergy = 2550,
+        BuildCostMass = 1700,
+        BuildRate = 900,
+        BuildTime = 68000,
         BuildableCategory = {
             'FACTORYAEONNL',
         },
@@ -133,8 +133,8 @@ UnitBlueprint {
             'uab0203',
             'uab0303',
         },
-        StorageEnergy = 200,
-        StorageMass = 200,
+        StorageEnergy = 1500,
+        StorageMass = 1000,
     },
     Footprint = {
         MinWaterDepth = 1.5,
