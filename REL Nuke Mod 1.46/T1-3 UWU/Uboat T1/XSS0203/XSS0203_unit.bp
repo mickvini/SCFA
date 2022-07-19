@@ -324,7 +324,7 @@ UnitBlueprint {
             Label = 'Torpedo01',
             MaxRadius = 65,
             RenderFireClock = true,					
-            MuzzleSalvoDelay = 0.8,
+            MuzzleSalvoDelay = 1.6,
             MuzzleSalvoSize = 2,
             MuzzleVelocity = 5,
             ProjectileId = '/projectiles/SANUallCavitationTorpedo02/SANUallCavitationTorpedo02_proj.bp',

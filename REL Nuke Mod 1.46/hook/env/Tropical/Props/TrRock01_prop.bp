@@ -3,8 +3,8 @@ PropBlueprint {
         'RECLAIMABLE',
     },
     Defense = {
-        Health = 200000,
-        MaxHealth = 200000,
+        Health = 1000,
+        MaxHealth = 1000,
     },
     Display = {
         Mesh = {
@@ -14,27 +14,24 @@ PropBlueprint {
 
                     # share other rock's albedo and specteam
                     LODCutoff = 400,
-                    ShaderName = 'NormalMappedTerrain',
+                    ShaderName = 'TMeshNoNormals',
                 },
             },
         },
-        UniformScale = 0.1,
+        UniformScale = 0.05,
     },
     Economy = {
         ReclaimEnergyMax = '',
-        ReclaimMassMax = 100000,
-        ReclaimTime = 1800000,
-    },
-    Footprint = {
-        OccupancyCaps = 3,
+        ReclaimMassMax = 1000,
+        ReclaimTime = 6000,
     },
     Interface = {
-        HelpText = 'Large Rock',
+        HelpText = 'Small Rock',
     },
     Physics = {
         BlockPath = true,
     },
-    SizeX = 2,
-    SizeY = 2.25,
-    SizeZ = 3,
+    SizeX = 0.25,
+    SizeY = 0.25,
+    SizeZ = 0.25,
 }

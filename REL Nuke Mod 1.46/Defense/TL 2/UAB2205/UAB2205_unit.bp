@@ -238,7 +238,7 @@ UnitBlueprint {
             FiringTolerance = 60,
             Label = 'Turret01',
             MaxRadius = 80,
-            MuzzleSalvoDelay = 1.2,
+            MuzzleSalvoDelay = 2.4,
             MuzzleSalvoSize = 4,
             MuzzleVelocity = 5,
             ProjectileId = '/projectiles/AANTorpedoChronoPack01/AANTorpedoChronoPack01_proj.bp',

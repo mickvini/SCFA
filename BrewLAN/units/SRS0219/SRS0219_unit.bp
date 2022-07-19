@@ -165,12 +165,12 @@ UnitBlueprint {
         BuildTime = 960000,
         BuildRate = 1200,
         BuildableCategory = {
-            'BUILTBYTIER2ENGINEER NAVAL CYBRAN',
             'BUILTBYTIER2ENGINEER ANTINAVY CYBRAN',
             'BUILTBYTIER2ENGINEER ANTIAIR CYBRAN',
             'BUILTBYTIER2ENGINEER ANTIMISSILE CYBRAN',
             'BUILTBYTIER2ENGINEER MINE CYBRAN',
-            'BUILTBYTIER2FIELD NAVAL CYBRAN',
+            'BUILTBYTIER2ENGINEER SHIELD CYBRAN',				
+            'BUILTBYTIER2FIELD SHIELD CYBRAN',			
             'BUILTBYTIER2FIELD ANTINAVY CYBRAN',
             'BUILTBYTIER2FIELD ANTIAIR CYBRAN',
             'BUILTBYTIER2FIELD ANTIMISSILE CYBRAN',
@@ -324,7 +324,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_AntiAir',
-            RateOfFire = 0.625,
+            RateOfFire = 1.25,
             TargetCheckInterval = 0.3,
             TargetPriorities = {
                 'SPECIALHIGHPRI',

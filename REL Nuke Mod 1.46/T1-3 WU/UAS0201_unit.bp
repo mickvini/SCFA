@@ -177,7 +177,7 @@ UnitBlueprint {
     Intel = {
         SonarRadius = 125,
         VisionRadius = 70,
-        WaterVisionRadius = 10,
+        WaterVisionRadius = 30,
         OmniRadius = 5,		
     },
     Interface = {

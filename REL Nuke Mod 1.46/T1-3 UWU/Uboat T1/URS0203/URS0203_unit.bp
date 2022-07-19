@@ -333,7 +333,7 @@ UnitBlueprint {
             FiringTolerance = 2,
             Label = 'Torpedo01',
             MaxRadius = 65,
-            MuzzleSalvoDelay = 0.8,
+            MuzzleSalvoDelay = 1.2,
             MuzzleSalvoSize = 3,
             MuzzleVelocity = 5,
             ProjectileId = '/projectiles/CANTorpedoNanite01/CANTorpedoNanite01_proj.bp',

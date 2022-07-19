@@ -3,8 +3,8 @@ PropBlueprint {
         'RECLAIMABLE',
     },
     Defense = {
-        Health = 5000,
-        MaxHealth = 5000,
+        Health = 15000,
+        MaxHealth = 15000,
     },
     Display = {
         Mesh = {
@@ -20,7 +20,7 @@ PropBlueprint {
     },
     Economy = {
         ReclaimEnergyMax = '',
-        ReclaimMassMax = 7500,
+        ReclaimMassMax = 15000,
         ReclaimTime = 90000,
     },
     Interface = {

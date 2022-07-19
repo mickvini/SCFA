@@ -202,8 +202,8 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        OmniRadius = 25,
-        VisionRadius = 25,
+        OmniRadius = 15,
+        VisionRadius = 40,
     },
     Interface = {
         HelpText = '<LOC uaa0302_help>Spy Plane',

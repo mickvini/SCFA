@@ -216,8 +216,8 @@ UnitBlueprint {
     Intel = {
         RadarStealth = true,
         SonarRadius = 100,
-        OmniRadius = 25,
-        VisionRadius = 25,
+        OmniRadius = 15,
+        VisionRadius = 40,
     },
     Interface = {
         HelpText = '<LOC ura0302_help>Spy Plane',
