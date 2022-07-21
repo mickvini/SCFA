@@ -15,6 +15,17 @@ BROT1LT = Class(AHoverLandUnit) {
     Weapons = {
         MainGun = Class(ADFDisruptorCannonWeapon) {}
     },
+   OnLayerChange = function(self, new, old)
+        AHoverLandUnit.OnLayerChange(self, new, old)
+        if( old != 'None' ) then
+            if( new == 'Land' ) then
+           	self:SetSpeedMult(1)
+            elseif( new == 'Water' ) then
+                self:SetSpeedMult(1.5)
+            end
+     	end
+    end,	
+	
 }
 TypeClass = BROT1LT
 

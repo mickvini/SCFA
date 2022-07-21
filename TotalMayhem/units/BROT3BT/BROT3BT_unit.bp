@@ -81,8 +81,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Land 3.1',
         EconomyThreatLevel = 0,
-        Health = 4250,
-        MaxHealth = 4250,
+        Health = 18500,
+        MaxHealth = 18500,
         RegenRate = 0,
         Shield = {
             ImpactEffects = 'AeonShieldHit01',
@@ -194,9 +194,9 @@ UnitBlueprint {
         UniformScale = 0.028,
     },
     Economy = {
-        BuildCostEnergy = 881.5,
-        BuildCostMass = 205,
-        BuildTime = 82000,
+        BuildCostEnergy = 2021,
+        BuildCostMass = 470,
+        BuildTime = 188000,
         ResearchMultTime = 4,
         ResearchMultEnergy = 4300,
         ResearchMultMass = 4.3,			

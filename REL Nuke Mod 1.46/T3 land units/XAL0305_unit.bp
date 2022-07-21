@@ -145,8 +145,8 @@ UnitBlueprint {
     },
     Economy = {
         BuildCostEnergy = 341.25,
-        BuildCostMass = 87.5,
-        BuildTime = 70000,
+        BuildCostMass = 110,
+        BuildTime = 88000,
         ResearchMultTime = 4,
         ResearchMultEnergy = 3900,
         ResearchMultMass = 3.9,		
@@ -245,7 +245,9 @@ UnitBlueprint {
             BallisticArc = 'RULEUBA_None',
             CollideFriendly = false,
             Damage = 1300,
-            DamageRadius = 0,
+            DamageRadius = 0,			
+            EnergyDrainPerSecond = 55,
+            EnergyRequired = 1300,				
             DamageType = 'Normal',
             DisplayName = 'Heavy Disruptor Cannon',
             FireTargetLayerCapsTable = {

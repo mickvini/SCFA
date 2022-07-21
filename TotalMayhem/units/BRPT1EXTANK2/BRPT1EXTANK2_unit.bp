@@ -65,8 +65,8 @@ UnitBlueprint {
         AirThreatLevel = 0.33,
         ArmorType = 'Land 2.4',
         EconomyThreatLevel = 0,
-        Health = 16200,
-        MaxHealth = 16200,
+        Health = 57000,
+        MaxHealth = 57000,
         RegenRate = 1,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
@@ -171,11 +171,11 @@ UnitBlueprint {
         UniformScale = 0.17,
     },
     Economy = {
-        BuildCostEnergy = 19700,
-        BuildCostMass = 985,
-        BuildTime = 39400,
+        BuildCostEnergy = 76500,
+        BuildCostMass = 2550,
+        BuildTime = 102000,
         ResearchMultTime = 1,
-        ResearchMultEnergy = 2,
+        ResearchMultEnergy = 3,
         ResearchMultMass = 0.25,		
     },
     General = {
@@ -255,11 +255,11 @@ UnitBlueprint {
         TransportClass = 4,
     },
     Veteran = {
-        Level1 = 25,
-        Level2 = 50,
-        Level3 = 75,
-        Level4 = 100,
-        Level5 = 125,
+        Level1 = 50,
+        Level2 = 100,
+        Level3 = 150,
+        Level4 = 200,
+        Level5 = 250,
     },
     Weapon = {
         {

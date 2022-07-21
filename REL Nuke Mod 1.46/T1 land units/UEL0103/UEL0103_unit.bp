@@ -59,8 +59,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Normal',
         EconomyThreatLevel = 0,
-        Health = 200,
-        MaxHealth = 200,
+        Health = 800,
+        MaxHealth = 800,
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1.5,
@@ -68,7 +68,7 @@ UnitBlueprint {
     Description = '<LOC uel0103_desc>Mobile Light Artillery',
     Display = {
         Abilities = {
-            'Damage - 240',
+            'Damage - 240 (x2 Vs Shield)',
             'Main Weapon - 75 DPS / R - 95 / S - 2',		
             'Speed - 2.5',		
             'Vision - 10',			
@@ -123,14 +123,14 @@ UnitBlueprint {
         UniformScale = 0.065,
     },
     Economy = {
-        BuildCostEnergy = 87,
-        BuildCostMass = 58,
-        BuildTime = 46400,
+        BuildCostEnergy = 67.5,
+        BuildCostMass = 67.5,
+        BuildTime = 540000,
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
         TeleportTimeMod = 0.01,
-        ResearchMultTime = 2,
-        ResearchMultEnergy = 1500,
+        ResearchMultTime = 0.5,
+        ResearchMultEnergy = 1000,
         ResearchMultMass = 1,		
     },
     General = {
@@ -203,11 +203,11 @@ UnitBlueprint {
     StrategicIconName = 'icon_land1_artillery',
     StrategicIconSortPriority = 135,
     Veteran = {
-        Level1 = 5,
-        Level2 = 10,
-        Level3 = 15,
-        Level4 = 20,
-        Level5 = 25,
+        Level1 = 3,
+        Level2 = 6,
+        Level3 = 9,
+        Level4 = 12,
+        Level5 = 15,
     },
     Weapon = {
         {

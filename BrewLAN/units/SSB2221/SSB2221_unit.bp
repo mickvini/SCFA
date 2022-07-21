@@ -96,7 +96,7 @@ UnitBlueprint {
     Economy = {
         BuildCostEnergy = 40.00,
         BuildCostMass = 10.0,
-        BuildTime = 200,
+        BuildTime = 800,
     },
     Footprint = {
         SizeX = 0,
@@ -187,7 +187,7 @@ UnitBlueprint {
     Weapon = {
         {
             CollideFriendly = false,
-            Damage = 4500,
+            Damage = 9000,
             DamageFriendly = true,
             DamageRadius = 5,
             DamageType = 'Normal',

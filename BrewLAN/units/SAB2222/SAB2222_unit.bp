@@ -89,11 +89,11 @@ UnitBlueprint {
         'ALLUNITS',
     },
     Economy = {
-        BuildCostEnergy = 10000,
-        BuildCostMass = 60.0,
-        BuildTime = 600*10,
-        ResearchMultTime = 10,
-        ResearchMultEnergy = 20,
+        BuildCostEnergy = 100000,
+        BuildCostMass = 30,
+        BuildTime = 18000,
+        ResearchMultTime = 1,
+        ResearchMultEnergy = 10,
         ResearchMultMass = 0.25,		
         RebuildBonusIds = {
             'seb2220',
@@ -209,14 +209,14 @@ UnitBlueprint {
             ManualFire = 1,
             MaxRadius = 30,
 
-            NukeInnerRingDamage = 18750,
+            NukeInnerRingDamage = 40000,
             NukeInnerRingRadius = 20,
             NukeInnerRingTicks = 20,
             NukeInnerRingTotalTime = 0,
 
-            NukeOuterRingDamage = 2000,
-            NukeOuterRingRadius = 50,
-            NukeOuterRingTicks = 50,
+            NukeOuterRingDamage = 15000,
+            NukeOuterRingRadius = 65,
+            NukeOuterRingTicks = 65,
             NukeOuterRingTotalTime = 0,
 
             ProjectileId = '/mods/brewlan/effects/entities/QuantumWarheadEffectController/QuantumWarheadEffectController_proj.bp',

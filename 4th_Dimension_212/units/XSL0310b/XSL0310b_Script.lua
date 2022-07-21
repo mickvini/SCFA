@@ -37,7 +37,7 @@ XSL0310b = Class(SAirUnit) {
     end,
 	
 	OnDamage = function(self, instigator, amount, vector, damagetype)
-        local damageReduction = 8
+        local damageReduction = 4
         amount = math.ceil(amount * damageReduction)
         SAirUnit.OnDamage(self, instigator, amount, vector, damagetype)
     end,

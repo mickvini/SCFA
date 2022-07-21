@@ -59,14 +59,20 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Normal',
         EconomyThreatLevel = 0,
-        Health = 3200,
-        MaxHealth = 3200,
+        Health = 12800,
+        MaxHealth = 12800,
         RegenRate = 1,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 3,
     },
     Description = 'Rocket Battery',
     Display = {
+        Abilities = {
+            'Damage - 1760*5',
+            'Main Weapon - 220 DPS / R - 195 / S - 4',
+            'Speed - 2.5',		
+            'Vision - 30',				
+        },		
         Mesh = {
             IconFadeInZoom = 150,
             LODs = {
@@ -113,12 +119,12 @@ UnitBlueprint {
         UniformScale = 0.07,
     },
     Economy = {
-        BuildCostEnergy = 1750,
-        BuildCostMass = 350,
-        BuildTime = 280000,
-        ResearchMultTime = 2,
+        BuildCostEnergy = 4275,
+        BuildCostMass = 855,
+        BuildTime = 342000,
+        ResearchMultTime = 0.5,
         ResearchMultEnergy = 5000,
-        ResearchMultMass = 5,				
+        ResearchMultMass = 1,				
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
         TeleportTimeMod = 0.01,
@@ -147,7 +153,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        VisionRadius = 40,
+        VisionRadius = 30,
     },
     Interface = {
         HelpText = 'Rocket Battery',
@@ -228,7 +234,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 880,
+            Damage = 1760,
             DamageRadius = 4,
             DamageType = 'Normal',
             DisplayName = 'Gauss Cannon',

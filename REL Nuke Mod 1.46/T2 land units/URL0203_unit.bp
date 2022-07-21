@@ -69,13 +69,13 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Land 3.7',
         EconomyThreatLevel = 0,
-        Health = 335,
-        MaxHealth = 335,
+        Health = 1340,
+        MaxHealth = 1340,
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 4.5,
     },
-    Description = 'Light Amphibious Rocket Tank',
+    Description = 'Light Amphibious Tank',
     Display = {
         Abilities = {
             'Armor - 13%',
@@ -129,9 +129,9 @@ UnitBlueprint {
         UniformScale = 0.125,
     },
     Economy = {
-        BuildCostEnergy = 193.75,
-        BuildCostMass = 77.5,
-        BuildTime = 31000,
+        BuildCostEnergy = 262.5,
+        BuildCostMass = 105,
+        BuildTime = 42000,
         ResearchMultTime = 4,
         ResearchMultEnergy = 2500,
         ResearchMultMass = 2.5,			
@@ -164,7 +164,7 @@ UnitBlueprint {
     },
     Intel = {
         VisionRadius = 35,
-        WaterVisionRadius = 15,
+        WaterVisionRadius = 5,
     },
     Interface = {
         HelpText = '<LOC url0203_help>Amphibious Tank',
@@ -210,11 +210,11 @@ UnitBlueprint {
         TransportClass = 1,
     },
     Veteran = {
-        Level1 = 4,
-        Level2 = 8,
-        Level3 = 12,
-        Level4 = 16,
-        Level5 = 20,
+        Level1 = 8,
+        Level2 = 16,
+        Level3 = 24,
+        Level4 = 32,
+        Level5 = 40,
     },
     Weapon = {
         {
@@ -371,7 +371,9 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_None',
             CollideFriendly = false,
-            Damage = 6,
+            Damage = 50,
+            DoTPulses = 10,
+            DoTTime = 2,			
             DamageType = 'Normal',
             DisplayName = 'Meson Torpedo',
             FireTargetLayerCapsTable = {
@@ -379,9 +381,9 @@ UnitBlueprint {
             },
             FiringTolerance = 2,
             Label = 'Torpedo',
-            MaxRadius = 32,
-            MuzzleSalvoDelay = 0.8,
-            MuzzleSalvoSize = 2,
+            MaxRadius = 50,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
             MuzzleVelocity = 5,
             ProjectileId = '/projectiles/CANTorpedoMeson02/CANTorpedoMeson02_proj.bp',
             ProjectileLifetime = 6,
@@ -402,7 +404,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_AntiNavy',
-            RateOfFire = 0.25,
+            RateOfFire = 0.0125,
             TargetCheckInterval = 2.5,
             TargetPriorities = {
                 'SPECIALHIGHPRI',

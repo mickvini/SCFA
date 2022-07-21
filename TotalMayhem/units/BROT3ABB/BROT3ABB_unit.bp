@@ -87,8 +87,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Bot 2.4',
         EconomyThreatLevel = 0,
-        Health = 6000,
-        MaxHealth = 6000,
+        Health = 20000,
+        MaxHealth = 20000,
         RegenRate = 2,
         Shield = {
             ImpactEffects = 'AeonShieldHit01',
@@ -116,7 +116,6 @@ UnitBlueprint {
             'Speed - 2.4',		
             'Vision - 45',				
             'Personal Shield',
-            '<LOC ability_amphibious>Amphibious',
         },
         AnimationDeath = {
             {
@@ -175,10 +174,10 @@ UnitBlueprint {
         UniformScale = 0.024,
     },
     Economy = {
-        BuildCostEnergy = 1728,
-        BuildCostMass = 360,
-        BuildTime = 144000,
-        ResearchMultTime = 4,
+        BuildCostEnergy = 2880,
+        BuildCostMass = 600,
+        BuildTime = 240000,
+        ResearchMultTime = 1,
         ResearchMultEnergy = 4800,
         ResearchMultMass = 4.8,			
         MaintenanceConsumptionPerSecondEnergy = 6,
@@ -241,7 +240,7 @@ UnitBlueprint {
         MaxSpeedReverse = 0.205,
         MaxSteerForce = 10,
         MinSpeedPercent = 0,
-        MotionType = 'RULEUMT_Amphibious',
+        MotionType = 'RULEUMT_Land',
         SkirtOffsetX = -1.5,
         SkirtOffsetZ = -1.5,
         SkirtSizeX = 6,

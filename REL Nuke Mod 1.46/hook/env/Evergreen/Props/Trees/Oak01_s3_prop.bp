@@ -50,7 +50,7 @@ PropBlueprint {
         UniformScale = 0.06,
     },
     Economy = {
-        ReclaimEnergyMax = 1500,
+        ReclaimEnergyMax = 2000,
         ReclaimMassMax = 15,
         ReclaimTime = 750,
     },

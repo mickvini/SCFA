@@ -40,23 +40,23 @@ AIFMissileArrow01 = Class(AMissileArrowProjectile) {
         local dist = self:GetDistanceToTarget()     
         if dist > 40 and dist <= 50 then        
             self:SetTurnRate(80)
-            self:ChangeMaxZigZag(20)
+            self:ChangeMaxZigZag(10)
             self:ChangeZigZagFrequency(20)
         elseif dist > 30 and dist <= 40 then
-            self:SetTurnRate(100)
-            self:ChangeMaxZigZag(40)
+            self:SetTurnRate(90)
+            self:ChangeMaxZigZag(20)
             self:ChangeZigZagFrequency(40)
         elseif dist > 20 and dist <= 30 then
-            self:SetTurnRate(120)
-            self:ChangeMaxZigZag(60)
+            self:SetTurnRate(100)
+            self:ChangeMaxZigZag(30)
             self:ChangeZigZagFrequency(60)
         elseif dist > 10 and dist <= 20 then         
-            self:SetTurnRate(140) 
-            self:ChangeMaxZigZag(80) 
+            self:SetTurnRate(110) 
+            self:ChangeMaxZigZag(40) 
             self:ChangeZigZagFrequency(80) 
         elseif dist > 0 and dist <= 10 then         
-            self:SetTurnRate(160) 
-            self:ChangeMaxZigZag(100) 
+            self:SetTurnRate(120) 
+            self:ChangeMaxZigZag(50) 
             self:ChangeZigZagFrequency(100) 
             KillThread(self.HeartBeatThread)         
         end

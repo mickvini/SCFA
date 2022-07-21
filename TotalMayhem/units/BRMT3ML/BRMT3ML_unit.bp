@@ -59,14 +59,20 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Normal',
         EconomyThreatLevel = 0,
-        Health = 3000,
-        MaxHealth = 3000,
+        Health = 12000,
+        MaxHealth = 12000,
         RegenRate = 1,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 3,
     },
     Description = 'Rocket Battery',
     Display = {
+        Abilities = {
+            'Damage - 600*36',
+            'Main Weapon - 270 DPS / R - 170 / S - 4',
+            'Speed - 2.8',		
+            'Vision - 30',				
+        },	
         Mesh = {
             IconFadeInZoom = 150,
             LODs = {
@@ -114,12 +120,12 @@ UnitBlueprint {
         UniformScale = 0.045,
     },
     Economy = {
-        BuildCostEnergy = 2100,
-        BuildCostMass = 420,
-        BuildTime = 336000,
-        ResearchMultTime = 2,
+        BuildCostEnergy = 4650,
+        BuildCostMass = 930,
+        BuildTime = 744000,
+        ResearchMultTime = 0.5,
         ResearchMultEnergy = 5000,
-        ResearchMultMass = 5,			
+        ResearchMultMass = 1,			
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
         TeleportTimeMod = 0.01,
@@ -148,7 +154,7 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        VisionRadius = 40,
+        VisionRadius = 25,
     },
     Interface = {
         HelpText = 'Rocket Battery',
@@ -229,7 +235,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 300,
+            Damage = 600,
             DamageRadius = 4,
             DamageType = 'Normal',
             DamageFriendly = false,

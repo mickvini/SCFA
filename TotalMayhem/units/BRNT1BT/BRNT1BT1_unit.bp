@@ -60,8 +60,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Land 2.8',
         EconomyThreatLevel = 0,
-        Health = 850,
-        MaxHealth = 850,
+        Health = 3400,
+        MaxHealth = 3400,
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1,
@@ -70,7 +70,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             'Armor - 22.0%',
-            'Main Weapon - 50 DPS / R - 50 / S - 2',
+            'Main Weapon - 30 DPS / R - 50 / S - 2',
             'Secondary - 50 DPS / R - 10 / S - 0',			
             'Speed - 2.8',		
             'Vision - 20',			
@@ -121,10 +121,10 @@ UnitBlueprint {
         UniformScale = 0.059,
     },
     Economy = {
-        BuildCostEnergy = 145,
-        BuildCostMass = 72.5,
-        BuildTime = 29000,
-        ResearchMultTime = 4,
+        BuildCostEnergy = 202,
+        BuildCostMass = 101,
+        BuildTime = 40400,
+        ResearchMultTime = 1,
         ResearchMultEnergy = 2000,
         ResearchMultMass = 2.0,			
         TeleportEnergyMod = 0.15,
@@ -252,7 +252,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.125,
+            RateOfFire = 0.075,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'SPECIALHIGHPRI',

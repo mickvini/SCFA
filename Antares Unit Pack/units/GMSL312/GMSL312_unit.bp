@@ -57,8 +57,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Land 2.5',
         EconomyThreatLevel = 0,
-        Health = 10000,
-        MaxHealth = 10000,
+        Health = 40000,
+        MaxHealth = 40000,
         RegenRate = 1,
         Shield = {
             ImpactEffects = 'SeraphimShieldHit01',
@@ -211,13 +211,13 @@ UnitBlueprint {
         UniformScale = 0.1,
     },
     Economy = {
-        BuildCostEnergy = 1500,
-        BuildCostMass = 300,
-        BuildTime = 120000,
+        BuildCostEnergy = 4300,
+        BuildCostMass = 860,
+        BuildTime = 344000,
         ResearchMultTime = 2,
         ResearchMultEnergy = 5000,
         ResearchMultMass = 5.0,			
-        MaintenanceConsumptionPerSecondEnergy = 2,
+        MaintenanceConsumptionPerSecondEnergy = 1.5,
     },
     General = {
         Category = 'Direct Fire',
@@ -253,7 +253,6 @@ UnitBlueprint {
     },
     Intel = {
         VisionRadius = 40,
-        WaterVisionRadius = 20,
     },
     Interface = {
         HelpText = 'Battle Station',

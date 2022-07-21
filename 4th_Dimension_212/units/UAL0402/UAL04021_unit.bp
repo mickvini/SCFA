@@ -65,8 +65,8 @@ UnitBlueprint {
     CollisionOffsetY = 0.0,
     Defense = {
         ArmorType = 'Bot 1.4',
-        Health = 47500,
-        MaxHealth = 47500,
+        Health = 95000,
+        MaxHealth = 95000,
         RegenRate = 5,
         SurfaceThreatLevel = 27,
     },
@@ -170,9 +170,9 @@ UnitBlueprint {
         UniformScale = 0.12,
     },
     Economy = {
-        BuildCostEnergy = 83750,
-        BuildCostMass = 3350,
-        BuildTime = 536000,
+        BuildCostEnergy = 122500,
+        BuildCostMass = 4900,
+        BuildTime = 784000,
         ResearchMultTime = 0.25,
         ResearchMultEnergy = 2.5,
         ResearchMultMass = 0.25,		
@@ -254,11 +254,11 @@ UnitBlueprint {
         TransportClass = 4,
     },
     Veteran = {
-        Level1 = 80,
-        Level2 = 160,
-        Level3 = 240,
-        Level4 = 320,
-        Level5 = 400,
+        Level1 = 95,
+        Level2 = 190,
+        Level3 = 285,
+        Level4 = 380,
+        Level5 = 475,
     },
     Weapon = {
         {

@@ -56,8 +56,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Normal',
         EconomyThreatLevel = 0,
-        Health = 150,
-        MaxHealth = 150,
+        Health = 600,
+        MaxHealth = 600,
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1.5,
@@ -66,7 +66,7 @@ UnitBlueprint {
     Display = {
         Mesh = {
         Abilities = {
-            'Damage - 400',
+            'Damage - 400 (x2 Vs Shield)',
             'Main Weapon - 20 DPS / R - 90 / S - 0.75',		
             'Speed - 2.7',		
             'Vision - 10',			
@@ -125,13 +125,13 @@ UnitBlueprint {
         UniformScale = 0.07,
     },
     Economy = {
-        BuildCostEnergy = 31,
-        BuildCostMass = 31,
-        BuildTime = 24800,
+        BuildCostEnergy = 38,
+        BuildCostMass = 38,
+        BuildTime = 30400,
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
         TeleportTimeMod = 0.01,
-        ResearchMultTime = 4,
+        ResearchMultTime = 0.5,
         ResearchMultEnergy = 1000,
         ResearchMultMass = 1,		
     },
@@ -205,11 +205,11 @@ UnitBlueprint {
     StrategicIconName = 'icon_land1_artillery',
     StrategicIconSortPriority = 135,
     Veteran = {
-        Level1 = 2,
-        Level2 = 4,
-        Level3 = 6,
-        Level4 = 8,
-        Level5 = 10,
+        Level1 = 3,
+        Level2 = 6,
+        Level3 = 9,
+        Level4 = 12,
+        Level5 = 15,
     },
     Weapon = {
         {

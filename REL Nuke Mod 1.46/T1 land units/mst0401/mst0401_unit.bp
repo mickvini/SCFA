@@ -67,7 +67,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             'Armor - 10%',
-            'Main Weapon - 70 DPS / R - 35 / S - 0.25',					
+            'Main Weapon - 70 DPS / R - 32.5 / S - 0.25',					
             'Speed - 3.0',		
             'Vision - 25',				
         },		
@@ -157,12 +157,12 @@ UnitBlueprint {
         UniformScale = 0.05,
     },
     Economy = {
-        BuildCostEnergy = 113.3,
-        BuildCostMass = 51.5,
-        BuildTime = 20600,
-        ResearchMultTime = 4,
+        BuildCostEnergy = 198,
+        BuildCostMass = 90,
+        BuildTime = 36000,
+        ResearchMultTime = 1,
         ResearchMultEnergy = 2200,
-        ResearchMultMass = 2.2,			
+        ResearchMultMass = 1,			
         TeleportEnergyMod = 0.15,
         TeleportMassMod = 1,
         TeleportTimeMod = 0.01,
@@ -239,11 +239,11 @@ UnitBlueprint {
         TransportClass = 2,
     },
     Veteran = {
-        Level1 = 5,
-        Level2 = 10,
-        Level3 = 15,
-        Level4 = 20,
-        Level5 = 25,
+        Level1 = 7,
+        Level2 = 14,
+        Level3 = 21,
+        Level4 = 28,
+        Level5 = 35,
     },
     Weapon = {
         {

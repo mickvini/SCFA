@@ -52,9 +52,9 @@ UnitBlueprint {
     },
     Defense = {
         ArmorType = 'Land 1.5',
-        Health = 8800,
-        MaxHealth = 8800,
-        RegenRate = 3,
+        Health = 39000,
+        MaxHealth = 39000,
+        RegenRate = 6,
         SurfaceThreatLevel = 27,
     },
     Description = 'Titan Armored Ultra Heavy Tank-Bot',
@@ -112,9 +112,9 @@ UnitBlueprint {
         UniformScale = 0.007,
     },
     Economy = {
-        BuildCostEnergy = 1464,
-        BuildCostMass = 305,
-        BuildTime = 122000,
+        BuildCostEnergy = 4800,
+        BuildCostMass = 1000,
+        BuildTime = 400000,
         ResearchMultTime = 4,
         ResearchMultEnergy = 4800,
         ResearchMultMass = 4.8,		
@@ -141,11 +141,11 @@ UnitBlueprint {
         },
         FactionName = 'Cybran',
         TechLevel = 'RULEUTL_Secret',
-        UnitName = 'Terminator ED-ZERO',
+        UnitName = 'Chimera',
         UnitWeight = 1,
     },
     Intel = {
-        VisionRadius = 45,
+        VisionRadius = 50,
     },
     Interface = {
         HelpText = '<LOC Unit_Description_4301>Titan Armored Ultra Assault Machine',
@@ -288,7 +288,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 210,
+            Damage = 420,
             DamageType = 'Normal',
             DisplayName = 'Reacton Cannon',
             FireTargetLayerCapsTable = {
@@ -376,7 +376,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 210,
+            Damage = 420,
             DamageType = 'Normal',
             DisplayName = 'Reacton Cannon',
             FireTargetLayerCapsTable = {

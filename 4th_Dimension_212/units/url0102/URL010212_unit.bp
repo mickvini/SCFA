@@ -39,7 +39,7 @@ UnitBlueprint {
     Categories = {
 		'PRODUCTBREWLANRND',
         'SELECTABLE',
-        'FACTORYCYBRANLL',
+        'FACTORYCYBRANLLS',
         'CYBRAN',
         'MOBILE',
         'LAND',
@@ -47,16 +47,15 @@ UnitBlueprint {
         'DIRECTFIRE',
         'VISIBLETORECON',
         'RECLAIMABLE',
-		'RESEARCHLOCKEDTECH1',
 		'RESEARCHLOCKED',
     },
     Defense = {
         ArmorType = 'Land 2.0',
-        Health = 625,
-        MaxHealth = 625,
+        Health = 2900,
+        MaxHealth = 2900,
         RegenRate = 1,
     },
-    Description = 'Heavy Laser Gattling Tank',
+    Description = 'Laser Gattling Station',
     Display = {
         Mesh = {
             IconFadeInZoom = 130,
@@ -89,10 +88,10 @@ UnitBlueprint {
         UniformScale = 0.011,
     },
     Economy = {
-        BuildCostEnergy = 89.6,
-        BuildCostMass = 56,
-        BuildTime = 22400,
-        ResearchMultTime = 4,
+        BuildCostEnergy = 160,
+        BuildCostMass = 100,
+        BuildTime = 40000,
+        ResearchMultTime = 1,
         ResearchMultEnergy = 1600,
         ResearchMultMass = 1.6,		
         TeleportEnergyMod = 0.15,
