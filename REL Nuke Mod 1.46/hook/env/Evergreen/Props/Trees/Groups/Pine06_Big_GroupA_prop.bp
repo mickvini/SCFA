@@ -35,15 +35,15 @@ PropBlueprint {
         UniformScale = 0.08,
     },
     Economy = {
-        ReclaimEnergyMax = 139500,
+        ReclaimEnergyMax = 283500,
         ReclaimMassMax = 775,
-        ReclaimTime = 69750,
+        ReclaimTime = 567000,
     },
     Interface = {
         HelpText = 'Group of Medium Trees - Pine',
     },
     Physics = {
-        BlockPath = false,
+        BlockPath = true,
     },
     ScriptClass = 'TreeGroup',
     ScriptModule = '/lua/proptree.lua',

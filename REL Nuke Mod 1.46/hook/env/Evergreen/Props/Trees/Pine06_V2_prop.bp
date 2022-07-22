@@ -49,9 +49,9 @@ PropBlueprint {
         UniformScale = 0.05,
     },
     Economy = {
-        ReclaimEnergyMax = 1000,
+        ReclaimEnergyMax = 2000,
         ReclaimMassMax = 10,
-        ReclaimTime = 500,
+        ReclaimTime = 4000,
     },
     Interface = {
         HelpText = 'Medium Tree - Pine',

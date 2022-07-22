@@ -35,9 +35,9 @@ PropBlueprint {
         UniformScale = 0.05,
     },
     Economy = {
-        ReclaimEnergyMax = 28000,
+        ReclaimEnergyMax = 56000,
         ReclaimMassMax = 245,
-        ReclaimTime = 14000,
+        ReclaimTime = 112000,
     },
     Interface = {
         HelpText = 'Group of Small Trees - Pine',

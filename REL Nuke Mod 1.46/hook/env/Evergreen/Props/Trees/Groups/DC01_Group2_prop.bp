@@ -35,9 +35,9 @@ PropBlueprint {
         UniformScale = 0.06,
     },
     Economy = {
-        ReclaimEnergyMax = 19250,
+        ReclaimEnergyMax = 38500,
         ReclaimMassMax = 235,
-        ReclaimTime = 9625,
+        ReclaimTime = 77000,
     },
     Interface = {
         HelpText = 'Group of Medium Trees - Decidous ',

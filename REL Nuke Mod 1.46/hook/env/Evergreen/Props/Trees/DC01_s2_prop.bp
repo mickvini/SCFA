@@ -50,9 +50,9 @@ PropBlueprint {
         UniformScale = 0.06,
     },
     Economy = {
-        ReclaimEnergyMax = 6250,
+        ReclaimEnergyMax = 12500,
         ReclaimMassMax = 75,
-        ReclaimTime = 3125,
+        ReclaimTime = 25000,
     },
     Interface = {
         HelpText = 'Large Tree - Decidous',
