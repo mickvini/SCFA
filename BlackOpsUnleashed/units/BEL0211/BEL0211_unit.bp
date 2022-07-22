@@ -97,7 +97,7 @@ UnitBlueprint {
                              'Right_Exhaust',
                         },
                         Type = 'GroundKickup02',
-                        Scale = 0.05,
+                        Scale = 0.01,
                     },
                 },
                 Treads = {
@@ -123,9 +123,9 @@ UnitBlueprint {
         UniformScale = 0.22,
     },
     Economy = {
-        BuildCostEnergy = 9600,
-        BuildCostMass = 600,
-        BuildTime = 24000,
+        BuildCostEnergy = 20000,
+        BuildCostMass = 1250,
+        BuildTime = 100000,
         ResearchMultTime = 1,
         ResearchMultEnergy = 1.6,
         ResearchMultMass = 1.6,			
@@ -200,7 +200,7 @@ UnitBlueprint {
     StrategicIconName = 'icon_land2_directfire',
     StrategicIconSortPriority = 45,
     Transport = {
-        TransportClass = 1,
+        TransportClass = 3,
     },
     Veteran = {
         Level1 = 45,

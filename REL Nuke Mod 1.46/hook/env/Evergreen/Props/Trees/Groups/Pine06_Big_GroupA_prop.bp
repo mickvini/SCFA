@@ -43,7 +43,7 @@ PropBlueprint {
         HelpText = 'Group of Medium Trees - Pine',
     },
     Physics = {
-        BlockPath = true,
+        BlockPath = false,
     },
     ScriptClass = 'TreeGroup',
     ScriptModule = '/lua/proptree.lua',

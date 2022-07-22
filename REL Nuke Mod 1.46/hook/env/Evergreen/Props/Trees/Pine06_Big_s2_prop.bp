@@ -60,7 +60,7 @@ PropBlueprint {
         HelpText = 'Large Tree - Pine',
     },
     Physics = {
-        BlockPath = true,
+        BlockPath = false,
     },
     ScriptClass = 'Tree',
     ScriptModule = '/lua/proptree.lua',
