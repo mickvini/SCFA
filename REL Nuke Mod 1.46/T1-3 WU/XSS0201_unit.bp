@@ -457,7 +457,7 @@ UnitBlueprint {
             FiringTolerance = 2,
             Label = 'Torpedo1',
             MaxRadius = 55,
-            MuzzleSalvoDelay = 1.6,
+            MuzzleSalvoDelay = 3.2,
             MuzzleSalvoSize = 4,
             MuzzleVelocity = 5,
             ProjectileId = '/projectiles/SANAnaitTorpedo01/SANAnaitTorpedo01_proj.bp',

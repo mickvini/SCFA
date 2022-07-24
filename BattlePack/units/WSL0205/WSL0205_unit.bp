@@ -217,8 +217,8 @@ UnitBlueprint {
         MotionType = 'RULEUMT_Land',
         RotateOnSpot = false,
         RotateOnSpotThreshold = 0,
-        TurnRadius = 5,
-        TurnRate = 45,
+        TurnRadius = 3,
+        TurnRate = 90,
     },
     SelectionSizeX = 0.65,
     SelectionSizeZ = 0.6,
@@ -232,11 +232,11 @@ UnitBlueprint {
         TransportClass = 2,
     },
     Veteran = {
-        Level1 = 5,
-        Level2 = 10,
-        Level3 = 15,
-        Level4 = 20,
-        Level5 = 25,
+        Level1 = 10,
+        Level2 = 20,
+        Level3 = 30,
+        Level4 = 40,
+        Level5 = 50,
     },
     Weapon = {
         {

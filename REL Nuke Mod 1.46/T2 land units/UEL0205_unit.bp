@@ -184,7 +184,7 @@ UnitBlueprint {
         RotateOnSpot = true,
         RotateOnSpotThreshold = 0.5,
         TurnRadius = 0,
-        TurnRate = 45,
+        TurnRate = 90,
     },
     SelectionSizeX = 0.45,
     SelectionSizeZ = 0.65,
@@ -198,11 +198,11 @@ UnitBlueprint {
         TransportClass = 2,
     },
     Veteran = {
-        Level1 = 11,
-        Level2 = 22,
-        Level3 = 33,
-        Level4 = 44,
-        Level5 = 55,
+        Level1 = 10,
+        Level2 = 20,
+        Level3 = 30,
+        Level4 = 40,
+        Level5 = 50,
     },
     Weapon = {
         {

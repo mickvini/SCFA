@@ -209,7 +209,7 @@ UnitBlueprint {
         MinSpeedPercent = 0,
         MotionType = 'RULEUMT_Land',
         StandUpright = true,
-        TurnRadius = 0,
+        TurnRadius = 1,
         TurnRate = 40,
     },
     SelectionSizeX = 0.3,

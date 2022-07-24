@@ -218,7 +218,7 @@ UnitBlueprint {
         MinSpeedPercent = 0,
         MotionType = 'RULEUMT_Land',
         TurnRadius = 0,
-        TurnRate = 15,
+        TurnRate = 60,
     },
     SelectionCenterOffsetX = 0.01,
     SelectionCenterOffsetZ = 0.1,
@@ -235,11 +235,11 @@ UnitBlueprint {
         TransportClass = 3,
     },
     Veteran = {
-        Level1 = 12,
-        Level2 = 24,
-        Level3 = 36,
-        Level4 = 48,
-        Level5 = 60,
+        Level1 = 40,
+        Level2 = 80,
+        Level3 = 120,
+        Level4 = 160,
+        Level5 = 200,
     },
     Weapon = {
         {

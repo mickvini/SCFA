@@ -113,7 +113,7 @@ UnitBlueprint {
             'uab1202',
         },
         MaintenanceConsumptionPerSecondEnergy = 1,
-        ProductionPerSecondMass = 0.75,
+        ProductionPerSecondMass = 1,
         RebuildBonusIds = {
             'uab1103',
             'uab1202',

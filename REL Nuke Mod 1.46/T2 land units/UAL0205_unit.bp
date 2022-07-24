@@ -217,7 +217,7 @@ UnitBlueprint {
         RotateOnSpotThreshold = 0.5,
         TurnFacingRate = 180,
         TurnRadius = 0,
-        TurnRate = 60,
+        TurnRate = 120,
         WobbleFactor = 0,
         WobbleSpeed = 0,
     },
@@ -235,11 +235,11 @@ UnitBlueprint {
         TransportClass = 2,
     },
     Veteran = {
-        Level1 = 12,
-        Level2 = 24,
-        Level3 = 36,
-        Level4 = 48,
-        Level5 = 60,
+        Level1 = 10,
+        Level2 = 20,
+        Level3 = 30,
+        Level4 = 40,
+        Level5 = 50,
     },
     Weapon = {
         {

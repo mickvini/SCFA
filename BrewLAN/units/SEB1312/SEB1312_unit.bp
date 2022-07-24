@@ -161,7 +161,7 @@ UnitBlueprint {
         },
         HalfPriceUpgradeFromID = 'ueb1302',
         MaintenanceConsumptionPerSecondEnergy = 12.00,
-        ProductionPerSecondMass = 3.0,
+        ProductionPerSecondMass = 4.0,
         RebuildBonusIds = {
             'ueb1302',
             'seb1312',

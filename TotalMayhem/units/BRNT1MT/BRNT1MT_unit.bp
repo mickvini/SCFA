@@ -185,7 +185,7 @@ UnitBlueprint {
         RotateOnSpot = false,
         RotateOnSpotThreshold = 0.1,
         TurnRadius = 0,
-        TurnRate = 27.5,
+        TurnRate = 55,
     },
     SelectionCenterOffsetX = 0,
     SelectionCenterOffsetZ = -0.3,

@@ -52,7 +52,6 @@ UnitBlueprint {
         'VISIBLETORECON',
         'RECLAIMABLE',
         'OVERLAYINDIRECTFIRE',
-		'RESEARCHLOCKEDTECH1',		
 		'RESEARCHLOCKED',
     },
     Defense = {
@@ -189,8 +188,8 @@ UnitBlueprint {
         MotionType = 'RULEUMT_Land',
         RotateOnSpot = false,
         RotateOnSpotThreshold = 0.5,
-        TurnRadius = 4,
-        TurnRate = 45,
+        TurnRadius = 0,
+        TurnRate = 90,
     },
     SelectionCenterOffsetX = 0,
     SelectionCenterOffsetZ = -0.1,
@@ -203,11 +202,11 @@ UnitBlueprint {
     StrategicIconName = 'icon_land1_artillery',
     StrategicIconSortPriority = 135,
     Veteran = {
-        Level1 = 3,
-        Level2 = 6,
-        Level3 = 9,
-        Level4 = 12,
-        Level5 = 15,
+        Level1 = 4,
+        Level2 = 8,
+        Level3 = 12,
+        Level4 = 16,
+        Level5 = 20,
     },
     Weapon = {
         {

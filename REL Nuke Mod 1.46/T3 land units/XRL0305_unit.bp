@@ -209,8 +209,8 @@ UnitBlueprint {
         MotionType = 'RULEUMT_Amphibious',
         RotateOnSpot = false,
         StandUpright = true,
-        TurnRadius = 4,
-        TurnRate = 30,
+        TurnRadius = 2,
+        TurnRate = 60,
     },
     SelectionSizeX = 0.9,
     SelectionSizeZ = 0.9,
@@ -225,11 +225,11 @@ UnitBlueprint {
         TransportClass = 3,
     },
     Veteran = {
-        Level1 = 20,
-        Level2 = 40,
-        Level3 = 60,
-        Level4 = 80,
-        Level5 = 100,
+        Level1 = 35,
+        Level2 = 70,
+        Level3 = 105,
+        Level4 = 140,
+        Level5 = 175,
     },
     Weapon = {
         {

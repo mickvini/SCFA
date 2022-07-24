@@ -532,7 +532,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 160,
+            Damage = 320,
             DamageRadius = 2,
             DamageType = 'Normal',
             DisplayName = 'Gauss Cannon',
@@ -572,7 +572,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_InDirectFire',
-            RateOfFire = 0.2,
+            RateOfFire = 0.1,
             RenderFireClock = true,						
             TargetCheckInterval = 0.5,
             TargetPriorities = {

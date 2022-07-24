@@ -211,7 +211,7 @@ UnitBlueprint {
         RotateOnSpot = false,
         TurnFacingRate = 120,
         TurnRadius = 0,
-        TurnRate = 35,
+        TurnRate = 70,
     },
     SelectionSizeX = 0.45,
     SelectionSizeZ = 0.55,
@@ -222,11 +222,11 @@ UnitBlueprint {
     StrategicIconName = 'icon_land1_directfire',
     StrategicIconSortPriority = 135,
     Veteran = {
-        Level1 = 2,
-        Level2 = 4,
-        Level3 = 6,
-        Level4 = 8,
-        Level5 = 10,
+        Level1 = 4,
+        Level2 = 8,
+        Level3 = 12,
+        Level4 = 16,
+        Level5 = 20,
     },
     Weapon = {
         {

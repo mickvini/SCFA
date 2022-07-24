@@ -225,11 +225,11 @@ UnitBlueprint {
     StrategicIconName = 'icon_land1_directfire',
     StrategicIconSortPriority = 135,
     Veteran = {
-        Level1 = 8,
-        Level2 = 16,
-        Level3 = 24,
-        Level4 = 32,
-        Level5 = 40,
+        Level1 = 25,
+        Level2 = 50,
+        Level3 = 75,
+        Level4 = 100,
+        Level5 = 125,
     },
     Transport = {
         TransportClass = 2,

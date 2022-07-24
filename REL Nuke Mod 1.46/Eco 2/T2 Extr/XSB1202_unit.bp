@@ -117,7 +117,7 @@ UnitBlueprint {
             'xsb1302',
         },
         MaintenanceConsumptionPerSecondEnergy = 3,
-        ProductionPerSecondMass = 1.5,
+        ProductionPerSecondMass = 2,
         RebuildBonusIds = {
             'xsb1202',
             'xsb1302',

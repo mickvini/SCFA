@@ -261,7 +261,7 @@ UnitBlueprint {
             FireTargetLayerCapsTable = {
                 Water = 'Land|Water|Seabed',
             },
-            FiringRandomness = 0.15,
+            FiringRandomness = 0.05,
             FiringTolerance = 2,
             Label = 'FrontTurret',
             MaxRadius = 140,
@@ -386,7 +386,7 @@ UnitBlueprint {
             FiringTolerance = 2,
             Label = 'Torpedo1',
             MaxRadius = 60,
-            MuzzleSalvoDelay = 1,
+            MuzzleSalvoDelay = 5,
             MuzzleSalvoSize = 2,
             MuzzleVelocity = 5,
             ProjectileId = '/projectiles/AANTorpedo01/AANTorpedo01_proj.bp',

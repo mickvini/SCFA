@@ -239,7 +239,7 @@ UnitBlueprint {
        StandUpright = false,
        TurnFacingRate = 180,
        TurnRadius = 0,
-       TurnRate = 20,
+       TurnRate = 40,
    },
    SelectionCenterOffsetX = 0,
    SelectionCenterOffsetZ = 0.1,
@@ -252,11 +252,11 @@ UnitBlueprint {
    StrategicIconName = 'icon_land3_antiair',
    StrategicIconSortPriority = 136,
    Veteran = {
-        Level1 = 9,
-        Level2 = 18,
-        Level3 = 27,
-        Level4 = 36,
-        Level5 = 45,
+        Level1 = 60,
+        Level2 = 120,
+        Level3 = 180,
+        Level4 = 240,
+        Level5 = 300,
    },
    Weapon = {
 	       {

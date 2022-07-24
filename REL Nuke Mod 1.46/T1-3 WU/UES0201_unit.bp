@@ -284,7 +284,7 @@ UnitBlueprint {
             FireTargetLayerCapsTable = {
                 Water = 'Land|Water|Seabed',
             },
-            FiringRandomness = 0.15,
+            FiringRandomness = 0.2,
             FiringTolerance = 2,
             Label = 'FrontTurret01',
             MaxRadius = 90,
@@ -370,7 +370,7 @@ UnitBlueprint {
             FireTargetLayerCapsTable = {
                 Water = 'Land|Water|Seabed',
             },
-            FiringRandomness = 0.15,
+            FiringRandomness = 0.2,
             FiringTolerance = 2,
             Label = 'BackTurret01',
             MaxRadius = 90,
@@ -529,7 +529,7 @@ UnitBlueprint {
             FiringTolerance = 2,
             Label = 'Torpedo01',
             MaxRadius = 50,
-            MuzzleSalvoDelay = 1.6,
+            MuzzleSalvoDelay = 3.2,
             MuzzleSalvoSize = 6,
             MuzzleVelocity = 1,
             ProjectileId = '/projectiles/TANAnglerTorpedo01/TANAnglerTorpedo01_proj.bp',

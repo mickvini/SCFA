@@ -308,7 +308,7 @@ UnitBlueprint {
             FireTargetLayerCapsTable = {
                 Water = 'Land|Water|Seabed',
             },
-            FiringRandomness = 0.2,
+            FiringRandomness = 0.1,
             FiringTolerance = 2,
             Label = 'ParticleGun',
             MaxRadius = 120,

@@ -62,8 +62,8 @@ UnitBlueprint {
         AirThreatLevel = 20,
         ArmorType = 'Land 2.0',
         EconomyThreatLevel = 0,
-        Health = 37500,
-        MaxHealth = 37500,
+        Health = 80000,
+        MaxHealth = 80000,
         RegenRate = 1,
         Shield = {
             ImpactEffects = 'SeraphimShieldHit01',
@@ -82,7 +82,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 18,
     },
-    Description = '40%-Armor Experimental Tank',
+    Description = 'Experimental Tank',
     Display = {
 		Abilities = {
             '<LOC ability_shielddome>Shield Dome',
@@ -124,9 +124,9 @@ UnitBlueprint {
         UniformScale = 0.06,
     },
     Economy = {
-        BuildCostEnergy = 54600,
-        BuildCostMass = 2100,
-        BuildTime = 84000,
+        BuildCostEnergy = 104000,
+        BuildCostMass = 4000,
+        BuildTime = 160000,
         MaintenanceConsumptionPerSecondEnergy = 5,
         ResearchMultTime = 1,
         ResearchMultEnergy = 2.6,
@@ -220,11 +220,11 @@ UnitBlueprint {
         TransportClass = 10,
     },
     Veteran = {
-        Level1 = 50,
-        Level2 = 100,
-        Level3 = 150,
-        Level4 = 200,
-        Level5 = 250,
+        Level1 = 80,
+        Level2 = 160,
+        Level3 = 240,
+        Level4 = 320,
+        Level5 = 400,
     },
     Weapon = {
         {   
