@@ -207,10 +207,10 @@ UnitBlueprint {
             InitialProjectileStorage = 0,
             Label = 'AntiNuke',
             MaxProjectileStorage = 5,
-            MaxRadius = 125,
+            MaxRadius = 150,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
-            MuzzleVelocity = 20,
+            MuzzleVelocity = 15,
             ProjectileId = '/mods/BlackOpsUnleashed/hook/projectiles/TIMMissileIntercerptor02/TIMMissileIntercerptor02_proj.bp',
             ProjectilesPerOnFire = 1,
             RackBones = {

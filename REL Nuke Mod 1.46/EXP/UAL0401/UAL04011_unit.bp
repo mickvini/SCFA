@@ -73,8 +73,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Bot 2.5',
         EconomyThreatLevel = 0,
-        Health = 125000,
-        MaxHealth = 125000,
+        Health = 250000,
+        MaxHealth = 250000,
         RegenRate = 10,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 500,
@@ -175,9 +175,9 @@ UnitBlueprint {
         UniformScale = 0.1,
     },
     Economy = {
-        BuildCostEnergy = 224000, 
-        BuildCostMass = 8000,
-        BuildTime = 1280000,
+        BuildCostEnergy = 364000, 
+        BuildCostMass = 13000,
+        BuildTime = 2080000,
         ResearchMultTime = 0.25,
         ResearchMultEnergy = 2.8,
         ResearchMultMass = 0.25,			
@@ -208,7 +208,7 @@ UnitBlueprint {
     Intel = {
         OmniRadius = 5,	
         VisionRadius = 75,
-        WaterVisionRadius = 30,
+        WaterVisionRadius = 1,
     },
     Interface = {
         HelpText = '<LOC ual0401_help>Experimental Assault Bot',

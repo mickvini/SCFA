@@ -47,6 +47,7 @@ UnitBlueprint {
         'FACTORYSERAPHIMNL',		
         'BUILTBYEXPERIMENTALSUB',
         'MOBILE',
+        'SERAPHIM',		
         'NAVAL',
         'TECH1',
         'ANTIAIR',
@@ -66,8 +67,8 @@ UnitBlueprint {
         AirThreatLevel = 10,
         ArmorType = 'Normal',
         EconomyThreatLevel = 0,
-        Health = 8750,
-        MaxHealth = 8750,
+        Health = 15000,
+        MaxHealth = 15000,
         RegenRate = 0.5,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 65,
@@ -76,8 +77,6 @@ UnitBlueprint {
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
-            '<LOC ability_radar>Radar',
-            '<LOC ability_sonar>Sonar',
         },
         AnimationDeath = {
             {
@@ -138,9 +137,9 @@ UnitBlueprint {
         UniformScale = 0.055,
     },
     Economy = {
-        BuildCostEnergy = 69.6,
-        BuildCostMass = 290,
-        BuildTime = 116000,
+        BuildCostEnergy = 4320,
+        BuildCostMass = 900,
+        BuildTime = 360000,
         ResearchMultTime = 1,
         ResearchMultEnergy = 32,
         ResearchMultMass = 0.8,			
@@ -174,8 +173,8 @@ UnitBlueprint {
         UnitWeight = 1,
     },
     Intel = {
-        VisionRadius = 35,
-        WaterVisionRadius = 30,
+        VisionRadius = 95,
+        WaterVisionRadius = 1,
     },
     Interface = {
         HelpText = '<LOC bss0206_help>Bombardment Ship',
@@ -218,11 +217,11 @@ UnitBlueprint {
     StrategicIconName = 'icon_ship1_directfire',
     StrategicIconSortPriority = 155,
     Veteran = {
-        Level1 = 16,
-        Level2 = 32,
-        Level3 = 48,
-        Level4 = 64,
-        Level5 = 80,
+        Level1 = 20,
+        Level2 = 40,
+        Level3 = 60,
+        Level4 = 80,
+        Level5 = 100,
     },
     Weapon = {
         {
@@ -237,9 +236,9 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_HighArc',
             CollideFriendly = false,
-            Damage = 1800,
+            Damage = 3600,
             DamageFriendly = true,
-            DamageRadius = 5,
+            DamageRadius = 4,
             DamageType = 'Normal',
             DisplayName = 'Suthanus Heavy Artillery Cannon',
             FireTargetLayerCapsTable = {
@@ -254,7 +253,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 30,
-            MuzzleVelocityReduceDistance = 85,
+            MuzzleVelocityReduceDistance = 150,
             ProjectileId = '/projectiles/SIFSuthanusArtilleryShell01/SIFSuthanusArtilleryShell01_proj.bp',
             ProjectilesPerOnFire = 1,
             RackBones = {
@@ -274,7 +273,7 @@ UnitBlueprint {
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_IndirectFire',
             RateOfFire = 0.025,
-            RenderFireClock = false,
+            RenderFireClock = true,			
             TargetCheckInterval = 1,
             TargetPriorities = {
                 'SPECIALHIGHPRI',
@@ -311,9 +310,9 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_HighArc',
             CollideFriendly = false,
-            Damage = 900,
+            Damage = 3600,
             DamageFriendly = true,
-            DamageRadius = 5,
+            DamageRadius = 4,
             DamageType = 'Normal',
             DisplayName = 'Suthanus Heavy Artillery Cannon',
             FireTargetLayerCapsTable = {
@@ -328,7 +327,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 30,
-            MuzzleVelocityReduceDistance = 85,
+            MuzzleVelocityReduceDistance = 150,
             ProjectileId = '/projectiles/SIFSuthanusArtilleryShell01/SIFSuthanusArtilleryShell01_proj.bp',
             ProjectilesPerOnFire = 1,
             RackBones = {
@@ -347,7 +346,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_IndirectFire',
-            RateOfFire = 0.05,
+            RateOfFire = 0.025,
             RenderFireClock = false,
             TargetCheckInterval = 1,
             TargetPriorities = {
@@ -385,7 +384,7 @@ UnitBlueprint {
             BallisticArc = 'RULEUBA_None',
             CannotAttackGround = true,
             CollideFriendly = false,
-            Damage = 1,
+            Damage = 10,
             DamageFriendly = false,
             DamageRadius = 1,
             DamageType = 'Normal',
@@ -400,7 +399,7 @@ UnitBlueprint {
             MaxRadius = 40,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
-            MuzzleVelocity = 45,
+            MuzzleVelocity = 50,
             ProjectileId = '/projectiles/SAAShleoAAGatlingGun05/SAAShleoAAGatlingGun05_proj.bp',
             ProjectileLifetimeUsesMultiplier = 1.25,
             ProjectilesPerOnFire = 1,
@@ -421,7 +420,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_AntiAir',
-            RateOfFire = 3.5,
+            RateOfFire = 4,
             TargetCheckInterval = 0.3,
             TargetPriorities = {
                 'SPECIALHIGHPRI',

@@ -52,9 +52,9 @@ UnitBlueprint {
     CollisionOffsetZ = 0,
     Defense = {
         ArmorType = 'Structure',
-        Health = 18750,
-        MaxHealth = 18750,
-        RegenRate = 0.5,
+        Health = 37500,
+        MaxHealth = 37500,
+        RegenRate = 0,
     },
     Description = '<LOC sbui5210>Heavy Wall Segment',
     Display = {
@@ -132,9 +132,9 @@ UnitBlueprint {
         UniformScale = 0.05*.66666666666666666,
     },
     Economy = {
-        BuildCostEnergy = 37.50,
-        BuildCostMass = 37.5,
-        BuildTime = 3750,
+        BuildCostEnergy = 93.75,
+        BuildCostMass = 46.875,
+        BuildTime = 1875,
         RebuildBonusIds = {
             'sab5210',
             'seb5210',

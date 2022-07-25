@@ -235,10 +235,10 @@ UnitBlueprint {
             InitialProjectileStorage = 0,
             Label = 'MissileRack',
             MaxProjectileStorage = 5,
-            MaxRadius = 200,
+            MaxRadius = 250,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
-            MuzzleVelocity = 20,
+            MuzzleVelocity = 10,
             ProjectileId = '/mods/BlackOpsUnleashed/hook/projectiles/CAADissidentAntiNuke03/CAADissidentAntiNuke03_proj.bp',
             ProjectilesPerOnFire = 1,
             RackBones = {
