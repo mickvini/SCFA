@@ -3,33 +3,34 @@ PropBlueprint {
         'RECLAIMABLE',
     },
     Defense = {
-        Health = 25000,
-        MaxHealth = 25000,
+        Health = 300,
+        MaxHealth = 300,
     },
     Display = {
         Mesh = {
             IconFadeInZoom = 4,
             LODs = {
                 {
+                    AlbedoName = 'Des_boulder01_albedo.dds',
                     LODCutoff = 250,
-                    ShaderName = 'VertexNormal',
+                    ShaderName = 'NormalMappedTerrain',
                 },
             },
         },
         UniformScale = 0.05,
     },
     Economy = {
-        ReclaimEnergyMax = '',
-        ReclaimMassMax = 25000,
-        ReclaimTime = 150000,
+        ReclaimEnergyMax = 0,
+        ReclaimMassMax = 300,
+        ReclaimTime = 1800,
     },
     Interface = {
-        HelpText = 'Medium Rockpile',
+        HelpText = 'Very Small Rock',
     },
     Physics = {
         BlockPath = true,
     },
-    SizeX = 3.5,
-    SizeY = 0.5,
-    SizeZ = 3,
+    SizeX = 0.5,
+    SizeY = 0.25,
+    SizeZ = 0.5,
 }

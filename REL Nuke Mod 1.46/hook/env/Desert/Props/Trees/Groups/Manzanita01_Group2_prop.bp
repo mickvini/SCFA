@@ -1,4 +1,5 @@
 PropBlueprint {
+    Merge = true,  
     Categories = {
         'RECLAIMABLE',
     },
@@ -30,9 +31,9 @@ PropBlueprint {
         UniformScale = 0.04,
     },
     Economy = {
-        ReclaimEnergyMax = 7.5,
-        ReclaimMassMax = 0,
-        ReclaimTime = 5,
+        ReclaimEnergyMax = 6900,
+        ReclaimMassMax = 175,
+        ReclaimTime = 13800,
     },
     Interface = {
         HelpText = 'Group of Small Trees',

@@ -3,33 +3,33 @@ PropBlueprint {
         'RECLAIMABLE',
     },
     Defense = {
-        Health = 25000,
-        MaxHealth = 25000,
+        Health = 45000,
+        MaxHealth = 45000,
     },
     Display = {
         Mesh = {
             IconFadeInZoom = 4,
             LODs = {
                 {
-                    LODCutoff = 250,
+                    LODCutoff = 200,
                     ShaderName = 'VertexNormal',
                 },
             },
         },
-        UniformScale = 0.05,
+        UniformScale = 0.1,
     },
     Economy = {
-        ReclaimEnergyMax = '',
-        ReclaimMassMax = 25000,
-        ReclaimTime = 150000,
+        ReclaimEnergyMax = 0,
+        ReclaimMassMax = 45000,
+        ReclaimTime = 90000,
     },
     Interface = {
-        HelpText = 'Medium Rockpile',
+        HelpText = 'Medium Rock',
     },
     Physics = {
         BlockPath = true,
     },
-    SizeX = 3.5,
+    SizeX = 2,
     SizeY = 0.5,
-    SizeZ = 3,
+    SizeZ = 2,
 }

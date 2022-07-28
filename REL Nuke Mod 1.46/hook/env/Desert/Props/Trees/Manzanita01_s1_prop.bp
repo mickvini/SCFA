@@ -1,0 +1,63 @@
+PropBlueprint {
+    Merge = true,  
+    Audio = {
+        BurnLoop = Sound {
+            Bank = 'AmbientTest',
+            Cue = 'Gen_Fire_Loop',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        BurnStart = Sound {
+            Bank = 'AmbientTest',
+            Cue = 'Gen_Fire_Start',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        TreeFall = Sound {
+            Bank = 'AmbientTest',
+            Cue = 'Gen_Tree_Crush',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+    },
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Defense = {
+        Health = 10,
+        MaxHealth = 10,
+    },
+    Display = {
+        Mesh = {
+            IconFadeInZoom = 4,
+            LODs = {
+                {
+                    AlbedoName = 'Manzanita01_s1_albedo.dds',
+                    LODCutoff = 30,
+                    NormalsName = 'Manzanita01_s1_normalsTS.dds',
+                    ShaderName = 'NormalMappedAlpha',
+                },
+                {
+                    AlbedoName = 'Manzanita01_s1_albedo.dds',
+                    LODCutoff = 200,
+                    NormalsName = 'Manzanita01_s1_normalsTS.dds',
+                    ShaderName = 'NormalMappedAlpha',
+                },
+            },
+        },
+        UniformScale = 0.04,
+    },
+    Economy = {
+        ReclaimEnergyMax = 450,
+        ReclaimMassMax = 10,
+        ReclaimTime = 450,
+    },
+    Interface = {
+        HelpText = 'Very Small Tree',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Tree',
+    ScriptModule = '/lua/proptree.lua',
+    SizeX = 0.1,
+    SizeY = 0.25,
+    SizeZ = 0.1,
+}

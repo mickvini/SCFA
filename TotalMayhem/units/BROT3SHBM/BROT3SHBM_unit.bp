@@ -81,8 +81,8 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Bot 3.2',
         EconomyThreatLevel = 0,
-        Health = 80000,
-        MaxHealth = 80000,
+        Health = 140000,
+        MaxHealth = 140000,
         RegenRate = 15,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 500,
@@ -90,6 +90,12 @@ UnitBlueprint {
     Description = 'Light Armored Heavy Assault Mech',
     Display = {
         Abilities = {
+            'Armor - 9.0%',
+            'Main Weapon - 1600 DPS / R - 70 / S - 2',
+            'Machinegun - 200 DPS / R - 30 / S - 0',					
+            'Speed - 3.2',		
+            'Vision - 65',	
+            'Regen - 2',			
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_massive>Massive',
             '<LOC ability_deathaoe>Volatile',
@@ -159,9 +165,9 @@ UnitBlueprint {
         UniformScale = 0.24,
     },
     Economy = {
-        BuildCostEnergy = 239700,
-        BuildCostMass = 5100.0,
-        BuildTime = 816000,
+        BuildCostEnergy = 446500,
+        BuildCostMass = 9500,
+        BuildTime = 1520000,
         ResearchMultTime = 0.25,
         ResearchMultEnergy = 4.7,
         ResearchMultMass = 0.25,			
@@ -191,7 +197,7 @@ UnitBlueprint {
     },
     Intel = {
         VisionRadius = 65,
-        WaterVisionRadius = 55,
+        WaterVisionRadius = 1,
     },
     Interface = {
         HelpText = 'Experimental Heavy Assault Mech',
@@ -238,11 +244,11 @@ UnitBlueprint {
         TransportClass = 4,
     },
     Veteran = {
-        Level1 = 110,
-        Level2 = 220,
-        Level3 = 330,
-        Level4 = 440,
-        Level5 = 550,
+        Level1 = 200,
+        Level2 = 400,
+        Level3 = 600,
+        Level4 = 800,
+        Level5 = 1000,
     },
     Weapon = {
         {
@@ -342,7 +348,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 12.5,
+            Damage = 25,
             DamageRadius = 0,
             DamageType = 'Normal',
             DisplayName = 'Gauss Cannon',

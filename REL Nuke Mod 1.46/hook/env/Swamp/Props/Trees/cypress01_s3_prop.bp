@@ -20,36 +20,42 @@ PropBlueprint {
         'RECLAIMABLE',
     },
     Defense = {
-        Health = 5,
-        MaxHealth = 5,
+        Health = 150,
+        MaxHealth = 150,
     },
     Display = {
         Mesh = {
             IconFadeInZoom = 4,
             LODs = {
                 {
-                    AlbedoName = 'Manzanita01_s1_albedo.dds',
+                    AlbedoName = 'cypress01_s1_albedo.dds',
                     LODCutoff = 30,
-                    NormalsName = 'Manzanita01_s1_normalsTS.dds',
-                    ShaderName = 'NormalMappedAlpha',
+                    NormalsName = 'cypress01_s1_normalsTS.dds',
+                    ShaderName = 'TMeshAlpha',
                 },
                 {
-                    AlbedoName = 'Manzanita01_s1_albedo.dds',
-                    LODCutoff = 200,
-                    NormalsName = 'Manzanita01_s1_normalsTS.dds',
-                    ShaderName = 'NormalMappedAlpha',
+                    AlbedoName = 'cypress01_s1_albedo.dds',
+                    LODCutoff = 175,
+                    NormalsName = 'cypress01_s1_normalsTS.dds',
+                    ShaderName = 'TMeshAlpha',
+                },
+                {
+                    AlbedoName = 'cypress01_s1_albedo.dds',
+                    LODCutoff = 700,
+                    NormalsName = 'cypress01_s1_normalsTS.dds',
+                    ShaderName = 'TMeshAlpha',
                 },
             },
         },
-        UniformScale = 0.04,
+        UniformScale = 0.05,
     },
     Economy = {
-        ReclaimEnergyMax = 6900,
-        ReclaimMassMax = 175,
-        ReclaimTime = 13800,
+        ReclaimEnergyMax = 3750,
+        ReclaimMassMax = 80,
+        ReclaimTime = 7500,
     },
     Interface = {
-        HelpText = 'Very Small Tree',
+        HelpText = 'Large Tree - Swamp',
     },
     Physics = {
         BlockPath = false,
@@ -57,6 +63,6 @@ PropBlueprint {
     ScriptClass = 'Tree',
     ScriptModule = '/lua/proptree.lua',
     SizeX = 0.1,
-    SizeY = 0.25,
+    SizeY = 1,
     SizeZ = 0.1,
 }

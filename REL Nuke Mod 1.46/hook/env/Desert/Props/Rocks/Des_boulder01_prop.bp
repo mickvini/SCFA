@@ -3,8 +3,8 @@ PropBlueprint {
         'RECLAIMABLE',
     },
     Defense = {
-        Health = 25000,
-        MaxHealth = 25000,
+        Health = 90000,
+        MaxHealth = 90000,
     },
     Display = {
         Mesh = {
@@ -12,24 +12,27 @@ PropBlueprint {
             LODs = {
                 {
                     LODCutoff = 250,
-                    ShaderName = 'VertexNormal',
+                    ShaderName = 'NormalMappedTerrain',
                 },
             },
         },
         UniformScale = 0.05,
     },
     Economy = {
-        ReclaimEnergyMax = '',
-        ReclaimMassMax = 25000,
-        ReclaimTime = 150000,
+        ReclaimEnergyMax = 0,
+        ReclaimMassMax = 90000,
+        ReclaimTime = 540000,
+    },
+    Footprint = {
+        OccupancyCaps = 3,
     },
     Interface = {
-        HelpText = 'Medium Rockpile',
+        HelpText = 'Large Rock',
     },
     Physics = {
         BlockPath = true,
     },
-    SizeX = 3.5,
-    SizeY = 0.5,
+    SizeX = 3,
+    SizeY = 3,
     SizeZ = 3,
 }
