@@ -1,0 +1,34 @@
+PropBlueprint {
+    Defense = {
+        Health = 5000,
+        MaxHealth = 5000,
+    },
+    Display = {
+        Mesh = {
+            IconFadeInZoom = 4,
+            LODs = {
+                {
+
+                    # share other rock's albedo and specteam
+                    LODCutoff = 100,
+                    ShaderName = 'BloatingNormalMappedAlpha',
+                },
+            },
+        },
+        UniformScale = 0.02,
+    },
+    Economy = {
+        ReclaimEnergyMax = 10000,
+        ReclaimMassMax = 5000,
+        ReclaimTime = 10000,
+    },
+    Interface = {
+        HelpText = 'Medium Pod',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.5,
+    SizeY = 0.5,
+    SizeZ = 0.5,
+}
