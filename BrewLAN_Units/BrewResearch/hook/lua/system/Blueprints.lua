@@ -152,7 +152,7 @@ function GenerateResearchItemBPs(all_bps)
                 Economy = {
                     BuildCostEnergy = 15000,
                     BuildCostMass = 0,
-                    BuildTime = 720000,
+                    BuildTime = 480000,
                     ResearchMult = 1,
                 },
                 Categories = {'TECH1'},
@@ -164,7 +164,7 @@ function GenerateResearchItemBPs(all_bps)
                 Economy = {
                     BuildCostEnergy = 50000,
                     BuildCostMass = 0,
-                    BuildTime = 960000,
+                    BuildTime = 600000,
                     ResearchMult = 1,
                 },
                 Categories = {'TECH2'},

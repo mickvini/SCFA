@@ -50,8 +50,8 @@ UnitBlueprint {
     CollisionOffsetYSwim = 1,
     Defense = {
         ArmorType = 'Quad 2.5',
-            Health = 165000, --1959-2020
-            MaxHealth = 165000,
+            Health = 330000, --1959-2020
+            MaxHealth = 330000,
             RegenRate = 30,
         AirThreatLevel = 225,
         EconomyThreatLevel = 50,
@@ -61,6 +61,14 @@ UnitBlueprint {
     Description = '<LOC ssl0405_desc>Experimental Heavy Arthrobot',
     Display = {
         Abilities = {
+            'Armor - 18.75%',
+            'Main Weapon - 954 DPS / R - 75 / S - 4',
+            'Second Weapon - 330 DPS / R - 50 / S - 1',			
+            'Torpedo - 300 DPS / R - 70 / S - 0',	
+            'Flak - 76 DPS / R - 50 / S - 3',					
+            'Speed - 2.5',		
+            'Vision - 70',	
+            'Regen - 30',			
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_aa>Anti-Air',
             '<LOC ability_deploys>Deploys',
@@ -307,9 +315,9 @@ UnitBlueprint {
         UniformScale = 0.035,
     },
     Economy = {
-        BuildCostEnergy = 304000,
-        BuildCostMass = 9500,
-        BuildTime = 380000,
+        BuildCostEnergy = 672000,
+        BuildCostMass = 21000,
+        BuildTime = 840000,
         ResearchMultTime = 1,
         ResearchMultEnergy = 3.2,
         ResearchMultMass = 0.05,			
@@ -356,8 +364,8 @@ UnitBlueprint {
 		FreeIntel = true,
         RadarRadius = 65,
         SonarRadius = 65,
-        VisionRadius = 45,
-        WaterVisionradius = 50,
+        VisionRadius = 65,
+        WaterVisionradius = 10,
     },
     Interface = {
         HelpText = '<LOC xsl0401_help>Experimental Assault Bot',
@@ -410,11 +418,11 @@ UnitBlueprint {
         TransportClass = 4,
     },
     Veteran = {
-        Level1 = 200,
-        Level2 = 400,
-        Level3 = 600,
-        Level4 = 800,
-        Level5 = 1000,
+        Level1 = 300,
+        Level2 = 600,
+        Level3 = 900,
+        Level4 = 1200,
+        Level5 = 1500,
     },
     Weapon = {
         --Face Guns
@@ -477,7 +485,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.4,
+            RateOfFire = 0.5,
             SlavedToBody = true,
             SlavedToBodyArcRange = 25,
             TargetCheckInterval = 0.6,
@@ -747,7 +755,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.05,
+            RateOfFire = 0.1,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'SPECIALHIGHPRI',
@@ -833,7 +841,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.05,
+            RateOfFire = 0.1,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'SPECIALHIGHPRI',
@@ -1117,7 +1125,7 @@ UnitBlueprint {
             BallisticArc = 'RULEUBA_None',
             BelowWaterFireOnly = true,
             CollideFriendly = false,
-            Damage = 335,
+            Damage = 2000,
             DamageType = 'Normal',
             DisplayName = 'Uall Cavitation Torpedo',
             FireTargetLayerCapsTable = {
@@ -1152,7 +1160,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_AntiNavy',
-            RateOfFire = 0.25,
+            RateOfFire = 0.0375,
             SlavedToBody = false,
             TargetCheckInterval = 2,
             TargetPriorities = {
@@ -1176,7 +1184,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_None',
             CollideFriendly = false,
-            Damage = 2,
+            Damage = 10,
             DamageType = 'Normal',
             DisplayName = 'Ajellu Anti-Torpedo Defense',
             FireTargetLayerCapsTable = {
@@ -1186,13 +1194,13 @@ UnitBlueprint {
             FiringTolerance = 50,
             Label = 'AntiTorpedo',
             LeadTarget = false,
-            MaxRadius = 32,
+            MaxRadius = 60,
             MaxRadiusTall = 5,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 80,
             ProjectileId = '/projectiles/SANAjelluAntiTorpedo01/SANAjelluAntiTorpedo01_proj.bp',
-            ProjectileLifetime = 1.5,
+            ProjectileLifetime = 3,
             RackBones = {
                 {
                     MuzzleBones = {

@@ -1,0 +1,37 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Defense = {
+        Health = 1000,
+        MaxHealth = 1000,
+    },
+    Display = {
+        Mesh = {
+            IconFadeInZoom = 4,
+            LODs = {
+                {
+                    AlbedoName = 'LavaBerg02_albedo.dds',
+                    LODCutoff = 250,
+                    NormalsName = 'LavaBerg04_normalsTS.dds',
+                    ShaderName = 'NormalMappedTerrain',
+                },
+            },
+        },
+        UniformScale = 0.025,
+    },
+    Economy = {
+        ReclaimEnergyMax = '',
+        ReclaimMassMax = 1400,
+        ReclaimTime = 2800,
+    },
+    Interface = {
+        HelpText = 'Small Rock',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.8,
+    SizeY = 0.25,
+    SizeZ = 0.8,
+}
