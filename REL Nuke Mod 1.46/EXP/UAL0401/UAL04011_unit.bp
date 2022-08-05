@@ -82,6 +82,12 @@ UnitBlueprint {
     Description = '<LOC ual0401_desc>Experimental Assault Bot',
     Display = {
         Abilities = {
+            'Armor - 12.5%',
+            'Beam  - 2500 DPS / R - 40 / S - 1',		
+            'Tractor Claw  - Tear 3 < / R - 30',					
+            'Speed - 2.5',		
+            'Vision - 75',	
+            'Regen - 10',			
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_massive>Massive',
             '<LOC ability_deathaoe>Volatile',
@@ -301,7 +307,7 @@ UnitBlueprint {
             CollideFriendly = false,
             ContinuousBeam = true,
             Damage = 500,
-            DamageRadius = 0.5,
+            DamageRadius = 1,
             DamageType = 'Normal',
             DisplayName = 'Phason Laser',
             EnergyDrainPerSecond = 500,

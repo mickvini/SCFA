@@ -73,15 +73,21 @@ UnitBlueprint {
         AirThreatLevel = 0,
         ArmorType = 'Bot 1.2',
         EconomyThreatLevel = 0,
-        Health = 225000,
-        MaxHealth = 225000,
-        RegenRate = 0.1,
+        Health = 415000,
+        MaxHealth = 415000,
+        RegenRate = 15,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 500,
     },
-    Description = '38%-Armor Experimental Assault Titan',
+    Description = 'Experimental Assault Titan',
     Display = {
         Abilities = {
+            'Armor - 19%',
+            'Beam  - 4750 DPS / R - 45 / S - 1',		
+            'Tractor Claw  - Tear 3 < / R - 30',					
+            'Speed - 1.2',		
+            'Vision - 80',	
+            'Regen - 15',				
             '<LOC ability_amphibious>Amphibious',
             '<LOC ability_massive>Massive',
             '<LOC ability_deathaoe>Volatile',
@@ -181,9 +187,9 @@ UnitBlueprint {
         UniformScale = 0.125,
     },
     Economy = {
-        BuildCostEnergy = 435000, 
-        BuildCostMass = 14500,
-        BuildTime = 2320000,
+        BuildCostEnergy = 630000, 
+        BuildCostMass = 21000,
+        BuildTime = 3360000,
         ResearchMultTime = 0.25,
         ResearchMultEnergy = 3,
         ResearchMultMass = 0.25,			
@@ -214,7 +220,6 @@ UnitBlueprint {
     Intel = {
         OmniRadius = 10,
         VisionRadius = 80,
-        WaterVisionRadius = 50,
     },
     Interface = {
         HelpText = '<LOC ualO0401_help>Sacred Assault Titan',
@@ -266,11 +271,11 @@ UnitBlueprint {
         TransportClass = 4,
     },
     Veteran = {
-        Level1 = 350,
-        Level2 = 700,
-        Level3 = 1050,
-        Level4 = 1400,
-        Level5 = 1750,
+        Level1 = 450,
+        Level2 = 900,
+        Level3 = 1350,
+        Level4 = 1800,
+        Level5 = 2250,
     },
     Weapon = {
         {

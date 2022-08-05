@@ -54,8 +54,8 @@ BRMT3EXBM = Class(CWalkingLandUnit) {
     },
 OnStopBeingBuilt = function(self,builder,layer)
         CWalkingLandUnit.OnStopBeingBuilt(self,builder,layer)
-        self.Trash:Add(CreateRotator(self, 'Object01', 'z', nil, 150, 0, 0))
-        self.Trash:Add(CreateRotator(self, 'Object02', 'z', nil, -150, 0, 0))
+        self.Trash:Add(CreateRotator(self, 'Object01', 'z', nil, 75, 0, 0))
+        self.Trash:Add(CreateRotator(self, 'Object02', 'z', nil, -75, 0, 0))
         self:CreatTheEffects()
       if self:GetAIBrain().BrainType == 'Human' and IsUnit(self) then
          self:SetWeaponEnabledByLabel('autoattack', false)

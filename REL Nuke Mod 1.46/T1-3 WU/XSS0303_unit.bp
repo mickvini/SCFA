@@ -161,7 +161,7 @@ UnitBlueprint {
         BuildCostMass = 3400,
         BuildRate = 700,
         BuildTime = 1360000,
-        ResearchMultTime = 1,
+        ResearchMultTime = 0.25,
         ResearchMultEnergy = 70,
         ResearchMultMass = 1.75,				
         BuildableCategory = {

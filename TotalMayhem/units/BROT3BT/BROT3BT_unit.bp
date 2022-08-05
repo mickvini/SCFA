@@ -197,7 +197,7 @@ UnitBlueprint {
         BuildCostEnergy = 2021,
         BuildCostMass = 470,
         BuildTime = 188000,
-        ResearchMultTime = 4,
+        ResearchMultTime = 1,
         ResearchMultEnergy = 4300,
         ResearchMultMass = 4.3,			
         MaintenanceConsumptionPerSecondEnergy = 7,

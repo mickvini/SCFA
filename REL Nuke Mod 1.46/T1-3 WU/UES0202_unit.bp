@@ -173,7 +173,7 @@ UnitBlueprint {
         BuildCostEnergy = 3822,
         BuildCostMass = 980,
         BuildTime = 392000,
-        ResearchMultTime = 1,
+        ResearchMultTime = 0.25,
         ResearchMultEnergy = 52,
         ResearchMultMass = 1.3,		
     },
