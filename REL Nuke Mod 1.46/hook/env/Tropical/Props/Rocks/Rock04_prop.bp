@@ -22,7 +22,7 @@ PropBlueprint {
     },
     Economy = {
         ReclaimEnergyMax = '',
-        ReclaimMassMax = 300,
+        ReclaimMassMax = 150,
         ReclaimTime = 3600,
     },
     Footprint = {
@@ -32,7 +32,7 @@ PropBlueprint {
         HelpText = 'Tiny Rock',
     },
     Physics = {
-        BlockPath = true,
+        BlockPath = false,
     },
     SizeX = 0.25,
     SizeY = 0.25,

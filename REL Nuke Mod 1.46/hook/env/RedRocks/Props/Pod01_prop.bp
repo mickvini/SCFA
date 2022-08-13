@@ -1,4 +1,7 @@
 PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
     Defense = {
         Health = 5000,
         MaxHealth = 5000,

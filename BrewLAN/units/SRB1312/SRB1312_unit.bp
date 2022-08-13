@@ -81,7 +81,7 @@ UnitBlueprint {
     },
     Economy = {
         BuildCostEnergy = 4800,
-        BuildCostMass = 9600,
+        BuildCostMass = 4800,
         BuildTime = 24000,
         HalfPriceUpgradeFromID = 'urb1302',
         MaintenanceConsumptionPerSecondEnergy = 12.00,

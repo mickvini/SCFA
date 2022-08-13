@@ -22,14 +22,14 @@ PropBlueprint {
     },
     Economy = {
         ReclaimEnergyMax = '',
-        ReclaimMassMax = 50,
+        ReclaimMassMax = 25,
         ReclaimTime = 450,
     },
     Interface = {
         HelpText = 'Tiny Rockpile',
     },
     Physics = {
-        BlockPath = true,
+        BlockPath = false,
     },
     SizeX = 0.25,
     SizeY = 0.25,
