@@ -71,6 +71,7 @@ UnitBlueprint {
         'LAND',
         'DIRECTFIRE',
         'TECH2',
+        'TECH2EXP',		
         'VISIBLETORECON',
         'RECLAIMABLE',
         'OVERLAYDIRECTFIRE',
@@ -270,8 +271,8 @@ UnitBlueprint {
     Economy = {
         BuildCostEnergy = 69000,
         BuildCostMass = 3000,
-        BuildTime = 600000,
-        ResearchMultTime = 1,
+        BuildTime = 300000,
+        ResearchMultTime = 0.25,
         ResearchMultEnergy = 2.3,
         ResearchMultMass = 0.25,		
         TeleportEnergyMod = 0.15,

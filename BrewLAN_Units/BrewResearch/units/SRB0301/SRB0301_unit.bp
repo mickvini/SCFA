@@ -166,7 +166,7 @@ UnitBlueprint {
     Economy = {
         BuildCostEnergy = 52500,
         BuildCostMass = 7000.0,
-        BuildRate = 2800,
+        BuildRate = 1400,
         BuildTime = 140000,
         BuildableCategory = {
             'CYBRANEXPLANDS',
