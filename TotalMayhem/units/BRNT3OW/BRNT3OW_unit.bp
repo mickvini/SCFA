@@ -74,6 +74,7 @@ UnitBlueprint {
         'MASSIVE',
         'LAND',
         'TECH3',
+        'TECH2EXP',				
         'DIRECTFIRE',
         'VISIBLETORECON',
         'RECLAIMABLE',

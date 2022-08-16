@@ -84,7 +84,7 @@ UnitBlueprint {
         Abilities = {
             'Armor - 12.5%',
             'Beam  - 2500 DPS / R - 40 / S - 1',		
-            'Tractor Claw  - Tear 3 < / R - 30',					
+            'Tractor Claw  - Tear 2 < / R - 30',					
             'Speed - 2.5',		
             'Vision - 75',	
             'Regen - 10',			
@@ -430,7 +430,7 @@ UnitBlueprint {
                 'SPECIALLOWPRI',
                 'ALLUNITS',
             },
-            TargetRestrictDisallow = 'UNTARGETABLE',
+            TargetRestrictDisallow = 'UNTARGETABLE, BATTLEMECH, BATTLETANK, TECH3EXP, TECH2EXP, TECH1EXP',
 
             # TrackingRadius = 45,
             TurretBoneMuzzle = 'Right_Arm_Muzzle01',
@@ -521,7 +521,7 @@ UnitBlueprint {
                 'SPECIALLOWPRI',
                 'ALLUNITS',
             },
-            TargetRestrictDisallow = 'UNTARGETABLE',
+            TargetRestrictDisallow = 'UNTARGETABLE, BATTLEMECH, BATTLETANK, TECH3EXP, TECH2EXP, TECH1EXP',
 
             # TrackingRadius = 45,
             TurretBoneMuzzle = 'Left_Arm_Muzzle01',

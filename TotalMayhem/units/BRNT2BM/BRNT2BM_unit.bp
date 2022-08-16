@@ -80,6 +80,7 @@ UnitBlueprint {
         'LAND',
         'DIRECTFIRE',
         'TECH2',
+        'TECH2EXP',				
         'VISIBLETORECON',
         'RECLAIMABLE',
         'OVERLAYDIRECTFIRE',

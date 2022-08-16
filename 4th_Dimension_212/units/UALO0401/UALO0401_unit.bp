@@ -434,7 +434,7 @@ UnitBlueprint {
                 'SPECIALLOWPRI',
                 'ALLUNITS',
             },
-            TargetRestrictDisallow = 'UNTARGETABLE',
+            TargetRestrictDisallow = 'UNTARGETABLE, BATTLEMECH, BATTLETANK, TECH3EXP, TECH2EXP',
 
             # TrackingRadius = 45,
             TurretBoneMuzzle = 'Right_Arm_Muzzle01',
@@ -525,7 +525,7 @@ UnitBlueprint {
                 'SPECIALLOWPRI',
                 'ALLUNITS',
             },
-            TargetRestrictDisallow = 'UNTARGETABLE',
+            TargetRestrictDisallow = 'UNTARGETABLE, BATTLEMECH, BATTLETANK, TECH3EXP, TECH2EXP',
 
             # TrackingRadius = 45,
             TurretBoneMuzzle = 'Left_Arm_Muzzle01',

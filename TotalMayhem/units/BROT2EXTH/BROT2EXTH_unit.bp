@@ -53,6 +53,7 @@ UnitBlueprint {
         'MOBILE',
         'LAND',
         'TECH1',
+        'TECH1EXP',				
         'HOVER',
         'DIRECTFIRE',
         'VISIBLETORECON',

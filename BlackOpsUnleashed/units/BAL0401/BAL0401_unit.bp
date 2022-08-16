@@ -67,6 +67,7 @@ UnitBlueprint {
 		'DIRECTFIRE',
         'INDIRECTFIRE',
         'TECH3',
+        'TECH1EXP',				
         'NEEDMOBILEBUILD',
         'VISIBLETORECON',
         'RECLAIMABLE',

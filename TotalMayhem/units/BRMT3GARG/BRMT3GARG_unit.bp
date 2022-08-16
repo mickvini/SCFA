@@ -68,6 +68,7 @@ UnitBlueprint {
         'MOBILE',
         'LAND',
         'TECH3',
+        'TECH3EXP',				
         'DIRECTFIRE',
         'VISIBLETORECON',
         'RECLAIMABLE',

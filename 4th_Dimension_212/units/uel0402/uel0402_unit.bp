@@ -79,6 +79,7 @@ UnitBlueprint {
        'DIRECTFIRE',
        'DRAGBUILD',
        'TECH2',
+       'TECH3EXP',			   
        'INTELLIGENCE',
        'LAND',
        'MOBILE',

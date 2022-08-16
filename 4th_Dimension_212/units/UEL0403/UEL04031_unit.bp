@@ -373,7 +373,7 @@ UnitBlueprint {
                 Water = 'Land|Water|Seabed', 
             }, 
             FiringRandomness = 0.3, 
-            FiringTolerance = 10,  
+            FiringTolerance = 15,  
             HeadingArcCenter = 0, 
             HeadingArcRange = 90,
             Label = 'MagmaCannon',              
