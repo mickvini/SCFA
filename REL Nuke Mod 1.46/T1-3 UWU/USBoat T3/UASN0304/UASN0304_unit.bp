@@ -356,7 +356,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 2.5,
             MuzzleSalvoSize = 4,
             MuzzleVelocity = 10,
-            ProjectileId = '/mods/Firey Explosion Mod/Hook/projectiles/AIFMissileSerpentine04/AIFMissileSerpentine04_proj.bp',
+            ProjectileId = '/mods/REL Nuke Mod 1.46/Hook/projectiles/AIFMissileSerpentine04/AIFMissileSerpentine04_proj.bp',
             ProjectileLifetime = 100,
             RackBones = {
                 {
@@ -436,7 +436,7 @@ UnitBlueprint {
             NukeOuterRingTicks = 32.5,
             NukeOuterRingTotalTime = 13,
             NukeWeapon = true,
-            ProjectileId = '/mods/Firey Explosion Mod/Hook/projectiles/AIFQuantumWarhead09/AIFQuantumWarhead09_proj.bp',
+            ProjectileId = '/mods/REL Nuke Mod 1.46/Hook/projectiles/AIFQuantumWarhead09/AIFQuantumWarhead09_proj.bp',
             RackBones = {
                 {
                     MuzzleBones = {

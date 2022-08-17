@@ -263,7 +263,7 @@ UnitBlueprint {
             InitialProjectileStorage = 0,
             Label = 'InainoMissiles',
             ManualFire = 1,
-            MaxProjectileStorage = 1,
+            MaxProjectileStorage = 0,
             MaxRadius = 2048,
             MinRadius = 0,
             MuzzleSalvoDelay = 0,
@@ -278,7 +278,7 @@ UnitBlueprint {
             NukeOuterRingTicks = 300,
             NukeOuterRingTotalTime = 13,
             NukeWeapon = true,
-            ProjectileId = '/mods/Firey Explosion Mod/hook/projectiles/SIFInainoStrategicMissile02/SIFInainoStrategicMissile02_proj.bp',
+            ProjectileId = '/mods/REL Nuke Mod 1.46/hook/projectiles/SIFInainoStrategicMissile02/SIFInainoStrategicMissile02_proj.bp',
             ProjectilesPerOnFire = 1,
             RackBones = {
                 {

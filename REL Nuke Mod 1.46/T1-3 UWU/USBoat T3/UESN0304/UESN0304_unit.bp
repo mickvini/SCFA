@@ -457,7 +457,7 @@ UnitBlueprint {
             NukeOuterRingTicks = 40,
             NukeOuterRingTotalTime = 25,
             NukeWeapon = true,
-            ProjectileId = '/mods/Firey Explosion Mod/Hook/projectiles/TIFMissileNuke09/TIFMissileNuke09_proj.bp',
+            ProjectileId = '/mods/REL Nuke Mod 1.46/Hook/projectiles/TIFMissileNuke09/TIFMissileNuke09_proj.bp',
             RackBones = {
                 {
                     MuzzleBones = {

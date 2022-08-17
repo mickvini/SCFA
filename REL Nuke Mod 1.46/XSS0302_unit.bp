@@ -836,7 +836,7 @@ UnitBlueprint {
             NukeOuterRingTicks = 37.5,
             NukeOuterRingTotalTime = 13,
             NukeWeapon = true,
-            ProjectileId = '/mods/Firey Explosion Mod/Hook/projectiles/SIFInainoStrategicMissile09/SIFInainoStrategicMissile09_proj.bp',
+            ProjectileId = '/mods/REL Nuke Mod 1.46/Hook/projectiles/SIFInainoStrategicMissile09/SIFInainoStrategicMissile09_proj.bp',
             ProjectilesPerOnFire = 1,
             RackBones = {
                 {

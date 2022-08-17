@@ -528,7 +528,7 @@ UnitBlueprint {
             NukeOuterRingTicks = 25,
             NukeOuterRingTotalTime = 2,
             NukeWeapon = true,
-            ProjectileId = '/mods/Firey Explosion Mod/Hook/projectiles/CIFEMPFluxWarhead09/CIFEMPFluxWarhead09_proj.bp',
+            ProjectileId = '/mods/REL Nuke Mod 1.46/Hook/projectiles/CIFEMPFluxWarhead09/CIFEMPFluxWarhead09_proj.bp',
             ProjectilesPerOnFire = 1,
             RackBones = {
                 {
