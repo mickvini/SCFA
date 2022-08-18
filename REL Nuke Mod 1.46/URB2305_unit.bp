@@ -283,7 +283,7 @@ UnitBlueprint {
             InitialProjectileStorage = 0,
             Label = 'NukeMissiles',
             ManualFire = 1,
-            MaxProjectileStorage = 0,
+            MaxProjectileStorage = 1,
             MaxRadius = 512,
             MinRadius = 0,
             MuzzleSalvoDelay = 0,

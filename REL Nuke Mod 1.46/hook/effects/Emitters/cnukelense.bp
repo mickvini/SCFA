@@ -23,7 +23,7 @@ EmitterBlueprint {
 	LowFidelity = true,
 	MedFidelity = true,
 	HighFidelity = true,
-	Texture = [[/mods/firey explosion mod/textures/particles/lens.dds]],
+	Texture = [[/mods/REL Nuke Mod 1.46/textures/particles/lens.dds]],
 	RampTexture = [[/textures/particles/ramp_red_03.dds]],
 	XDirectionCurve = {
 		XRange = 50.00,

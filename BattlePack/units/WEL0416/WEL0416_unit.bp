@@ -149,10 +149,10 @@ UnitBlueprint {
         AnimationWalk = '/mods/BattlePack/units/WEL0416/WEL0416_awalk.sca',
         AnimationWalkRate = 0.575,
         Mesh = {
-            IconFadeInZoom = 130,
+            IconFadeInZoom = 260,
             LODs = {
                 {
-                    LODCutoff = 300,
+                    LODCutoff = 600,
                     ShaderName = 'Unit',
                 },
             },
@@ -202,7 +202,7 @@ UnitBlueprint {
                         Radius = 20,
                     },
                     Damage = {
-                        Amount = 1000,
+                        Amount = 10000,
                         DamageFriendly = false,
                         Radius = 2,
                         Type = 'ExperimentalFootfall',

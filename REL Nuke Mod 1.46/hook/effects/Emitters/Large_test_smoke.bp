@@ -23,7 +23,7 @@ EmitterBlueprint {
 	LowFidelity = true,
 	MedFidelity = true,
 	HighFidelity = true,
-	Texture = [[/mods/firey explosion mod/textures/particles/bluesmoke.dds]],
+	Texture = [[/mods/REL Nuke Mod 1.46/textures/particles/bluesmoke.dds]],
 	RampTexture = [[/textures/particles/ramp_white_27.dds]],
 	XDirectionCurve = {
 		XRange = 50.00,

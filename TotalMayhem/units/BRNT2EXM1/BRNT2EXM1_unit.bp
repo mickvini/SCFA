@@ -96,7 +96,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             'Armor - 15%',		
-            'Main Weapon - 264 DPS / R - 65 / S - 2',	
+            'Main Weapon - 396 DPS / R - 65 / S - 2',	
             'Missle - 40 DPS / R - 70 / S - 2',							
             'Speed - 2.0',		
             'Vision - 30',	
@@ -184,9 +184,9 @@ UnitBlueprint {
         UniformScale = 0.15,
     },
     Economy = {
-        BuildCostEnergy = 45100,
-        BuildCostMass = 2050,
-        BuildTime = 82000,
+        BuildCostEnergy = 52800,
+        BuildCostMass = 2400,
+        BuildTime = 96000,
         ResearchMultTime = 1,
         ResearchMultEnergy = 2.2,
         ResearchMultMass = 0.25,		
@@ -393,7 +393,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 165,
+            Damage = 330,
             DamageRadius = 2,
             DamageType = 'Normal',
             DisplayName = 'Gauss Cannon',
@@ -446,7 +446,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 1.6,
+            RateOfFire = 1.2,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'SPECIALHIGHPRI',

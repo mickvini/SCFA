@@ -286,7 +286,7 @@ UnitBlueprint {
             InitialProjectileStorage = 0,
             Label = 'ExperimentalNuke',
             ManualFire = 1,
-            MaxProjectileStorage = 0,
+            MaxProjectileStorage = 1,
             MaxRadius = 2560,
             MinRadius = 0,
             MuzzleChargeDelay = 5,
