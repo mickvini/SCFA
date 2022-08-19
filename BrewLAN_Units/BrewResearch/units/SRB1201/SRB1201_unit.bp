@@ -106,13 +106,13 @@ UnitBlueprint {
     },
     Economy = {
         AdjacentStructureEnergyMod = -4,
-        BuildCostEnergy = 2500,
-        BuildCostMass = 625.0,
-        BuildTime = 12500,
+        BuildCostEnergy = 4100,
+        BuildCostMass = 1025,
+        BuildTime = 20500,
         ResearchMultTime = 5,
         ResearchMultEnergy = 20,
         ResearchMultMass = 0.25,				
-        ProductionPerSecondEnergy = 40,
+        ProductionPerSecondEnergy = 80,
         RebuildBonusIds = {
             'srb1201',
         },

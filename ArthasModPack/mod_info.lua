@@ -27,7 +27,6 @@ requires = {
 	"9e8ea941-c306-4751-b367-e10000000104";
 	"9e8ea941-c306-4751-b367-f00000000005";
 	"E08710C8-B785-11E4-9CA4-36FF1C5D46B0";
-	"a6bl2udx-5q85-96w1-h684-y32k58208471";
 	"dd6642d4-346c-8711-8106-df3de93fff65";
 	"dda54b6c-bd29-4e08-8a88-a8db22493dcb";
 	"dda54b6c-bd29-4e08-8a88-a8db22493dcb";
@@ -35,7 +34,6 @@ requires = {
 	"6aa65d2a-5926-11dc-8314-0800200c9a08";
 	"2529ea71-93ef-41a6-b552-EXPERICON00009";
 
-	"CC5A5288-18E3-11DD-BF33-005055D89593";
 	"25D57D85-9JA7-D842-BREW-MAGNUMD000001";
 }
 
@@ -54,13 +52,11 @@ requiresNames = {
 	["9e8ea941-c306-4751-b367-e10000000104"] = "BlackOps Special Weapons",
 	["9e8ea941-c306-4751-b367-f00000000005"] = "BlackOps Global Icon Support Mod",
 	["E08710C8-B785-11E4-9CA4-36FF1C5D46B0"] = "Shields v3.6",
-	["a6bl2udx-5q85-96w1-h684-y32k58208471"] = "AutoTML",
 	["dd6642d4-346c-8711-8106-df3de93fff65"] = "Upgradeable HC-Plant",
 	["dda54b6c-bd29-4e08-8a88-a8db22493dcb"] = "Firey Explosions mod 2.6 Beta",
 	["4c3fe730-7305-11dd-ad8b-0800200c9a66"] = "Nuke colide",
 	["6aa65d2a-5926-11dc-8314-0800200c9a08"] = "Antares Unit Pack",
 	["2529ea71-93ef-41a6-b552-EXPERICON00009"] = "Experimental Icons Overhaul",
-	["CC5A5288-18E3-11DD-BF33-005055D89593"] = "GAZ_UI";
 	["25D57D85-9JA7-D842-BREW-MAGNUMD000001"] = "BrewLAN: Magnum Dong";
 	 }
 conflicts = { }

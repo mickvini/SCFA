@@ -67,7 +67,7 @@ UnitBlueprint {
         'AEON',
         'MOBILE',
         'LAND',
-        'TECH3',
+        'EXPERIMENTAL',
         'DIRECTFIRE',
         'VISIBLETORECON',
         'RECLAIMABLE',

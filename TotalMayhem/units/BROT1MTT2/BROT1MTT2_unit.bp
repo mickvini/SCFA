@@ -232,7 +232,7 @@ UnitBlueprint {
             MaxRadius = 37.5,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
-            MuzzleVelocity = 15,
+            MuzzleVelocity = 20,
             ProjectileId = '/projectiles/ADFQuantumCannon01/ADFQuantumCannon01_proj.bp',
             ProjectileLifetimeUsesMultiplier = 3.15,
             ProjectilesPerOnFire = 1,

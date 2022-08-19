@@ -218,9 +218,9 @@ UnitBlueprint {
     },
     Economy = {
         AdjacentStructureEnergyMod = -5,
-        BuildCostEnergy = 96250,
-        BuildCostMass = 9625,
-        BuildTime = 192500,
+        BuildCostEnergy = 158000,
+        BuildCostMass = 15800,
+        BuildTime = 316000,
         BuildRate = 30,
         BuildableCategory = {
             'BUILTBYTIER1ENGINEER DEFENSE DIRECTFIRE UEF',
@@ -229,7 +229,7 @@ UnitBlueprint {
             'BUILTBYTIER3ENGINEER ENERGYSTORAGE UEF',
         },
         HalfPriceUpgradeFromID = 'ueb1301',
-        ProductionPerSecondEnergy = 625.00,
+        ProductionPerSecondEnergy = 1250,
         BuildWhenAttackedByAir = 'ueb2104',
         BuildWhenAttackedBySub = 'ueb2109',
         BuildWhenAttackedByLand = 'ueb2101',

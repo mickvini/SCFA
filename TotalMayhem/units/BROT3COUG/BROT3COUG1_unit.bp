@@ -53,7 +53,7 @@ UnitBlueprint {
 	    'PRODUCTBREWLANRND',
         'PRODUCTSC1',
         'SELECTABLE',
-        'AEONEXPLANDSS',
+        'AEONEXPLANDS',
         'AEON',
         'MOBILE',
         'LAND',
