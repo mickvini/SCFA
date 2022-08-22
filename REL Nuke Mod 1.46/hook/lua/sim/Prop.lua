@@ -27,14 +27,14 @@ Prop = Class(moho.prop_methods, Entity) {
         local bp = self:GetBlueprint().Economy
         self.MassReclaim = bp.ReclaimMassMax or 0
         self.EnergyReclaim = bp.ReclaimEnergyMax or 0
-        self.ReclaimTimeMassMult = bp.ReclaimMassTimeMultiplier or 200
+        self.ReclaimTimeMassMult = bp.ReclaimMassTimeMultiplier or 100
         self.ReclaimTimeEnergyMult = bp.ReclaimEnergyTimeMultiplier or 75
         self.MaxMassReclaim = bp.ReclaimMassMax or 0
         self.MaxEnergyReclaim = bp.ReclaimEnergyMax or 0
         self.CachePosition = self:GetPosition()
 
         local defense = self:GetBlueprint().Defense
-        local maxHealth = 500
+        local maxHealth = 50
         if defense then
             maxHealth = math.max(maxHealth,defense.MaxHealth)
         end

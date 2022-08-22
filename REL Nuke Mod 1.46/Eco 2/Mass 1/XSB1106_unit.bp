@@ -144,7 +144,7 @@ UnitBlueprint {
         RebuildBonusIds = {
             'xsb1106',
         },
-        StorageMass = 400,
+        StorageMass = 1000,
     },
     Footprint = {
         SizeX = 1,

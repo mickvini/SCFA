@@ -92,10 +92,10 @@ UnitBlueprint {
     },
     Economy = {
         AdjacentStructureEnergyMod = -4,
-        BuildCostEnergy = 375,
-        BuildCostMass = 250,
+        BuildCostEnergy = 250,
+        BuildCostMass = 500,
         BuildTime = 5000,
-        ProductionPerSecondEnergy = 25,
+        ProductionPerSecondEnergy = 100,
         ProductionPerSecondMass = 0.25,			
         RebuildBonusIds = {
             'urb1102',
