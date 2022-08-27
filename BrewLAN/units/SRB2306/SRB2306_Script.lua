@@ -119,7 +119,7 @@ SRB2306 = Class(CStructureUnit) {
             CreateEmitterAtBone(self, 'Turret_Muzzle01', self:GetArmy(),'/effects/emitters/destruction_damaged_smoke_01_emit.bp'):SetEmitterParam('LIFETIME', 150):ScaleEmitter( 0.6 )
             CreateEmitterAtBone(self, 'Turret_Muzzle01', self:GetArmy(),'/effects/emitters/destruction_damaged_smoke_01_emit.bp'):SetEmitterParam('LIFETIME', 120)
             
-            DamageArea(self, self:GetPosition(), 1, 500, 'Default', true, true)
+            DamageArea(self, self:GetPosition(), 2, 3000, 'Default', true, true)
             explosion.CreateDefaultHitExplosionAtBone( self, 'Turret_Muzzle01', 1.0 )
             explosion.CreateDebrisProjectiles(self, explosion.GetAverageBoundingXYZRadius(self), {self:GetUnitSizes()})
         end

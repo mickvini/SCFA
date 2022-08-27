@@ -102,7 +102,7 @@ UnitBlueprint {
     Display = {
         Abilities = {
             'Armor - 16.5%',		
-            'Gatling AT/AA - 360 DPS / R - 65 / S - 1',	
+            'Gatling AT/AA - 720 DPS / R - 65 / S - 1',	
             'Missle - 85 DPS / R - 60 / S - 2',							
             'Speed - 1.7',		
             'Vision - 35',	

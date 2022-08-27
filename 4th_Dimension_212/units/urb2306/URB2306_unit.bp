@@ -50,8 +50,8 @@ UnitBlueprint {
     CollisionOffsetY = 0,
     Defense = {
         ArmorType = 'Normal',
-        Health = 37500,
-        MaxHealth = 37500,
+        Health = 39500,
+        MaxHealth = 39500,
         RegenRate = 1,
         SurfaceThreatLevel = 27,
     },
@@ -94,9 +94,9 @@ UnitBlueprint {
         UniformScale = 0.1,
     },
     Economy = {
-        BuildCostEnergy = 8050,
-        BuildCostMass = 1750,
-        BuildTime = 35000,
+        BuildCostEnergy = 10120,
+        BuildCostMass = 2200,
+        BuildTime = 44000,
         ResearchMultTime = 10,
         ResearchMultEnergy = 460,
         ResearchMultMass = 1.15,		
@@ -245,7 +245,7 @@ UnitBlueprint {
             RackSalvoReloadTime = 0,
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
-            RateOfFire = 0.05,
+            RateOfFire = 0.075,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
             	'EXPERIMENTAL',

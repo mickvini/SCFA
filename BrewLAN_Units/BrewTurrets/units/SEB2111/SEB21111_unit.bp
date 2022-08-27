@@ -29,6 +29,7 @@ UnitBlueprint {
     Categories = {
         'PRODUCTBREWLANTURRETS',
         'SELECTABLE',
+        'BUILTBYCOMMANDER',		
         'BUILTBYTIER1ENGINEER',		
         'BUILTBYTIER1FIELD',
         'BUILTBYTIER2FIELD',
@@ -101,9 +102,9 @@ UnitBlueprint {
         UniformScale = 0.16,
     },
     Economy = {
-        BuildCostEnergy = 70.4,
-        BuildCostMass = 64,
-        BuildTime = 1280,
+        BuildCostEnergy = 104.5,
+        BuildCostMass = 95,
+        BuildTime = 1900,
         ResearchMultTime = 10,
         ResearchMultEnergy = 110,
         ResearchMultMass = 0.25,			
@@ -224,7 +225,7 @@ UnitBlueprint {
             MaxRadius = 45,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
-            MuzzleVelocity = 45,
+            MuzzleVelocity = 35,
             ProjectileId = '/projectiles/TDFGauss01/TDFGauss01_proj.bp',
             ProjectilesPerOnFire = 1,
             RackBones = {
@@ -243,7 +244,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_IndirectFire',
-            RateOfFire = 0.2,
+            RateOfFire = 0.4,
             SlavedToBody = false,
             TargetCheckInterval = 1,
             TargetPriorities = {

@@ -84,9 +84,9 @@ UnitBlueprint {
         UniformScale = 0.2,
     },
     Economy = {
-        BuildCostEnergy = 21.8,
-        BuildCostMass = 43.6,
-        BuildTime = 872,
+        BuildCostEnergy = 36.5,
+        BuildCostMass = 73,
+        BuildTime = 1460,
         ResearchMultTime = 10,
         ResearchMultEnergy = 10,
         ResearchMultMass = 0.25,			
@@ -174,7 +174,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 12.5,
+            Damage = 25,
             DamageType = 'Normal',
             DisplayName = 'Light Pulse Laser',
             FireTargetLayerCapsTable = {

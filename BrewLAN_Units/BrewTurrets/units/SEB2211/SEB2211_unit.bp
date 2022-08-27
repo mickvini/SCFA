@@ -100,9 +100,9 @@ UnitBlueprint {
         UniformScale = 0.22,
     },
     Economy = {
-        BuildCostEnergy = 245,
-        BuildCostMass = 175,
-        BuildTime = 2800,
+        BuildCostEnergy = 364,
+        BuildCostMass = 260,
+        BuildTime = 5200,
         ResearchMultTime = 10,
         ResearchMultEnergy = 140,
         ResearchMultMass = 0.75,			
@@ -223,7 +223,7 @@ UnitBlueprint {
             MaxRadius = 52.5,
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
-            MuzzleVelocity = 50,
+            MuzzleVelocity = 40,
             ProjectileId = '/projectiles/TDFGauss01/TDFGauss01_proj.bp',
             ProjectilesPerOnFire = 1,
             RackBones = {
@@ -248,7 +248,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_IndirectFire',
-            RateOfFire = 0.15,
+            RateOfFire = 0.3,
             SlavedToBody = false,
             TargetCheckInterval = 2,
             TargetPriorities = {

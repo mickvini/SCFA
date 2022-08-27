@@ -93,9 +93,9 @@ UnitBlueprint {
         UniformScale = 0.06,
     },
     Economy = {
-        BuildCostEnergy = 20.75,
-        BuildCostMass = 41.5,
-        BuildTime = 830,
+        BuildCostEnergy = 34,
+        BuildCostMass = 68,
+        BuildTime = 1360,
         ResearchMultTime = 10,
         ResearchMultEnergy = 10,
         ResearchMultMass = 0.25,		
@@ -186,7 +186,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 50,
+            Damage = 100,
             DamageType = 'Normal',
             DisplayName = 'Graviton Projector',
             FireTargetLayerCapsTable = {

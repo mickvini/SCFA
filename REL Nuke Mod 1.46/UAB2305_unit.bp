@@ -278,7 +278,7 @@ UnitBlueprint {
             NukeInnerRingTotalTime = 2,
             NukeOuterRingDamage = 7500,
             NukeOuterRingRadius = 65,
-            NukeOuterRingTicks = 85,
+            NukeOuterRingTicks = 65,
             NukeOuterRingTotalTime = 13,
             NukeWeapon = true,
             ProjectileId = '/mods/BlackOpsUnleashed/Hook/projectiles/AIFQuantumWarhead01/AIFQuantumWarhead01_proj.bp',

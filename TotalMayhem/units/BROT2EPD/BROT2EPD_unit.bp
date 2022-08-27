@@ -96,9 +96,9 @@ UnitBlueprint {
         UniformScale = 0.09,
     },
     Economy = {
-        BuildCostEnergy = 44200,
-        BuildCostMass = 1300.0,
-        BuildTime = 52000,
+        BuildCostEnergy = 52700,
+        BuildCostMass = 1550.0,
+        BuildTime = 62000,
         ResearchMultTime = 1,
         ResearchMultEnergy = 3.4,
         ResearchMultMass = 0.25,			
@@ -256,7 +256,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = true,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.8,
+            RateOfFire = 1.6,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'EXPERIMENTAL',

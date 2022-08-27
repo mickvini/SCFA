@@ -108,9 +108,9 @@ UnitBlueprint {
         UniformScale = 0.038,
     },
     Economy = {
-        BuildCostEnergy = 32.8,
-        BuildCostMass = 65.6,
-        BuildTime = 1310,
+        BuildCostEnergy = 56.5,
+        BuildCostMass = 113,
+        BuildTime = 2260,
         ResearchMultTime = 10,
         ResearchMultEnergy = 10,
         ResearchMultMass = 0.25,			
@@ -201,7 +201,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 37.5,
+            Damage = 75,
             DamageType = 'Normal',
             DisplayName = 'Twin Barreled Oh Spectra Cannon',
             FireTargetLayerCapsTable = {

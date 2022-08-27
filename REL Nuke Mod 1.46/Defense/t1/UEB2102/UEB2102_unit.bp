@@ -77,9 +77,9 @@ UnitBlueprint {
         UniformScale = 0.155,
     },
     Economy = {
-        BuildCostEnergy = 24.375,
-        BuildCostMass = 48.75,
-        BuildTime = 975,
+        BuildCostEnergy = 42,
+        BuildCostMass = 84,
+        BuildTime = 1680,
         RebuildBonusIds = {
             'ueb2101',
         },
@@ -167,7 +167,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_LowArc',
             CollideFriendly = false,
-            Damage = 20,
+            Damage = 40,
             DamageType = 'Normal',
             DisplayName = 'Light Plasma Cannon',
             FireTargetLayerCapsTable = {
