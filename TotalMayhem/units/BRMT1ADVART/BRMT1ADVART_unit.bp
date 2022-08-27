@@ -92,12 +92,12 @@ UnitBlueprint {
         UniformScale = 0.010,
     },
     Economy = {
-        BuildCostEnergy = 330,
-        BuildCostMass = 110,
-        BuildTime = 4400,
-        ResearchMultTime = 5,
-        ResearchMultEnergy = 30,
-        ResearchMultMass = 7.5,		
+        BuildCostEnergy = 810,
+        BuildCostMass = 270,
+        BuildTime = 10800,
+        ResearchMultTime = 1,
+        ResearchMultEnergy = 60,
+        ResearchMultMass = 15,		
         RebuildBonusIds = {
             'BRMT1ADVART',
         },
@@ -216,7 +216,7 @@ UnitBlueprint {
             DisplayName = 'Gauss Cannon',
             EnergyDrainPerSecond = 8.5,
             EnergyRequired = 85,
-            FiringRandomness = 2.5,
+            FiringRandomness = 1.5,
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water',
                 Water = 'Land|Water',
@@ -256,7 +256,7 @@ UnitBlueprint {
             RenderFireClock = true,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_DirectFire',
-            RateOfFire = 0.05,
+            RateOfFire = 0.15,
             TargetCheckInterval = 0.5,
             TargetPriorities = {
                 'EXPERIMENTAL',

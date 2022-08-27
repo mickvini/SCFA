@@ -62,7 +62,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 54,
     },
-    Description = '<LOC GSMB317_desc>Rapid Fire Artillery Installation',
+    Description = '<LOC GSMB317_desc>Heavy Artillery Installation',
     Display = {
         Mesh = {
             IconFadeInZoom = 200,
@@ -99,12 +99,12 @@ UnitBlueprint {
         UniformScale = 0.06,
     },
     Economy = {
-        BuildCostEnergy = 6500,
-        BuildCostMass = 1300,
-        BuildTime = 52000,
+        BuildCostEnergy = 9600,
+        BuildCostMass = 1600,
+        BuildTime = 64000,
         ResearchMultTime = 5,
-        ResearchMultEnergy = 7,
-        ResearchMultMass = 3.5,				
+        ResearchMultEnergy = 14,
+        ResearchMultMass = 14,				
         MaintenanceConsumptionPerSecondEnergy = 7.5,
         RebuildBonusIds = {
             'GSMB317',
@@ -221,7 +221,7 @@ UnitBlueprint {
             },
             BallisticArc = 'RULEUBA_HighArc',
             CollideFriendly = false,
-            Damage = 2400,
+            Damage = 3000,
             DamageFriendly = true,
             DamageRadius = 3.5,
             DamageType = 'Normal',

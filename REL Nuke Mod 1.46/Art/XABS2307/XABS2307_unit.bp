@@ -108,11 +108,11 @@ UnitBlueprint {
         UniformScale = 1.2,
     },
     Economy = {
-        BuildCostEnergy = 290000,
-        BuildCostMass = 5800,
-        BuildTime = 232000,
-        ResearchMultTime = 0.25,
-        ResearchMultEnergy = 2.5,
+        BuildCostEnergy = 850000,
+        BuildCostMass = 17000,
+        BuildTime = 1360000,
+        ResearchMultTime = 0.05,
+        ResearchMultEnergy = 5,
         ResearchMultMass = 0.01,		
         RebuildBonusIds = {
             'xab2307',
@@ -222,7 +222,7 @@ UnitBlueprint {
 			DamageFriendly = true,
             DamageType = 'Normal',
             DisplayName = 'Rapid-Fire Artillery Cannon',
-            EnergyDrainPerSecond = 600,
+            EnergyDrainPerSecond = 6000,
             EnergyRequired = 12000,
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
@@ -258,7 +258,7 @@ UnitBlueprint {
             RackSalvoSize = 1,
             RackSlavedToTurret = false,
             RangeCategory = 'UWRC_IndirectFire',
-            RateOfFire = 0.025,
+            RateOfFire = 0.075,
             RenderFireClock = true,
             TargetCheckInterval = 5,
             TargetPriorities = {

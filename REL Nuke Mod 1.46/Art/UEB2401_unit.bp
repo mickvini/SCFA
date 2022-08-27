@@ -113,9 +113,9 @@ UnitBlueprint {
     Economy = {
         BuildCostEnergy = 750000,
         BuildCostMass = 15000.0,
-        BuildTime = 600000,
-        ResearchMultTime = 0.25,
-        ResearchMultEnergy = 2.5,
+        BuildTime = 1200000,
+        ResearchMultTime = 0.05,
+        ResearchMultEnergy = 5,
         ResearchMultMass = 0.01,		
         RebuildBonusIds = {
             'ueb2401',
@@ -228,7 +228,7 @@ UnitBlueprint {
             CollideFriendly = false,
             Damage = 24000,
             DamageFriendly = true,
-            DamageRadius = 7,
+            DamageRadius = 8,
             DamageType = 'Normal',
             DisplayName = 'Anti Matter Artillery',
             EnergyChargeForFirstShot = false,
