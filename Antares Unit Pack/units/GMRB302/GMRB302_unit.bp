@@ -208,8 +208,8 @@ UnitBlueprint {
             DamageRadius = 5.25,
             DamageType = 'Normal',
             DisplayName = 'Resonance Artillery',
-            EnergyDrainPerSecond = 108,
-            EnergyRequired = 540,
+            EnergyDrainPerSecond = 295,
+            EnergyRequired = 590,
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water',
             },

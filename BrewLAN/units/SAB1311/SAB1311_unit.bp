@@ -191,11 +191,11 @@ UnitBlueprint {
     },
     Economy = {
         AdjacentStructureEnergyMod = -5,
-        BuildCostEnergy = 158000,
-        BuildCostMass = 15800,
-        BuildTime = 316000,
+        BuildCostEnergy = 251750,
+        BuildCostMass = 25175,
+        BuildTime = 503500,
         MaintenanceConsumptionPerSecondEnergy = 2.5,
-        ProductionPerSecondEnergy = 1250,
+        ProductionPerSecondEnergy = 2200,
         RebuildBonusIds = {
             'uab1301',
             'sab1311',

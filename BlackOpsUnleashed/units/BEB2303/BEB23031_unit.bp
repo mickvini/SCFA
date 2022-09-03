@@ -210,8 +210,8 @@ UnitBlueprint {
             DamageRadius = 3.75,
             DamageType = 'Normal',
             DisplayName = 'APDS Artillery',
-            EnergyDrainPerSecond = 300,
-            EnergyRequired = 300,
+            EnergyDrainPerSecond = 225,
+            EnergyRequired = 450,
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',

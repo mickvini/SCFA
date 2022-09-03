@@ -213,8 +213,8 @@ UnitBlueprint {
             DamageRadius = 8,
             DamageType = 'Normal',
             DisplayName = 'Proton Artillery',
-            EnergyDrainPerSecond = 107,
-            EnergyRequired = 2145,
+            EnergyDrainPerSecond = 1100,
+            EnergyRequired = 2200,
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',

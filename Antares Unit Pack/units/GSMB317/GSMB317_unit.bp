@@ -226,8 +226,8 @@ UnitBlueprint {
             DamageRadius = 3.5,
             DamageType = 'Normal',
             DisplayName = 'Zthuthaam Artillery Cannon',
-            EnergyDrainPerSecond = 360,
-            EnergyRequired = 7200,
+            EnergyDrainPerSecond = 1000,
+            EnergyRequired = 3000,
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',

@@ -245,8 +245,8 @@ UnitBlueprint {
             DamageRadius = 6.5,
             DamageType = 'Normal',
             DisplayName = 'Suthanus Heavy Artillery Cannon',
-            EnergyDrainPerSecond = 1450,
-            EnergyRequired = 29000,
+            EnergyDrainPerSecond = 9250,
+            EnergyRequired = 37000,
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',

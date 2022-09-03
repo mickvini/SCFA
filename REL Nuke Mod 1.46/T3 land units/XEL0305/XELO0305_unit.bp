@@ -57,6 +57,7 @@ UnitBlueprint {
         'PRODUCTFA',
         'SELECTABLE',
         'FACTORYUEFLH',
+        'UEF',
         'MOBILE',
         'LAND',
         'TECH3',
@@ -64,7 +65,8 @@ UnitBlueprint {
         'VISIBLETORECON',
         'RECLAIMABLE',
         'BOT',
-        'OVERLAYDIRECTFIRE',				
+        'OVERLAYDIRECTFIRE',
+		'RESEARCHLOCKED',				
     },
     Defense = {
         AirThreatLevel = 0,

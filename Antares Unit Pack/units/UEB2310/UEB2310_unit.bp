@@ -215,8 +215,8 @@ UnitBlueprint {
             DamageType = 'Normal',
             DisplayName = 'Gauss Cannon',
             EnergyChargeForFirstShot = false,
-            EnergyDrainPerSecond = 1150,
-            EnergyRequired = 23000,
+            EnergyDrainPerSecond = 8800,
+            EnergyRequired = 88000,
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water|Seabed',
                 Water = 'Land|Water|Seabed',
